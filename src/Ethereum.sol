@@ -18,6 +18,7 @@ library Ethereum {
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
     address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
+    address internal constant USCC   = 0x14d60E7FDC0D71d8611742720E4C50E7a974020c;
     address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
     address internal constant USTB   = 0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e;
     address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
