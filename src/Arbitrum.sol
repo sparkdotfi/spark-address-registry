@@ -27,6 +27,17 @@ library Arbitrum {
     address internal constant PSM3 = 0x2B05F8e1cACC6974fD79A673a341Fe1f58d27266;
 
     /******************************************************************************************************************/
+    /*** Spark Liquidity Layer Addresses                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant ALM_CONTROLLER  = 0x77e11453a99a7770b04f7921FfccD3eE9761ba6c;
+    address internal constant ALM_PROXY       = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;
+    address internal constant ALM_RATE_LIMITS = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;
+
+    address internal constant ALM_FREEZER = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant ALM_RELAYER = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+
+    /******************************************************************************************************************/
     /*** Governance Relay Addresses                                                                                 ***/
     /******************************************************************************************************************/
 
