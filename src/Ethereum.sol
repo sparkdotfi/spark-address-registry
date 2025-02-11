@@ -223,9 +223,19 @@ library Ethereum {
 
     address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
-    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
     address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+
+    /******************************************************************************************************************/
+    /*** Arbitrum Addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant ARBITRUM_DSR_FORWARDER = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
+    address internal constant ARBITRUM_SSR_FORWARDER = 0x1A229AdbAC83A948226783F2A3257B52006247D5;
+
+    address internal constant ARBITRUM_ESCROW        = 0xA10c7CE4b876998858b1a9E12b10092229539400;
+    address internal constant ARBITRUM_SKY_GOV_RELAY = 0x9ba25c289e351779E0D481Ba37489317c34A899d;
+    address internal constant ARBITRUM_TOKEN_BRIDGE  = 0x84b9700E28B23F873b82c1BEb23d86C091b6079E;
 
     /******************************************************************************************************************/
     /*** Base Addresses                                                                                             ***/
