@@ -10,11 +10,13 @@ library Ethereum {
     address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
     address internal constant GNO    = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
+    address internal constant LBTC   = 0x8236a87084f8B84306f72007F36F2618A5634494;
     address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
     address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
     address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
+    address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
     address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
