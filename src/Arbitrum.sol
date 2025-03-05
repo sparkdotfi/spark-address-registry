@@ -7,6 +7,7 @@ library Arbitrum {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant SUSDC = 0x940098b108fB7D0a7E374f6eDED7760787464609;
     address internal constant SUSDS = 0xdDb46999F8891663a8F2828d25298f70416d7610;
     address internal constant USDC  = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
     address internal constant USDS  = 0x6491c05A82219b8D1479057361ff1654749b876b;
