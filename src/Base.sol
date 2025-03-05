@@ -9,6 +9,7 @@ library Base {
 
     address internal constant CBBTC = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant SKY   = 0x60e3c701e65DEE30c23c9Fb78c3866479cc0944a;
+    address internal constant SUSDC = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
     address internal constant SUSDS = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
     address internal constant USDC  = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
     address internal constant USDS  = 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc;
