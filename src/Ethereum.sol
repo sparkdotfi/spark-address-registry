@@ -14,6 +14,7 @@ library Ethereum {
     address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
     address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
+    address internal constant SUSDC  = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
     address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
     address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
@@ -41,7 +42,8 @@ library Ethereum {
     /*** SparkDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+    address internal constant SPARK_PROXY   = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+    address internal constant SPARK_REWARDS = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
@@ -254,8 +256,9 @@ library Ethereum {
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
-    address internal constant MULTISIG_FREEZER = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
-    address internal constant MULTISIG_REWARDS = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
+    address internal constant FREEZER_MULTISIG           = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
+    address internal constant SPARKLEND_REWARDS_MULTISIG = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
+    address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
     /******************************************************************************************************************/
     /*** User Action Addresses                                                                                      ***/

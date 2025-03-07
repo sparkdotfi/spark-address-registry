@@ -9,6 +9,7 @@ library Base {
 
     address internal constant CBBTC = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant SKY   = 0x60e3c701e65DEE30c23c9Fb78c3866479cc0944a;
+    address internal constant SUSDC = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
     address internal constant SUSDS = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
     address internal constant USDC  = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
     address internal constant USDS  = 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc;
@@ -76,5 +77,11 @@ library Base {
     address internal constant DSR_AUTH_ORACLE            = 0x2Dd2a2Fe346B5704380EfbF6Bd522042eC3E8FAe;
     address internal constant DSR_RECEIVER               = 0xaDEAf02Ddb5Bed574045050B8096307bE66E0676;
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0xeC0C14Ea7fF20F104496d960FDEBF5a0a0cC14D0;
+
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
 }

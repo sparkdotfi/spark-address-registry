@@ -11,4 +11,10 @@ library Optimism {
     address internal constant DSR_RECEIVER               = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0x15ACEE5F73b36762Ab1a6b7C98787b8148447898;
 
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
+
 }

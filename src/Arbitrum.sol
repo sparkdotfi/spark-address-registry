@@ -7,6 +7,7 @@ library Arbitrum {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant SUSDC = 0x940098b108fB7D0a7E374f6eDED7760787464609;
     address internal constant SUSDS = 0xdDb46999F8891663a8F2828d25298f70416d7610;
     address internal constant USDC  = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
     address internal constant USDS  = 0x6491c05A82219b8D1479057361ff1654749b876b;
@@ -60,5 +61,11 @@ library Arbitrum {
     address internal constant DSR_AUTH_ORACLE            = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
     address internal constant DSR_RECEIVER               = 0xcA61540eC2AC74E6954FA558B4aF836d95eCb91b;
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0x73750DbD85753074e452B2C27fB9e3B0E75Ff3B8;
+
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
 }

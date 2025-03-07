@@ -11,4 +11,10 @@ library WorldChain {
     address internal constant DSR_RECEIVER               = 0x33a3aB524A43E69f30bFd9Ae97d1Ec679FF00B64;
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
 
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
+
 }
