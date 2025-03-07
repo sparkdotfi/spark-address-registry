@@ -42,9 +42,8 @@ library Ethereum {
     /*** SparkDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_PROXY         = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
-    address internal constant SPARK_REWARDS_ADMIN = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;  // TODO: Best way to differentiate between this and MULTISIG_REWARDS?
-    address internal constant SPARK_REWARDS       = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant SPARK_PROXY   = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+    address internal constant SPARK_REWARDS = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
@@ -257,8 +256,9 @@ library Ethereum {
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
-    address internal constant MULTISIG_FREEZER = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
-    address internal constant MULTISIG_REWARDS = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
+    address internal constant FREEZER_MULTISIG           = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
+    address internal constant SPARKLEND_REWARDS_MULTISIG = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
+    address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
     /******************************************************************************************************************/
     /*** User Action Addresses                                                                                      ***/
