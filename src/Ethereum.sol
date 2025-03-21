@@ -23,7 +23,9 @@ library Ethereum {
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
     address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
+    address internal constant USCC   = 0x14d60E7FDC0D71d8611742720E4C50E7a974020c;
     address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
+    address internal constant USTB   = 0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e;
     address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address internal constant WEETH  = 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee;
     address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
@@ -102,6 +104,12 @@ library Ethereum {
     address internal constant MORPHO_SUSDE_ORACLE = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
     address internal constant MORPHO_USDE_ORACLE  = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
     address internal constant MORPHO_VAULT_DAI_1  = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
+
+    /******************************************************************************************************************/
+    /*** Superstate Addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant SUPERSTATE_REDEMPTION = 0x4c21B7577C8FE8b0B0669165ee7C8f67fa1454Cf;
 
     /******************************************************************************************************************/
     /*** SparkLend - Core Protocol Addresses                                                                        ***/
