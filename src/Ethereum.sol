@@ -63,7 +63,7 @@ library Ethereum {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x5cf73FDb7057E436A6eEaDFAd27E45E7ab6E431e;
+    address internal constant ALM_CONTROLLER  = 0xF51164FE5B0DC7aFB9192E1b806ae18A8813Ae8c;
     address internal constant ALM_PROXY       = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
     address internal constant ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
 
@@ -87,13 +87,28 @@ library Ethereum {
     /*** Blackrock BUIDL Addresses                                                                                  ***/
     /******************************************************************************************************************/
 
+    address internal constant BUIDL        = 0x7712c34205737192402172409a8F7ccef8aA2AEc;
+    address internal constant BUIDLI       = 0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041;
     address internal constant BUIDL_REDEEM = 0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53;
+
+    /******************************************************************************************************************/
+    /*** Centrifuge Addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant JTRSY       = 0x8c213ee79581Ff4984583C6a801e5263418C4b86;
+    address internal constant JTRSY_VAULT = 0x36036fFd9B1C6966ab23209E073c68Eb9A992f50;
 
     /******************************************************************************************************************/
     /*** Fluid Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
     address internal constant FLUID_SUSDS = 0x2BBE31d63E6813E3AC858C04dae43FB2a72B0D11;
+
+    /******************************************************************************************************************/
+    /*** Maple Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant SYRUP_USDC = 0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b;
 
     /******************************************************************************************************************/
     /*** Morpho Addresses                                                                                           ***/
