@@ -66,36 +66,8 @@ library Ethereum {
     address internal constant ALM_PROXY       = 0x491EDFB0B8b608044e227225C715981a30F3A44E;
     address internal constant ALM_RATE_LIMITS = 0x5F5cfCB8a463868E37Ab27B5eFF3ba02112dF19a;
 
-    address internal constant ALM_FREEZER = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
-
-    /******************************************************************************************************************/
-    /*** SparkDAO Addresses                                                                                         ***/
-    /******************************************************************************************************************/
-
-    address internal constant SPARK_PROXY   = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
-    address internal constant SPARK_REWARDS = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
-
-    /******************************************************************************************************************/
-    /*** Spark Allocation System Addresses                                                                          ***/
-    /******************************************************************************************************************/
-
-    address internal constant SPARK_ALLOCATOR_BUFFER   = 0xc395D150e71378B47A1b8E9de0c1a83b75a08324;
-    address internal constant SPARK_ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
-    address internal constant SPARK_ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
-    address internal constant SPARK_ALLOCATOR_ROLES	   = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
-    address internal constant SPARK_ALLOCATOR_VAULT	   = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
-
-    /******************************************************************************************************************/
-    /*** Spark Liquidity Layer Addresses                                                                            ***/
-    /******************************************************************************************************************/
-
-    address internal constant SPARK_ALM_CONTROLLER  = 0x5cf73FDb7057E436A6eEaDFAd27E45E7ab6E431e;
-    address internal constant SPARK_ALM_PROXY       = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
-    address internal constant SPARK_ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
-
-    address internal constant SPARK_ALM_FREEZER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
-    address internal constant SPARK_ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
+    address internal constant ALM_FREEZER = 0xB0113804960345fd0a245788b3423319c86940e5;
+    address internal constant ALM_RELAYER = 0x0eEC86649E756a23CBc68d9EFEd756f16aD5F85f;
 
     /******************************************************************************************************************/
     /*** Ethena Addresses                                                                                           ***/
