@@ -63,7 +63,7 @@ library Ethereum {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xF51164FE5B0DC7aFB9192E1b806ae18A8813Ae8c;
+    address internal constant ALM_CONTROLLER  = 0xF8Dff673b555a225e149218C5005FC88f4a13870;
     address internal constant ALM_PROXY       = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
     address internal constant ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
 
@@ -100,6 +100,13 @@ library Ethereum {
 
     address internal constant JTRSY       = 0x8c213ee79581Ff4984583C6a801e5263418C4b86;
     address internal constant JTRSY_VAULT = 0x36036fFd9B1C6966ab23209E073c68Eb9A992f50;
+
+    /******************************************************************************************************************/
+    /*** Curve Addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant CURVE_SUSDSUSDT = 0x00836Fe54625BE242BcFA286207795405ca4fD10;
+    address internal constant CURVE_USDCUSDT  = 0x4f493B7dE8aAC7d55F71853688b1F7C8F0243C85;
 
     /******************************************************************************************************************/
     /*** Fluid Addresses                                                                                            ***/
