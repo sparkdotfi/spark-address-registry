@@ -21,8 +21,18 @@ library Optimism {
     address internal constant TOKEN_BRIDGE  = 0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6;
 
     /******************************************************************************************************************/
+    /*** PSM Addresses                                                                                              ***/
+    /******************************************************************************************************************/
+
+    address internal constant PSM3 = 0xe0F9978b907853F354d79188A3dEfbD41978af62;
+
+    /******************************************************************************************************************/
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
+
+    address internal constant ALM_CONTROLLER  = 0x1d54A093b8FDdFcc6fBB411d9Af31D96e034B3D5;
+    address internal constant ALM_PROXY       = 0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB;
+    address internal constant ALM_RATE_LIMITS = 0x6B34A6B84444dC3Fc692821D5d077a1e4927342d;
 
     address internal constant ALM_FREEZER  = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER  = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
