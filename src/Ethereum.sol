@@ -268,7 +268,6 @@ library Ethereum {
 
     address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
 
-    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
     address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
 
     /******************************************************************************************************************/
@@ -292,6 +291,17 @@ library Ethereum {
     address internal constant BASE_ESCROW        = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
     address internal constant BASE_SKY_GOV_RELAY = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
     address internal constant BASE_TOKEN_BRIDGE  = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
+
+    /******************************************************************************************************************/
+    /*** Optimism Addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant OPTIMISM_DSR_FORWARDER = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
+    address internal constant OPTIMISM_SSR_FORWARDER = 0x6Ac25B8638767a3c27a65597A74792d599038724;
+
+    address internal constant OPTIMISM_ESCROW        = 0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65;
+    address internal constant OPTIMISM_SKY_GOV_RELAY = 0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F;
+    address internal constant OPTIMISM_TOKEN_BRIDGE  = 0x3d25B7d486caE1810374d37A48BCf0963c9B8057;
 
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
