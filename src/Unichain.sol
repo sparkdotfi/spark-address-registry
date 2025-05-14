@@ -15,7 +15,7 @@ library Unichain {
     /*** SSR Oracle Addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant SSR_AUTH_ORACLE = 0x779053E25267B591Dcfbb20b2397462aaaD6B776;
+    address internal constant SSR_AUTH_ORACLE = 0x1566BFA55D95686a823751298533D42651183988;
 
     /******************************************************************************************************************/
     /*** Governance Executor Addresses                                                                              ***/
