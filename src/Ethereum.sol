@@ -305,6 +305,17 @@ library Ethereum {
     address internal constant OPTIMISM_TOKEN_BRIDGE  = 0x3d25B7d486caE1810374d37A48BCf0963c9B8057;
 
     /******************************************************************************************************************/
+    /*** Unichain Addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant UNICHAIN_SSR_FORWARDER = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
+
+    address internal constant UNICHAIN_ESCROW        = 0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A;
+    address internal constant UNICHAIN_SKY_GOV_RELAY = 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7;
+    address internal constant UNICHAIN_TOKEN_BRIDGE  = 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2;
+
+
+    /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
