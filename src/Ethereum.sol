@@ -16,6 +16,7 @@ library Ethereum {
     address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant RSETH  = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
+    address internal constant SKY    = 0x56072C95FAA701256059aa122697B133aDEd9279;
     address internal constant SUSDC  = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
     address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
@@ -35,7 +36,7 @@ library Ethereum {
     /*** MakerDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant CHIEF       = 0x0a3f6849f78076aefaDf113F5BED87720274dDC0;
+    address internal constant CHIEF       = 0x929d9A1435662357F54AdcF64DcEE4d6b867a6f9;
     address internal constant DAI_USDS    = 0x3225737a9Bbb6473CB4a45b7244ACa2BeFdB276A;
     address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
     address internal constant POT         = 0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7;
