@@ -7,6 +7,7 @@ library Optimism {
     /*** Token Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant SUSDC = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
     address internal constant SUSDS = 0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0;
     address internal constant USDC  = 0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85;
     address internal constant USDS  = 0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3;
