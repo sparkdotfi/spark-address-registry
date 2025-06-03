@@ -328,6 +328,6 @@ library Ethereum {
     /*** User Action Addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0x52d298Ff9e77E71C2EB1992260520E7b15257d99;
+    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0xd0A61F2963622e992e6534bde4D52fd0a89F39E0;
 
 }
