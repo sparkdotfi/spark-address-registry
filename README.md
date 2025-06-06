@@ -10,5 +10,3 @@
 This repository contains addresses of all smart contracts used in the Spark ecosystem.
 
 Use this repository as the primary source of truth when looking for the canonical addresses of Spark infrastructure.
-
-***
