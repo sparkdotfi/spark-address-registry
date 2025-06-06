@@ -12,4 +12,3 @@ This repository contains addresses of all smart contracts used in the Spark ecos
 Use this repository as the primary source of truth when looking for the canonical addresses of Spark infrastructure.
 
 ***
-*The IP in this repository was assigned to Mars SPC Limited in respect of the MarsOne SP*
