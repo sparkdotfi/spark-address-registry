@@ -48,7 +48,13 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant SPARK_PROXY   = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
-    address internal constant SPARK_REWARDS = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant SPK           = 0xc20059e0317DE91738d13af027DfC4a50781b066;
+    address internal constant STSPK         = 0xc6132FAF04627c8d05d6E759FAbB331Ef2D8F8fD;
+
+    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;
+    address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
+    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
@@ -315,7 +321,6 @@ library Ethereum {
     address internal constant UNICHAIN_SKY_GOV_RELAY = 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7;
     address internal constant UNICHAIN_TOKEN_BRIDGE  = 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2;
 
-
     /******************************************************************************************************************/
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
@@ -323,6 +328,8 @@ library Ethereum {
     address internal constant FREEZER_MULTISIG           = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
     address internal constant SPARKLEND_REWARDS_MULTISIG = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
     address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
+    address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
+    address internal constant SPK_BRIDGING_MULTISIG      = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
 
     /******************************************************************************************************************/
     /*** User Action Addresses                                                                                      ***/
