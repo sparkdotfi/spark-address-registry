@@ -69,4 +69,10 @@ library Optimism {
 
     address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
+    /******************************************************************************************************************/
+    /*** Rewards Addresses                                                                                          ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS = 0xf94473Bf6EF648638A7b1eEef354fE440721ef41;
+
 }
