@@ -35,6 +35,7 @@ library Ethereum {
     /*** MakerDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
+    address internal constant AUTO_LINE   = 0xC7Bdd1F2B16447dcf3dE045C4a039A60EC2f0ba3;
     address internal constant CHIEF       = 0x0a3f6849f78076aefaDf113F5BED87720274dDC0;
     address internal constant DAI_USDS    = 0x3225737a9Bbb6473CB4a45b7244ACa2BeFdB276A;
     address internal constant PAUSE_PROXY = 0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB;
