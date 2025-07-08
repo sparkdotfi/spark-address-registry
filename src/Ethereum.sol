@@ -44,13 +44,13 @@ library Ethereum {
     address internal constant VAT         = 0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B;
 
     /******************************************************************************************************************/
-    /*** BloomDAO Addresses                                                                                         ***/
+    /*** GroveDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant BLOOM_PROXY   = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
+    address internal constant GROVE_PROXY   = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
 
     /******************************************************************************************************************/
-    /*** Bloom Allocation System Addresses                                                                          ***/
+    /*** Grove Allocation System Addresses                                                                          ***/
     /******************************************************************************************************************/
 
     address internal constant ALLOCATOR_BUFFER   = 0x629aD4D779F46B8A1491D3f76f7E97Cb04D8b1Cd;
@@ -60,7 +60,7 @@ library Ethereum {
     address internal constant ALLOCATOR_VAULT	 = 0x26512A41C8406800f21094a7a7A0f980f6e25d43;
 
     /******************************************************************************************************************/
-    /*** Bloom Liquidity Layer Addresses                                                                            ***/
+    /*** Grove Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
     address internal constant ALM_CONTROLLER  = 0x3048386E09c72C20FB268a37d2B630D7f2Ee9138;
