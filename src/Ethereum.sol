@@ -47,7 +47,7 @@ library Ethereum {
     /*** GroveDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant GROVE_PROXY   = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
+    address internal constant GROVE_PROXY = 0x1369f7b2b38c76B6478c0f0E66D94923421891Ba;
 
     /******************************************************************************************************************/
     /*** Grove Allocation System Addresses                                                                          ***/
@@ -80,7 +80,11 @@ library Ethereum {
     /*** Blackrock BUIDL Addresses                                                                                  ***/
     /******************************************************************************************************************/
 
-    address internal constant BUIDL_REDEEM = 0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53;
+    address internal constant BUIDL          = 0x7712c34205737192402172409a8F7ccef8aA2AEc;
+    address internal constant BUIDL_REDEEM   = 0x31D3F59Ad4aAC0eeE2247c65EBE8Bf6E9E470a53;  // Circle redeem
+    address internal constant BUIDLI         = 0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041;
+    address internal constant BUIDLI_DEPOSIT = 0xD1917664bE3FdAea377f6E8D5BF043ab5C3b1312;
+    address internal constant BUIDLI_REDEEM  = 0x8780Dd016171B91E4Df47075dA0a947959C34200;  // Offchain redeem
 
     /******************************************************************************************************************/
     /*** Centrifuge Addresses                                                                                       ***/
