@@ -51,10 +51,11 @@ library Ethereum {
     address internal constant SPK           = 0xc20059e0317DE91738d13af027DfC4a50781b066;
     address internal constant STSPK         = 0xc6132FAF04627c8d05d6E759FAbB331Ef2D8F8fD;
 
-    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
     address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;
     address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
-    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
+    address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
+    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
