@@ -137,6 +137,7 @@ library Ethereum {
     address internal constant MORPHO_SUSDE_ORACLE = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
     address internal constant MORPHO_USDE_ORACLE  = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
     address internal constant MORPHO_VAULT_DAI_1  = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
+    address internal constant MORPHO_VAULT_USDS   = 0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597;
 
     /******************************************************************************************************************/
     /*** Superstate Addresses                                                                                       ***/
