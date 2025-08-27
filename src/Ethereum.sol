@@ -166,49 +166,59 @@ library Ethereum {
     /*** SparkLend - Reserve Token Addresses                                                                        ***/
     /******************************************************************************************************************/
 
-    address internal constant CBBTC_ATOKEN            = 0xb3973D459df38ae57797811F2A1fd061DA1BC123;
-    address internal constant CBBTC_STABLE_DEBT_TOKEN = 0x26a76E2fa1EaDbe7C30f0c333059Bcc3642c28d2;
-    address internal constant CBBTC_DEBT_TOKEN        = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
+    address internal constant CBBTC_DEBT_TOKEN = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
+    address internal constant CBBTC_SPTOKEN    = 0xb3973D459df38ae57797811F2A1fd061DA1BC123;
 
-    address internal constant DAI_ATOKEN             = 0x4DEDf26112B3Ec8eC46e7E31EA5e123490B05B8B;
-    address internal constant DAI_STABLE_DEBT_TOKEN  = 0xfe2B7a7F4cC0Fb76f7Fc1C6518D586F1e4559176;
-    address internal constant DAI_DEBT_TOKEN         = 0xf705d2B7e92B3F38e6ae7afaDAA2fEE110fE5914;
+    address internal constant DAI_DEBT_TOKEN = 0xf705d2B7e92B3F38e6ae7afaDAA2fEE110fE5914;
+    address internal constant DAI_SPTOKEN    = 0x4DEDf26112B3Ec8eC46e7E31EA5e123490B05B8B;
 
-    address internal constant GNO_ATOKEN             = 0x7b481aCC9fDADDc9af2cBEA1Ff2342CB1733E50F;
-    address internal constant GNO_STABLE_DEBT_TOKEN  = 0xbf13910620722D4D4F8A03962894EB3335Bf4FaE;
-    address internal constant GNO_DEBT_TOKEN         = 0x57a2957651DA467fCD4104D749f2F3684784c25a;
+    address internal constant EZETH_DEBT_TOKEN = 0xB0B14Dd477E6159B4F3F210cF45F0954F57c0FAb;
+    address internal constant EZETH_SPTOKEN    = 0xB131cD463d83782d4DE33e00e35EF034F0869bA1;
 
-    address internal constant RETH_ATOKEN             = 0x9985dF20D7e9103ECBCeb16a84956434B6f06ae8;
-    address internal constant RETH_STABLE_DEBT_TOKEN  = 0xa9a4037295Ea3a168DC3F65fE69FdA524d52b3e1;
-    address internal constant RETH_DEBT_TOKEN         = 0xBa2C8F2eA5B56690bFb8b709438F049e5Dd76B96;
+    address internal constant GNO_DEBT_TOKEN = 0x57a2957651DA467fCD4104D749f2F3684784c25a;
+    address internal constant GNO_SPTOKEN    = 0x7b481aCC9fDADDc9af2cBEA1Ff2342CB1733E50F;
 
-    address internal constant SDAI_ATOKEN             = 0x78f897F0fE2d3B5690EbAe7f19862DEacedF10a7;
-    address internal constant SDAI_STABLE_DEBT_TOKEN  = 0xEc6C6aBEd4DC03299EFf82Ac8A0A83643d3cB335;
-    address internal constant SDAI_DEBT_TOKEN         = 0xaBc57081C04D921388240393ec4088Aa47c6832B;
+    address internal constant LBTC_DEBT_TOKEN = 0x096bdDFEE63F44A97cC6D2945539Ee7C8f94637D;
+    address internal constant LBTC_SPTOKEN    = 0xa9d4EcEBd48C282a70CfD3c469d6C8F178a5738E;
 
-    address internal constant USDC_ATOKEN             = 0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815;
-    address internal constant USDC_STABLE_DEBT_TOKEN  = 0x887Ac022983Ff083AEb623923789052A955C6798;
-    address internal constant USDC_DEBT_TOKEN         = 0x7B70D04099CB9cfb1Db7B6820baDAfB4C5C70A67;
+    address internal constant PYUSD_DEBT_TOKEN = 0x3357D2DB7763D6Cd3a99f0763EbF87e0096D95f9;
+    address internal constant PYUSD_SPTOKEN    = 0x779224df1c756b4EDD899854F32a53E8c2B2ce5d;
 
-    address internal constant USDT_ATOKEN             = 0xe7dF13b8e3d6740fe17CBE928C7334243d86c92f;
-    address internal constant USDT_STABLE_DEBT_TOKEN  = 0x0Dae62F953Ceb2E969fB4dE85f3F9074fa920776;
-    address internal constant USDT_DEBT_TOKEN         = 0x529b6158d1D2992E3129F7C69E81a7c677dc3B12;
+    address internal constant RETH_DEBT_TOKEN = 0xBa2C8F2eA5B56690bFb8b709438F049e5Dd76B96;
+    address internal constant RETH_SPTOKEN    = 0x9985dF20D7e9103ECBCeb16a84956434B6f06ae8;
 
-    address internal constant WBTC_ATOKEN             = 0x4197ba364AE6698015AE5c1468f54087602715b2;
-    address internal constant WBTC_STABLE_DEBT_TOKEN  = 0x4b29e6cBeE62935CfC92efcB3839eD2c2F35C1d9;
-    address internal constant WBTC_DEBT_TOKEN         = 0xf6fEe3A8aC8040C3d6d81d9A4a168516Ec9B51D2;
+    address internal constant RSETH_DEBT_TOKEN = 0xc528F0C91CFAE4fd86A68F6Dfd4d7284707Bec68;
+    address internal constant RSETH_SPTOKEN    = 0x856f1Ea78361140834FDCd0dB0b08079e4A45062;
 
-    address internal constant WEETH_ATOKEN            = 0x3CFd5C0D4acAA8Faee335842e4f31159fc76B008;
-    address internal constant WEETH_STABLE_DEBT_TOKEN = 0x5B1F8aF3E6C0BF4d20e8e5220a4e4A3A8fA6Dc0A;
-    address internal constant WEETH_DEBT_TOKEN        = 0xc2bD6d2fEe70A0A73a33795BdbeE0368AeF5c766;
+    address internal constant SDAI_DEBT_TOKEN = 0xaBc57081C04D921388240393ec4088Aa47c6832B;
+    address internal constant SDAI_SPTOKEN    = 0x78f897F0fE2d3B5690EbAe7f19862DEacedF10a7;
 
-    address internal constant WETH_ATOKEN             = 0x59cD1C87501baa753d0B5B5Ab5D8416A45cD71DB;
-    address internal constant WETH_STABLE_DEBT_TOKEN  = 0x3c6b93D38ffA15ea995D1BC950d5D0Fa6b22bD05;
-    address internal constant WETH_DEBT_TOKEN         = 0x2e7576042566f8D6990e07A1B61Ad1efd86Ae70d;
+    address internal constant SUSDS_DEBT_TOKEN = 0x4e89b83f426fED3f2EF7Bb2d7eb5b53e288e1A13;
+    address internal constant SUSDS_SPTOKEN    = 0x6715bc100A183cc65502F05845b589c1919ca3d3;
 
-    address internal constant WSTETH_ATOKEN            = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
-    address internal constant WSTETH_STABLE_DEBT_TOKEN = 0x9832D969a0c8662D98fFf334A4ba7FeE62b109C2;
-    address internal constant WSTETH_DEBT_TOKEN        = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
+    address internal constant TBTC_DEBT_TOKEN = 0x764591dC9ba21c1B92049331b80b6E2a2acF8B17;
+    address internal constant TBTC_SPTOKEN    = 0xce6Ca9cDce00a2b0c0d1dAC93894f4Bd2c960567;
+
+    address internal constant USDC_DEBT_TOKEN = 0x7B70D04099CB9cfb1Db7B6820baDAfB4C5C70A67;
+    address internal constant USDC_SPTOKEN    = 0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815;
+
+    address internal constant USDS_DEBT_TOKEN = 0x8c147debea24Fb98ade8dDa4bf142992928b449e;
+    address internal constant USDS_SPTOKEN    = 0xC02aB1A5eaA8d1B114EF786D9bde108cD4364359;
+
+    address internal constant USDT_DEBT_TOKEN = 0x529b6158d1D2992E3129F7C69E81a7c677dc3B12;
+    address internal constant USDT_SPTOKEN    = 0xe7dF13b8e3d6740fe17CBE928C7334243d86c92f;
+
+    address internal constant WBTC_DEBT_TOKEN = 0xf6fEe3A8aC8040C3d6d81d9A4a168516Ec9B51D2;
+    address internal constant WBTC_SPTOKEN    = 0x4197ba364AE6698015AE5c1468f54087602715b2;
+
+    address internal constant WEETH_DEBT_TOKEN = 0xc2bD6d2fEe70A0A73a33795BdbeE0368AeF5c766;
+    address internal constant WEETH_SPTOKEN    = 0x3CFd5C0D4acAA8Faee335842e4f31159fc76B008;
+
+    address internal constant WETH_DEBT_TOKEN = 0x2e7576042566f8D6990e07A1B61Ad1efd86Ae70d;
+    address internal constant WETH_SPTOKEN    = 0x59cD1C87501baa753d0B5B5Ab5D8416A45cD71DB;
+
+    address internal constant WSTETH_DEBT_TOKEN = 0xd5c3E3B566a42A6110513Ac7670C1a86D76E13E6;
+    address internal constant WSTETH_SPTOKEN    = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
 
     /******************************************************************************************************************/
     /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
