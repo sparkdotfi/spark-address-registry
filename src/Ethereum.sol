@@ -113,6 +113,8 @@ library Ethereum {
     /*** Curve Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
+    address internal constant CURVE_STABLESWAP_FACTORY = 0x6A8cbed756804B16E05E741eDaBd5cB544AE21bf;
+
     address internal constant CURVE_SUSDSUSDT = 0x00836Fe54625BE242BcFA286207795405ca4fD10;
     address internal constant CURVE_USDCUSDT  = 0x4f493B7dE8aAC7d55F71853688b1F7C8F0243C85;
     address internal constant CURVE_PYUSDUSDC = 0x383E6b4437b59fff47B619CBA855CA29342A8559;
