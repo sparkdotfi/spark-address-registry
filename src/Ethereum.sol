@@ -47,8 +47,7 @@ library Ethereum {
     /*** SparkDAO Addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    // TODO: change with our deployed addresses
-    address internal constant KEEL_PROXY   = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
+    address internal constant KEEL_PROXY   = 0x355CD90Ecb1b409Fdf8b64c4473C3B858dA2c310;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
