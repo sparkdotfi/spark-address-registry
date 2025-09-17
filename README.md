@@ -1,4 +1,4 @@
-# Spark Address Registry
+# Keel Address Registry
 
 <!-- ![Foundry CI](https://github.com/{org}/{repo}/actions/workflows/ci.yml/badge.svg)
 [![Foundry][foundry-badge]][foundry]
@@ -7,6 +7,6 @@
 [foundry]: https://getfoundry.sh/
 [foundry-badge]: https://img.shields.io/badge/Built%20with-Foundry-FFDB1C.svg
 
-This repository contains addresses of all smart contracts used in the Spark ecosystem.
+This repository contains addresses of all smart contracts used in the Keel ecosystem.
 
-Use this repository as the primary source of truth when looking for the canonical addresses of Spark infrastructure.
+Use this repository as the primary source of truth when looking for the canonical addresses of Keel infrastructure.
