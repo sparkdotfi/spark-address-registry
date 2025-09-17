@@ -54,11 +54,11 @@ library Ethereum {
     /*** Allocation System Addresses                                                                                ***/
     /******************************************************************************************************************/
 
-    address internal constant ALLOCATOR_BUFFER   = 0xc395D150e71378B47A1b8E9de0c1a83b75a08324;
+    address internal constant ALLOCATOR_BUFFER   = 0x065e5de3d3a08c9d14bf79ce5a6d3d0e8794640c;
     address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
     address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
     address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
-    address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
+    address internal constant ALLOCATOR_VAULT	 = 0xe4470dd3158f7a905cdea07260551f72d4bb0e77;
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer Addresses                                                                            ***/
