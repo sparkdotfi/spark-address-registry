@@ -56,6 +56,17 @@ library Ethereum {
     address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
     address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
     address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant SPARK_FOUNDATION = 0x92e4629a4510AF5819d7D1601464C233599fF5ec;
+
+    address internal constant USDS_SPK_FARM = 0x173e314C7635B45322cd8Cb14f44b312e079F3af;
+
+    /******************************************************************************************************************/
+    /*** Spark Vault V2 Addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_VAULT_V2_SPUSDC = 0x15F4a4b19baaA168AC0b6092d310aE9725741211;
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0xE742c84510A200b95979645b46c872073F0fa929;
+    address internal constant SPARK_VAULT_V2_SPETH  = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
@@ -71,7 +82,7 @@ library Ethereum {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xF8Dff673b555a225e149218C5005FC88f4a13870;
+    address internal constant ALM_CONTROLLER  = 0x577Fa18a498e1775939b668B0224A5e5a1e56fc3;
     address internal constant ALM_PROXY       = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
     address internal constant ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
 
@@ -89,8 +100,13 @@ library Ethereum {
     /*** Aave Addresses                                                                                             ***/
     /******************************************************************************************************************/
 
-    address internal constant ATOKEN_CORE_USDS = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
-    address internal constant ATOKEN_CORE_USDC = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+    address internal constant AAVE_CORE_AUSDT    = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
+    address internal constant AAVE_ETH_LIDO_USDS = 0x09AA30b182488f769a9824F15E6Ce58591Da4781;
+    address internal constant AAVE_ETH_USDC      = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+    address internal constant AAVE_ETH_USDS      = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
+    address internal constant ATOKEN_CORE_USDS   = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
+    address internal constant ATOKEN_CORE_USDC   = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+    address internal constant USDE_ATOKEN        = 0x4F5923Fc5FD4a93352581b38B7cD26943012DECF;
 
     /******************************************************************************************************************/
     /*** Blackrock BUIDL Addresses                                                                                  ***/
@@ -137,9 +153,11 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant MORPHO              = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
+    address internal constant MORPHO_TOKEN        = 0x58D97B57BB95320F9a05dC918Aef65434969c2B2;
     address internal constant MORPHO_FACTORY      = 0x1897A8997241C1cD4bD0698647e4EB7213535c24;
     address internal constant MORPHO_DEFAULT_IRM  = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
     address internal constant MORPHO_SUSDE_ORACLE = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
+    address internal constant MORPHO_USDC_BC      = 0x56A76b428244a50513ec81e225a293d128fd581D;
     address internal constant MORPHO_USDE_ORACLE  = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
     address internal constant MORPHO_VAULT_DAI_1  = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
     address internal constant MORPHO_VAULT_USDS   = 0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597;
@@ -347,6 +365,7 @@ library Ethereum {
     address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
     address internal constant SPK_BRIDGING_MULTISIG      = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
+    address internal constant SPARK_MULTISIG   = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
 
     /******************************************************************************************************************/
     /*** User Action Addresses                                                                                      ***/
