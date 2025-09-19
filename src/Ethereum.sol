@@ -103,8 +103,6 @@ library Ethereum {
 
     address internal constant ATOKEN_CORE_USDT     = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
     address internal constant ATOKEN_ETH_LIDO_USDS = 0x09AA30b182488f769a9824F15E6Ce58591Da4781;
-    address internal constant ATOKEN_ETH_USDC      = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
-    address internal constant ATOKEN_ETH_USDS      = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
     address internal constant ATOKEN_CORE_USDS     = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
     address internal constant ATOKEN_CORE_USDC     = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
     address internal constant ATOKEN_ETH_USDE      = 0x4F5923Fc5FD4a93352581b38B7cD26943012DECF;
@@ -366,7 +364,7 @@ library Ethereum {
     address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
     address internal constant SPK_BRIDGING_MULTISIG      = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
-    address internal constant SPARK_MULTISIG   = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant SPARK_MULTISIG             = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
 
     /******************************************************************************************************************/
     /*** User Action Addresses                                                                                      ***/
