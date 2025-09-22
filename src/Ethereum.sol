@@ -101,11 +101,11 @@ library Ethereum {
     /*** Aave Addresses                                                                                             ***/
     /******************************************************************************************************************/
 
-    address internal constant ATOKEN_CORE_USDC     = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
-    address internal constant ATOKEN_CORE_USDS     = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
-    address internal constant ATOKEN_CORE_USDT     = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
-    address internal constant ATOKEN_ETH_LIDO_USDS = 0x09AA30b182488f769a9824F15E6Ce58591Da4781;
-    address internal constant ATOKEN_ETH_USDE      = 0x4F5923Fc5FD4a93352581b38B7cD26943012DECF;
+    address internal constant ATOKEN_CORE_USDC       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+    address internal constant ATOKEN_CORE_USDE       = 0x4F5923Fc5FD4a93352581b38B7cD26943012DECF;
+    address internal constant ATOKEN_CORE_USDS       = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
+    address internal constant ATOKEN_CORE_USDT       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
+    address internal constant ATOKEN_PRIME_LIDO_USDS = 0x09AA30b182488f769a9824F15E6Ce58591Da4781;
 
     /******************************************************************************************************************/
     /*** Blackrock BUIDL Addresses                                                                                  ***/
