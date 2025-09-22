@@ -364,7 +364,7 @@ library Ethereum {
     address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
     address internal constant SPK_BRIDGING_MULTISIG      = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
-    address internal constant SPARK_MULTISIG             = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant ALM_OPS_MULTISIG           = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
 
     /******************************************************************************************************************/
     /*** User Action Addresses                                                                                      ***/
