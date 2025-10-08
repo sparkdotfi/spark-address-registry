@@ -39,6 +39,6 @@ library Avalanche {
     /******************************************************************************************************************/
 
     address internal constant SPARK_VAULT_V2_IMPL   = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;
-    address internal constant SPARK_VAULT_V2_SPUSDC = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
+    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
 
 }
