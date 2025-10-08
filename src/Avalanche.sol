@@ -19,9 +19,9 @@ library Avalanche {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x0E4C4b62ce87A2862f9FFFF29A059AfD86F1313b;
-    address internal constant ALM_PROXY       = 0x63447560e15d3F6D68615c0727bc1650F8Ba514C;
-    address internal constant ALM_RATE_LIMITS = 0x1B59E7D7E695d03FebFDD58C57ce065628001b82;
+    address internal constant ALM_CONTROLLER  = 0xF89D5A7966cb1EA7b9Ab2bdb9BEC74f93d9A6C84;
+    address internal constant ALM_PROXY       = 0x22dBc199F6Ac5062Eaa2D947296A9E8c23c350Bc;
+    address internal constant ALM_RATE_LIMITS = 0x9046D2738dC6De100dD539970B702eE14cAa7cD3;
 
     address internal constant ALM_FREEZER  = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER  = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
@@ -31,8 +31,8 @@ library Avalanche {
     /*** Governance Relay Addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x4924e46935F6706d08413d44dF5C31a9d40F6a64;
-    address internal constant SPARK_RECEIVER = 0x5079f43464D7eC7B0eaeCB0A883ddd4324e0cd6b;
+    address internal constant SPARK_EXECUTOR = 0x7566DEbC906C17338524A414343fA61BcA26A843;
+    address internal constant SPARK_RECEIVER = 0xd905be48983D405C6fD7f5a983D2351fb61C691F;
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 Addresses                                                                                   ***/
