@@ -19,9 +19,9 @@ library Avalanche {
     /*** Spark Liquidity Layer Addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xF89D5A7966cb1EA7b9Ab2bdb9BEC74f93d9A6C84;
-    address internal constant ALM_PROXY       = 0x22dBc199F6Ac5062Eaa2D947296A9E8c23c350Bc;
-    address internal constant ALM_RATE_LIMITS = 0x9046D2738dC6De100dD539970B702eE14cAa7cD3;
+    address internal constant ALM_CONTROLLER  = 0x4E64b576F72c237690F27727376186639447f096;
+    address internal constant ALM_PROXY       = 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC;
+    address internal constant ALM_RATE_LIMITS = 0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a;
 
     address internal constant ALM_FREEZER  = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER  = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
