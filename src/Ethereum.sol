@@ -70,10 +70,10 @@ library Ethereum {
     /*** Spark Vault V2 Addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0xD62E5b90d8A888990A736eE08B25A10eCA736aCe;
-    address internal constant SPARK_VAULT_V2_SPUSDC = 0x15F4a4b19baaA168AC0b6092d310aE9725741211;
-    address internal constant SPARK_VAULT_V2_SPUSDT = 0xE742c84510A200b95979645b46c872073F0fa929;
-    address internal constant SPARK_VAULT_V2_SPETH  = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;
+    address internal constant SPARK_VAULT_V2_IMPL   = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
+    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0xe2e7a17dFf93280dec073C995595155283e3C372;
+    address internal constant SPARK_VAULT_V2_SPETH  = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;
 
     /******************************************************************************************************************/
     /*** Allocation System Addresses                                                                                ***/
