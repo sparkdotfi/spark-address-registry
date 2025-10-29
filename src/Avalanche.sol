@@ -45,6 +45,12 @@ library Avalanche {
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_OPS_MULTISIG = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant ALM_OPS_MULTISIG       = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
+    /******************************************************************************************************************/
+    /*** Rewards Addresses                                                                                          ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS = 0xAf76856f788519704a9411839614e144FEd52d8a;
 }
