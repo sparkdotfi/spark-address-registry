@@ -38,6 +38,12 @@ library Avalanche {
     address internal constant SPARK_VAULT_V2_IMPL   = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;
     address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
 
+    /******************************************************************************************************************/
+    /*** Rewards Addresses                                                                                          ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_REWARDS = 0xAf76856f788519704a9411839614e144FEd52d8a;
+
     /*******************************************************************************************************************
 
     ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗ 
@@ -51,7 +57,8 @@ library Avalanche {
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_OPS_MULTISIG = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant ALM_OPS_MULTISIG       = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
     /*******************************************************************************************************************
 
