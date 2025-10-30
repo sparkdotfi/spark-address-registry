@@ -88,8 +88,10 @@ library Ethereum {
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
+    // TODO: Change all of these to _MULTISIG
+
     address internal constant ALM_OPS_MULTISIG           = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
-    address internal constant FREEZER_MULTISIG           = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;  // TODO: Which is this
+    address internal constant SPARKLEND_FREEZER_MULTISIG = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
     address internal constant SPARKLEND_REWARDS_MULTISIG = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
     address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
