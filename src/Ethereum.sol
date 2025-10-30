@@ -13,7 +13,7 @@ library Ethereum {
     ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝
 
     /******************************************************************************************************************/
-    /*** SparkDAO Addresses                                                                                         ***/
+    /*** Spark DAO addresses                                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant SPARK_PROXY = 0x3300f198988e4C9C63F75dF86De36421f06af8c4;
@@ -21,17 +21,7 @@ library Ethereum {
     address internal constant STSPK       = 0xc6132FAF04627c8d05d6E759FAbB331Ef2D8F8fD;
 
     /******************************************************************************************************************/
-    /*** REwards Addresses                                                                                         ***/
-    /******************************************************************************************************************/
-
-    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
-    address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;
-    address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
-    address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
-    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
-
-    /******************************************************************************************************************/
-    /*** Spark Liquidity Layer Addresses                                                                            ***/
+    /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
     address internal constant ALM_CONTROLLER  = 0x577Fa18a498e1775939b668B0224A5e5a1e56fc3;
@@ -39,7 +29,7 @@ library Ethereum {
     address internal constant ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
 
     /******************************************************************************************************************/
-    /*** Spark Vault V2 Addresses                                                                                   ***/
+    /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
     address internal constant SPARK_VAULT_V2_IMPL   = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
@@ -48,7 +38,7 @@ library Ethereum {
     address internal constant SPARK_VAULT_V2_SPETH  = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;
 
     /******************************************************************************************************************/
-    /*** SSR/DSR Crosschain Forwarders                                                                              ***/
+    /*** SSR/DSR crosschain forwarders                                                                              ***/
     /******************************************************************************************************************/
 
     address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
@@ -61,7 +51,7 @@ library Ethereum {
     address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Core Protocol Addresses                                                                        ***/
+    /*** SparkLend - Core protocol addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant AAVE_ORACLE                      = 0x8105f69D9C41644c6A0803fDA7D03Aa70996cFD9;
@@ -78,7 +68,7 @@ library Ethereum {
     address internal constant WETH_GATEWAY                     = 0xBD7D6a9ad7865463DE44B05F04559f65e3B11704;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Reserve Token Addresses                                                                        ***/
+    /*** SparkLend - Reserve token addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant CBBTC_DEBT_TOKEN = 0x661fE667D2103eb52d3632a3eB2cAbd123F27938;
@@ -136,7 +126,7 @@ library Ethereum {
     address internal constant WSTETH_SPTOKEN    = 0x12B54025C112Aa61fAce2CDB7118740875A566E9;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Auxiliary Protocol Addresses                                                                   ***/
+    /*** SparkLend - Auxiliary protocol addresses                                                                   ***/
     /******************************************************************************************************************/
 
     address internal constant CAP_AUTOMATOR      = 0x2276f52afba7Cf2525fd0a050DF464AC8532d0ef;
@@ -145,17 +135,7 @@ library Ethereum {
     address internal constant SSR_RATE_SOURCE    = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Emergency Spells                                                                               ***/
-    /******************************************************************************************************************/
-
-    address internal constant SPELL_FREEZE_ALL       = 0x9e2890BF7f8D5568Cc9e5092E67Ba00C8dA3E97f;
-    address internal constant SPELL_FREEZE_DAI       = 0xa2039bef2c5803d66E4e68F9E23a942E350b938c;
-    address internal constant SPELL_PAUSE_ALL        = 0x425b0de240b4c2DC45979DB782A355D090Dc4d37;
-    address internal constant SPELL_PAUSE_DAI        = 0xCacB88e39112B56278db25b423441248cfF94241;
-    address internal constant SPELL_REMOVE_MULTISIG  = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
-
-    /******************************************************************************************************************/
-    /*** SparkLend - Implementation Addresses                                                                       ***/
+    /*** SparkLend - Implementation addresses                                                                       ***/
     /******************************************************************************************************************/
 
     address internal constant A_TOKEN_IMPL             = 0x6175ddEc3B9b38c88157C10A01ed4A3fa8639cC6;
@@ -168,7 +148,7 @@ library Ethereum {
     address internal constant VARIABLE_DEBT_TOKEN_IMPL = 0x86C71796CcDB31c3997F8Ec5C2E3dB3e9e40b985;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Config Engine Addresses                                                                        ***/
+    /*** SparkLend - ConfigEngine addresses                                                                         ***/
     /******************************************************************************************************************/
 
     address internal constant CONFIG_ENGINE             = 0x3254F7cd0565aA67eEdC86c2fB608BE48d5cCd78;
@@ -177,7 +157,7 @@ library Ethereum {
     address internal constant TRANSPARENT_PROXY_FACTORY = 0x777803CbDD89D5D5Bc1DdD2151B51b0B07F6bf37;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Data Provider Addresses                                                                        ***/
+    /*** SparkLend - Data provider addresses                                                                        ***/
     /******************************************************************************************************************/
 
     address internal constant PROTOCOL_DATA_PROVIDER     = 0xFc21d6d146E6086B8359705C8b28512a983db0cb;
@@ -186,7 +166,7 @@ library Ethereum {
     address internal constant WALLET_BALANCE_PROVIDER    = 0xd2AeF86F51F92E8e49F42454c287AE4879D1BeDc;
 
     /******************************************************************************************************************/
-    /*** SparkLend - Library Addresses                                                                              ***/
+    /*** SparkLend - Library addresses                                                                              ***/
     /******************************************************************************************************************/
 
     address internal constant BORROW_LOGIC      = 0x4662C88C542F0954F8CccCDE4542eEc32d7E7e9a;
@@ -198,7 +178,26 @@ library Ethereum {
     address internal constant SUPPLY_LOGIC      = 0x46256841e36b7557BB8e4c706beD38b17A9EB2c1;
 
     /******************************************************************************************************************/
-    /*** Miscellaneous Addresses                                                                                      */
+    /*** SparkLend emergency spells                                                                                 ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPELL_FREEZE_ALL       = 0x9e2890BF7f8D5568Cc9e5092E67Ba00C8dA3E97f;
+    address internal constant SPELL_FREEZE_DAI       = 0xa2039bef2c5803d66E4e68F9E23a942E350b938c;
+    address internal constant SPELL_PAUSE_ALL        = 0x425b0de240b4c2DC45979DB782A355D090Dc4d37;
+    address internal constant SPELL_PAUSE_DAI        = 0xCacB88e39112B56278db25b423441248cfF94241;
+
+    /******************************************************************************************************************/
+    /*** Rewards addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
+    address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;
+    address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
+    address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
+    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+
+    /******************************************************************************************************************/
+    /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
     address internal constant USER_ACTIONS_PSM_VARIANT1 = 0x52d298Ff9e77E71C2EB1992260520E7b15257d99;
@@ -217,11 +216,12 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant ALM_OPS_MULTISIG           = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
-    address internal constant FREEZER_MULTISIG           = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
+    address internal constant FREEZER_MULTISIG           = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;  // TODO: Which is this
     address internal constant SPARKLEND_REWARDS_MULTISIG = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
     address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
     address internal constant SPK_BRIDGING_MULTISIG      = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
+    address internal constant SPELL_REMOVE_MULTISIG      = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
 
     address internal constant ALM_FREEZER  = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER  = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
@@ -276,12 +276,6 @@ library Ethereum {
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
 
     /******************************************************************************************************************/
-    /*** Lido Addresses                                                                                             ***/
-    /******************************************************************************************************************/
-
-    address internal constant WSTETH_WITHDRAW_QUEUE = 0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1;
-
-    /******************************************************************************************************************/
     /*** Sky Addresses                                                                                               ***/
     /******************************************************************************************************************/
 
@@ -294,10 +288,6 @@ library Ethereum {
 
     address internal constant USDS_SPK_FARM = 0x173e314C7635B45322cd8Cb14f44b312e079F3af;
 
-    /******************************************************************************************************************/
-    /*** Allocation System Addresses                                                                                ***/
-    /******************************************************************************************************************/
-
     address internal constant ALLOCATOR_BUFFER   = 0xc395D150e71378B47A1b8E9de0c1a83b75a08324;
     address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
     address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
@@ -305,10 +295,26 @@ library Ethereum {
     address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
 
     /******************************************************************************************************************/
-    /*** Ethena Addresses                                                                                           ***/
+    /*** Cross Chain Addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant ETHENA_MINTER = 0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3;
+    address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
+
+    address internal constant ARBITRUM_ESCROW        = 0xA10c7CE4b876998858b1a9E12b10092229539400;
+    address internal constant ARBITRUM_SKY_GOV_RELAY = 0x9ba25c289e351779E0D481Ba37489317c34A899d;
+    address internal constant ARBITRUM_TOKEN_BRIDGE  = 0x84b9700E28B23F873b82c1BEb23d86C091b6079E;
+
+    address internal constant BASE_ESCROW        = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
+    address internal constant BASE_SKY_GOV_RELAY = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
+    address internal constant BASE_TOKEN_BRIDGE  = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
+
+    address internal constant OPTIMISM_ESCROW        = 0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65;
+    address internal constant OPTIMISM_SKY_GOV_RELAY = 0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F;
+    address internal constant OPTIMISM_TOKEN_BRIDGE  = 0x3d25B7d486caE1810374d37A48BCf0963c9B8057;
+
+    address internal constant UNICHAIN_ESCROW        = 0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A;
+    address internal constant UNICHAIN_SKY_GOV_RELAY = 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7;
+    address internal constant UNICHAIN_TOKEN_BRIDGE  = 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2;
 
     /******************************************************************************************************************/
     /*** Aave Addresses                                                                                             ***/
@@ -349,10 +355,22 @@ library Ethereum {
     address internal constant CURVE_PYUSDUSDS = 0xA632D59b9B804a956BfaA9b48Af3A1b74808FC1f;
 
     /******************************************************************************************************************/
+    /*** Ethena Addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant ETHENA_MINTER = 0xe3490297a08d6fC8Da46Edb7B6142E4F461b62D3;
+
+    /******************************************************************************************************************/
     /*** Fluid Addresses                                                                                            ***/
     /******************************************************************************************************************/
 
     address internal constant FLUID_SUSDS = 0x2BBE31d63E6813E3AC858C04dae43FB2a72B0D11;
+
+    /******************************************************************************************************************/
+    /*** Lido Addresses                                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant WSTETH_WITHDRAW_QUEUE = 0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1;
 
     /******************************************************************************************************************/
     /*** Maple Addresses                                                                                            ***/
@@ -376,27 +394,5 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant SUPERSTATE_REDEMPTION = 0x4c21B7577C8FE8b0B0669165ee7C8f67fa1454Cf;
-
-    /******************************************************************************************************************/
-    /*** Cross Chain Addresses                                                                                      ***/
-    /******************************************************************************************************************/
-
-    address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
-
-    address internal constant ARBITRUM_ESCROW        = 0xA10c7CE4b876998858b1a9E12b10092229539400;
-    address internal constant ARBITRUM_SKY_GOV_RELAY = 0x9ba25c289e351779E0D481Ba37489317c34A899d;
-    address internal constant ARBITRUM_TOKEN_BRIDGE  = 0x84b9700E28B23F873b82c1BEb23d86C091b6079E;
-
-    address internal constant BASE_ESCROW        = 0x7F311a4D48377030bD810395f4CCfC03bdbe9Ef3;
-    address internal constant BASE_SKY_GOV_RELAY = 0x1Ee0AE8A993F2f5abDB51EAF4AC2876202b65c3b;
-    address internal constant BASE_TOKEN_BRIDGE  = 0xA5874756416Fa632257eEA380CAbd2E87cED352A;
-
-    address internal constant OPTIMISM_ESCROW        = 0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65;
-    address internal constant OPTIMISM_SKY_GOV_RELAY = 0x09B354CDA89203BB7B3131CC728dFa06ab09Ae2F;
-    address internal constant OPTIMISM_TOKEN_BRIDGE  = 0x3d25B7d486caE1810374d37A48BCf0963c9B8057;
-
-    address internal constant UNICHAIN_ESCROW        = 0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A;
-    address internal constant UNICHAIN_SKY_GOV_RELAY = 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7;
-    address internal constant UNICHAIN_TOKEN_BRIDGE  = 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2;
 
 }
