@@ -23,7 +23,7 @@ library Unichain {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x9B1BEB11CFE05117029a30eb799B6586125321FF;
+    address internal constant ALM_CONTROLLER  = 0x7CD6EC14785418aF694efe154E7ff7d9ba99D99b;
     address internal constant ALM_PROXY       = 0x345E368fcCd62266B3f5F37C9a131FD1c39f5869;
     address internal constant ALM_RATE_LIMITS = 0x5A1a44D2192Dd1e21efB9caA50E32D0716b35535;
 

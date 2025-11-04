@@ -23,7 +23,7 @@ library Optimism {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x1d54A093b8FDdFcc6fBB411d9Af31D96e034B3D5;
+    address internal constant ALM_CONTROLLER  = 0x282dAfE8B97e2Db5053761a4601ab2E1CB976318;
     address internal constant ALM_PROXY       = 0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB;
     address internal constant ALM_RATE_LIMITS = 0x6B34A6B84444dC3Fc692821D5d077a1e4927342d;
 
