@@ -23,7 +23,7 @@ library Arbitrum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x98f567464e91e9B4831d3509024b7868f9F79ee1;
+    address internal constant ALM_CONTROLLER  = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;
     address internal constant ALM_PROXY       = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;
     address internal constant ALM_RATE_LIMITS = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;
 
