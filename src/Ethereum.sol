@@ -164,6 +164,8 @@ library Ethereum {
 
     address internal constant USDS_SPK_FARM = 0x173e314C7635B45322cd8Cb14f44b312e079F3af;
 
+    address internal constant SPARK_STAR_GUARD = 0x6605aa120fe8b656482903E7757BaBF56947E45E;
+
     address internal constant ALLOCATOR_BUFFER   = 0xc395D150e71378B47A1b8E9de0c1a83b75a08324;
     address internal constant ALLOCATOR_ORACLE   = 0xc7B91C401C02B73CBdF424dFaaa60950d5040dB7;
     address internal constant ALLOCATOR_REGISTRY = 0xCdCFA95343DA7821fdD01dc4d0AeDA958051bB3B;
