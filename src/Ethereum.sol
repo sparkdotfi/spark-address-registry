@@ -131,6 +131,7 @@ library Ethereum {
     address internal constant GNO    = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
     address internal constant LBTC   = 0x8236a87084f8B84306f72007F36F2618A5634494;
     address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
+    address internal constant PYUSD  = 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8;
     address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
     address internal constant RSETH  = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
