@@ -42,13 +42,14 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
-    address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;
     address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
-    address internal constant BASE_SSR_FORWARDER        = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
     address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
+    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+
+    address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;
+    address internal constant BASE_SSR_FORWARDER        = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
     address internal constant OPTIMISM_SSR_FORWARDER    = 0x6Ac25B8638767a3c27a65597A74792d599038724;
     address internal constant UNICHAIN_SSR_FORWARDER    = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
-    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
 
     /******************************************************************************************************************/
     /*** SparkLend emergency spells                                                                                 ***/
@@ -58,6 +59,8 @@ library Ethereum {
     address internal constant SPELL_FREEZE_DAI = 0xa2039bef2c5803d66E4e68F9E23a942E350b938c;
     address internal constant SPELL_PAUSE_ALL  = 0x425b0de240b4c2DC45979DB782A355D090Dc4d37;
     address internal constant SPELL_PAUSE_DAI  = 0xCacB88e39112B56278db25b423441248cfF94241;
+
+    address internal constant SPELL_REMOVE_FREEZER_MULTISIG = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
 
     /******************************************************************************************************************/
     /*** Rewards addresses                                                                                         ***/
@@ -88,21 +91,21 @@ library Ethereum {
     /*** Multisigs                                                                                                  ***/
     /******************************************************************************************************************/
 
-    // TODO: Change all of these to _MULTISIG
+    // Operational Multisigs
+    address internal constant ALM_OPS_MULTISIG                  = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant ALM_RELAYER_MULTISIG              = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant SPARK_REWARDS_MULTISIG            = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
+    address internal constant SPARKLEND_REWARDS_MULTISIG        = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
+    address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
 
-    address internal constant ALM_OPS_MULTISIG           = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
-    address internal constant SPARKLEND_FREEZER_MULTISIG = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
-    address internal constant SPARKLEND_REWARDS_MULTISIG = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
-    address internal constant SPARK_REWARDS_MULTISIG     = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
-    address internal constant SPK_COMPANY_MULTISIG       = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
-    address internal constant SPK_BRIDGING_MULTISIG      = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
-    address internal constant SPELL_REMOVE_MULTISIG      = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
+    // Custodial Multisigs
+    address internal constant SPARK_FOUNDATION_MULTISIG = 0x92e4629a4510AF5819d7D1601464C233599fF5ec;
+    address internal constant SPK_COMPANY_MULTISIG      = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
 
-    address internal constant ALM_FREEZER  = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER  = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
-    address internal constant ALM_RELAYER2 = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
-
-    address internal constant SPARK_FOUNDATION = 0x92e4629a4510AF5819d7D1601464C233599fF5ec;
+    // Emergency Multisigs
+    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
+    address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant SPARKLEND_FREEZER_MULTISIG    = 0x44efFc473e81632B12486866AA1678edbb7BEeC3;
 
     /******************************************************************************************************************/
     /*** Morpho Vaults                                                                                              ***/
