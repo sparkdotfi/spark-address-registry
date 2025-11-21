@@ -23,7 +23,7 @@ library Base {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xC0bcbb2554D4694fe7b34bB68b9DdfbB55D896BC;
+    address internal constant ALM_CONTROLLER  = 0x86036CE5d2f792367C0AA43164e688d13c5A60A8;
     address internal constant ALM_PROXY       = 0x2917956eFF0B5eaF030abDB4EF4296DF775009cA;
     address internal constant ALM_RATE_LIMITS = 0x983eC82E45C61a42FDDA7B3c43B8C767004c8A74;
 
