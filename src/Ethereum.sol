@@ -24,18 +24,20 @@ library Ethereum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xE52d643B27601D4d2BAB2052f30cf936ed413cec;
-    address internal constant ALM_PROXY       = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
-    address internal constant ALM_RATE_LIMITS = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
+    address internal constant ALM_CONTROLLER      = 0xE52d643B27601D4d2BAB2052f30cf936ed413cec;
+    address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
+    address internal constant ALM_PROXY_FREEZABLE = 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178;
+    address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
-    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
-    address internal constant SPARK_VAULT_V2_SPUSDT = 0xe2e7a17dFf93280dec073C995595155283e3C372;
-    address internal constant SPARK_VAULT_V2_SPETH  = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;
+    address internal constant SPARK_VAULT_V2_IMPL    = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
+    address internal constant SPARK_VAULT_V2_SPETH   = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;
+    address internal constant SPARK_VAULT_V2_SPPYUSD = 0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354;
+    address internal constant SPARK_VAULT_V2_SPUSDC  = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
+    address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;
 
     /******************************************************************************************************************/
     /*** SSR/DSR crosschain forwarders                                                                              ***/
