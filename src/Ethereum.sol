@@ -96,6 +96,8 @@ library Ethereum {
     // Operational Multisigs
     address internal constant ALM_OPS_MULTISIG                  = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
     address internal constant ALM_RELAYER_MULTISIG              = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant MORPHO_CURATOR_MULTISIG           = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
+    address internal constant MORPHO_GUARDIAN_MULTISIG          = 0xf5748bBeFa17505b2F7222B23ae11584932C908B;
     address internal constant SPARK_REWARDS_MULTISIG            = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPARKLEND_REWARDS_MULTISIG        = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
     address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
