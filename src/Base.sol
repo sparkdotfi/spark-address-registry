@@ -70,6 +70,9 @@ library Base {
 
     address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
+    address internal constant MORPHO_CURATOR_MULTISIG  = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
+    address internal constant MORPHO_GUARDIAN_MULTISIG = 0xf5748bBeFa17505b2F7222B23ae11584932C908B;
+
     /******************************************************************************************************************/
     /*** Morpho Vault addresses                                                                                     ***/
     /******************************************************************************************************************/
