@@ -149,6 +149,7 @@ library Ethereum {
     address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
+    address internal constant USDG   = 0xe343167631d89B6Ffc58B88d6b7fB0228795491D;
     address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address internal constant USCC   = 0x14d60E7FDC0D71d8611742720E4C50E7a974020c;
     address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
@@ -283,5 +284,11 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant SUPERSTATE_REDEMPTION = 0x4c21B7577C8FE8b0B0669165ee7C8f67fa1454Cf;
+
+    /******************************************************************************************************************/
+    /*** Arkis addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant ARKIS_VAULT = 0x38464507E02c983F20428a6E8566693fE9e422a9;
 
 }
