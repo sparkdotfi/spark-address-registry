@@ -16,30 +16,30 @@ library Avalanche {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x7566DEbC906C17338524A414343fA61BcA26A843;
-    address internal constant SPARK_RECEIVER = 0xd905be48983D405C6fD7f5a983D2351fb61C691F;
+    address internal constant SPARK_EXECUTOR = 0x7566DEbC906C17338524A414343fA61BcA26A843;  // spark-gov-relay
+    address internal constant SPARK_RECEIVER = 0xd905be48983D405C6fD7f5a983D2351fb61C691F;  // spark-gov-relay
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38;
-    address internal constant ALM_PROXY           = 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC;
-    address internal constant ALM_PROXY_FREEZABLE = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
-    address internal constant ALM_RATE_LIMITS     = 0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a;
+    address internal constant ALM_CONTROLLER      = 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38;  // spark-alm-controller
+    address internal constant ALM_PROXY           = 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC;  // spark-alm-controller
+    address internal constant ALM_PROXY_FREEZABLE = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;  // spark-alm-controller
+    address internal constant ALM_RATE_LIMITS     = 0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a;  // spark-alm-controller
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;
-    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
+    address internal constant SPARK_VAULT_V2_IMPL   = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;  // spark-vault-v2
+    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;  // spark-vault-v2
 
     /******************************************************************************************************************/
     /*** Rewards addresses                                                                                          ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_REWARDS = 0xAf76856f788519704a9411839614e144FEd52d8a;
+    address internal constant SPARK_REWARDS = 0xAf76856f788519704a9411839614e144FEd52d8a;  // spark-rewards
 
     /*******************************************************************************************************************
 

@@ -24,34 +24,34 @@ library Ethereum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0xc9ff605003A1b389980f650e1aEFA1ef25C8eE32;
-    address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
-    address internal constant ALM_PROXY_FREEZABLE = 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178;
-    address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
+    address internal constant ALM_CONTROLLER      = 0xc9ff605003A1b389980f650e1aEFA1ef25C8eE32;  // spark-alm-controller
+    address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;  // spark-alm-controller
+    address internal constant ALM_PROXY_FREEZABLE = 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178;  // spark-alm-controller
+    address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;  // spark-alm-controller
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL    = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
-    address internal constant SPARK_VAULT_V2_SPETH   = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;
-    address internal constant SPARK_VAULT_V2_SPPYUSD = 0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354;
-    address internal constant SPARK_VAULT_V2_SPUSDC  = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
-    address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;
+    address internal constant SPARK_VAULT_V2_IMPL    = 0x1b992302652A92611DCd5090D1Cb388C6377f455;  // spark-vault-v2
+    address internal constant SPARK_VAULT_V2_SPETH   = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;  // spark-vault-v2
+    address internal constant SPARK_VAULT_V2_SPPYUSD = 0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354;  // spark-vault-v2
+    address internal constant SPARK_VAULT_V2_SPUSDC  = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;  // spark-vault-v2
+    address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;  // spark-vault-v2
 
     /******************************************************************************************************************/
     /*** SSR/DSR crosschain forwarders                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
-    address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
-    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
-    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;  // xchain-dsr-oracle
+    address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;  // xchain-dsr-oracle
+    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;  // xchain-dsr-oracle
+    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;  // xchain-dsr-oracle
 
-    address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;
-    address internal constant BASE_SSR_FORWARDER        = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
-    address internal constant OPTIMISM_SSR_FORWARDER    = 0x6Ac25B8638767a3c27a65597A74792d599038724;
-    address internal constant UNICHAIN_SSR_FORWARDER    = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
+    address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;  // xchain-ssr-oracle
+    address internal constant BASE_SSR_FORWARDER        = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;  // xchain-ssr-oracle
+    address internal constant OPTIMISM_SSR_FORWARDER    = 0x6Ac25B8638767a3c27a65597A74792d599038724;  // xchain-ssr-oracle
+    address internal constant UNICHAIN_SSR_FORWARDER    = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;  // xchain-ssr-oracle
 
     /******************************************************************************************************************/
     /*** SparkLend emergency spells                                                                                 ***/
@@ -68,11 +68,11 @@ library Ethereum {
     /*** Rewards addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
-    address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;
-    address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
-    address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
-    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;  // spark-rewards
+    address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;  // spark-rewards
+    address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;  // spark-rewards
+    address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;  // spark-rewards
+    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;  // spark-rewards
 
     /******************************************************************************************************************/
     /*** Miscellaneous addresses                                                                                      */

@@ -16,39 +16,39 @@ library Arbitrum {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x65d946e533748A998B1f0E430803e39A6388f7a1;
-    address internal constant SPARK_RECEIVER = 0x212871A1C235892F86cAB30E937e18c94AEd8474;
+    address internal constant SPARK_EXECUTOR = 0x65d946e533748A998B1f0E430803e39A6388f7a1;  // spark-gov-relay
+    address internal constant SPARK_RECEIVER = 0x212871A1C235892F86cAB30E937e18c94AEd8474;  // spark-gov-relay
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba;
-    address internal constant ALM_PROXY       = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;
-    address internal constant ALM_RATE_LIMITS = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;
+    address internal constant ALM_CONTROLLER  = 0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba;  // spark-alm-controller
+    address internal constant ALM_PROXY       = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;  // spark-alm-controller
+    address internal constant ALM_RATE_LIMITS = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;  // spark-alm-controller
 
     /******************************************************************************************************************/
     /*** PSM addresses                                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant PSM3 = 0x2B05F8e1cACC6974fD79A673a341Fe1f58d27266;
+    address internal constant PSM3 = 0x2B05F8e1cACC6974fD79A673a341Fe1f58d27266;  // spark-psm
 
     /******************************************************************************************************************/
     /*** SSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant SSR_AUTH_ORACLE             = 0xEE2816c1E1eed14d444552654Ed3027abC033A36;
-    address internal constant SSR_BALANCER_RATE_PROVIDER  = 0xc0737f29b964e6fC8025F16B30f2eA4C2e2d6f22;
-    address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x84AB0c8C158A1cD0d215BE2746cCa668B79cc287;
-    address internal constant SSR_RECEIVER                = 0x567214Dc57a2385Abc4a756f523ddF0275305Cbc;
+    address internal constant SSR_AUTH_ORACLE             = 0xEE2816c1E1eed14d444552654Ed3027abC033A36;  // xchain-ssr-oracle
+    address internal constant SSR_BALANCER_RATE_PROVIDER  = 0xc0737f29b964e6fC8025F16B30f2eA4C2e2d6f22;  // xchain-ssr-oracle
+    address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x84AB0c8C158A1cD0d215BE2746cCa668B79cc287;  // xchain-ssr-oracle
+    address internal constant SSR_RECEIVER                = 0x567214Dc57a2385Abc4a756f523ddF0275305Cbc;  // xchain-ssr-oracle
 
     /******************************************************************************************************************/
     /*** DSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant DSR_AUTH_ORACLE            = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
-    address internal constant DSR_RECEIVER               = 0xcA61540eC2AC74E6954FA558B4aF836d95eCb91b;
-    address internal constant DSR_BALANCER_RATE_PROVIDER = 0x73750DbD85753074e452B2C27fB9e3B0E75Ff3B8;
+    address internal constant DSR_AUTH_ORACLE            = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;  // xchain-dsr-oracle
+    address internal constant DSR_RECEIVER               = 0xcA61540eC2AC74E6954FA558B4aF836d95eCb91b;  // xchain-dsr-oracle
+    address internal constant DSR_BALANCER_RATE_PROVIDER = 0x73750DbD85753074e452B2C27fB9e3B0E75Ff3B8;  // xchain-dsr-oracle
 
     /*******************************************************************************************************************
 
