@@ -273,12 +273,13 @@ library Ethereum {
     /*** Morpho addresses                                                                                           ***/
     /******************************************************************************************************************/
 
-    address internal constant MORPHO               = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
-    address internal constant MORPHO_DEFAULT_IRM   = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
-    address internal constant MORPHO_FACTORY       = 0x1897A8997241C1cD4bD0698647e4EB7213535c24;
-    address internal constant MORPHO_SUSDE_ORACLE  = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
-    address internal constant MORPHO_TOKEN         = 0x58D97B57BB95320F9a05dC918Aef65434969c2B2;
-    address internal constant MORPHO_USDE_ORACLE   = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
+    address internal constant MORPHO                  = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
+    address internal constant MORPHO_DEFAULT_IRM      = 0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC;
+    address internal constant MORPHO_FACTORY          = 0x1897A8997241C1cD4bD0698647e4EB7213535c24;
+    address internal constant MORPHO_SUSDE_ORACLE     = 0x5D916980D5Ae1737a8330Bf24dF812b2911Aae25;
+    address internal constant MORPHO_TOKEN            = 0x58D97B57BB95320F9a05dC918Aef65434969c2B2;
+    address internal constant MORPHO_USDE_ORACLE      = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
+    address internal constant MORPHO_VAULT_V2_FACTORY = 0xA1D94F746dEfa1928926b84fB2596c06926C0405;
 
     /******************************************************************************************************************/
     /*** Superstate addresses                                                                                       ***/
