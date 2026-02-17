@@ -103,8 +103,10 @@ library Ethereum {
     address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
 
     // Custodial Multisigs
-    address internal constant SPARK_FOUNDATION_MULTISIG = 0x92e4629a4510AF5819d7D1601464C233599fF5ec;
-    address internal constant SPK_COMPANY_MULTISIG      = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
+    address internal constant SPARK_FOUNDATION_MULTISIG         = 0x92e4629a4510AF5819d7D1601464C233599fF5ec;
+    address internal constant SPARK_LONG_TERM_TREASURY_MULTISIG = 0x46dce51a3f4cbEa91F3A1BBD48Ca5079397d5847;
+    address internal constant SPARK_MID_TERM_TREASURY_MULTISIG  = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
+    address internal constant SPK_COMPANY_MULTISIG              = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
 
     // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
