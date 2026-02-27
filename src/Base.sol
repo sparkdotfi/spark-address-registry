@@ -103,7 +103,7 @@ library Base {
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0x1682Ae6375C4E4A97e4B583BC394c861A46D8962;
+    address internal constant CCTP_TOKEN_MESSENGER = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
     address internal constant SKY_GOV_RELAY = 0xdD0BCc201C9E47c6F6eE68E4dB05b652Bb6aC255;
     address internal constant TOKEN_BRIDGE  = 0xee44cdb68D618d58F75d9fe0818B640BD7B8A7B7;

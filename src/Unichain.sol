@@ -72,7 +72,7 @@ library Unichain {
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0x4e744b28E787c3aD0e810eD65A24461D4ac5a762;
+    address internal constant CCTP_TOKEN_MESSENGER = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
     address internal constant SKY_GOV_RELAY        = 0x3510a7F16F549EcD0Ef018DE0B3c2ad7c742990f;
     address internal constant TOKEN_BRIDGE         = 0xa13152006D0216Fe4627a0D3B006087A6a55D752;
 

@@ -91,7 +91,7 @@ library Arbitrum {
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0x19330d10D9Cc8751218eaf51E8885D058642E08A;
+    address internal constant CCTP_TOKEN_MESSENGER = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
     address internal constant SKY_GOV_RELAY = 0x10E6593CDda8c58a1d0f14C5164B376352a55f2F;
     address internal constant TOKEN_BRIDGE  = 0x13F7F24CA959359a4D710D32c715D4bce273C793;

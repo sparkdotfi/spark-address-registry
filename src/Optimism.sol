@@ -97,7 +97,7 @@ library Optimism {
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0x2B4069517957735bE00ceE0fadAE88a26365528f;
+    address internal constant CCTP_TOKEN_MESSENGER = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
     address internal constant SKY_GOV_RELAY = 0x10E6593CDda8c58a1d0f14C5164B376352a55f2F;
     address internal constant TOKEN_BRIDGE  = 0x8F41DBF6b8498561Ce1d73AF16CD9C0d8eE20ba6;
