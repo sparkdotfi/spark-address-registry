@@ -189,7 +189,7 @@ library Ethereum {
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
 
-    address internal constant CCTP_TOKEN_MESSENGER = 0xBd3fa81B58Ba92a82136038B25aDec7066af3155;
+    address internal constant CCTP_TOKEN_MESSENGER = 0x28b5a0e9C621a5BadaA536219b3a228C8168cf5d;
 
     address internal constant ARBITRUM_ESCROW        = 0xA10c7CE4b876998858b1a9E12b10092229539400;
     address internal constant ARBITRUM_SKY_GOV_RELAY = 0x9ba25c289e351779E0D481Ba37489317c34A899d;
