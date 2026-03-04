@@ -120,6 +120,7 @@ library Ethereum {
     address internal constant MORPHO_VAULT_USDC_BC = 0x56A76b428244a50513ec81e225a293d128fd581D;
     address internal constant MORPHO_VAULT_DAI_1   = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
     address internal constant MORPHO_VAULT_USDS    = 0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597;
+    address internal constant MORPHO_VAULT_V2_USDT = 0xc7CDcFDEfC64631ED6799C95e3b110cd42F2bD22;
 
     /*******************************************************************************************************************
 
