@@ -24,7 +24,7 @@ library Ethereum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0xc9ff605003A1b389980f650e1aEFA1ef25C8eE32;
+    address internal constant ALM_CONTROLLER      = 0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3;
     address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
     address internal constant ALM_PROXY_FREEZABLE = 0x9Ad87668d49ab69EEa0AF091de970EF52b0D5178;
     address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
