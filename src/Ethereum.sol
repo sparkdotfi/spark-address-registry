@@ -95,6 +95,7 @@ library Ethereum {
 
     // Operational Multisigs
     address internal constant ALM_OPS_MULTISIG                  = 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC;
+    address internal constant ALM_OPS_MULTISIG_2                = 0x797B010E0BABb493b8DEDD6F6ce5cc72778C2BF3;
     address internal constant ALM_RELAYER_MULTISIG              = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
     address internal constant MORPHO_CURATOR_MULTISIG           = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
     address internal constant MORPHO_GUARDIAN_MULTISIG          = 0xf5748bBeFa17505b2F7222B23ae11584932C908B;
@@ -103,6 +104,7 @@ library Ethereum {
     address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
 
     // Custodial Multisigs
+    address internal constant SPARK_ASSET_FOUNDATION_MULTISIG   = 0xEabCb8C0346Ac072437362f1692706BA5768A911;
     address internal constant SPARK_FOUNDATION_MULTISIG         = 0x92e4629a4510AF5819d7D1601464C233599fF5ec;
     address internal constant SPARK_LONG_TERM_TREASURY_MULTISIG = 0x46dce51a3f4cbEa91F3A1BBD48Ca5079397d5847;
     address internal constant SPARK_MID_TERM_TREASURY_MULTISIG  = 0x089693eD9d9a5AC907Bd1a1565867646FFaabCd6;
@@ -150,6 +152,7 @@ library Ethereum {
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
     address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
     address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
+    address internal constant USAT   = 0x07041776f5007ACa2A54844F50503a18A72A8b68;
     address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
     address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
     address internal constant USDG   = 0xe343167631d89B6Ffc58B88d6b7fB0228795491D;
