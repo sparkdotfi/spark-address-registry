@@ -25,7 +25,7 @@ library Avalanche {
 
     address internal constant ALM_CONTROLLER      = 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38;
     address internal constant ALM_PROXY           = 0xecE6B0E8a54c2f44e066fBb9234e7157B15b7FeC;
-    address internal constant ALM_PROXY_FREEZABLE = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
+    address internal constant ALM_PROXY_FREEZABLE = 0x93c81ADc7F98FdBC8C7a15eCBeD312c8F6adbcB3;
     address internal constant ALM_RATE_LIMITS     = 0xb79972e8B21f0dE911E65AC342ac85ad38C9A77a;
 
     /******************************************************************************************************************/
