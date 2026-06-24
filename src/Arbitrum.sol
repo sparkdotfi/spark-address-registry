@@ -23,9 +23,10 @@ library Arbitrum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba;
-    address internal constant ALM_PROXY       = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;
-    address internal constant ALM_RATE_LIMITS = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;
+    address internal constant ALM_CONTROLLER      = 0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba;
+    address internal constant ALM_PROXY           = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;
+    address internal constant ALM_PROXY_FREEZABLE = 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38;
+    address internal constant ALM_RATE_LIMITS     = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;
 
     /******************************************************************************************************************/
     /*** PSM addresses                                                                                              ***/
@@ -49,6 +50,13 @@ library Arbitrum {
     address internal constant DSR_AUTH_ORACLE            = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
     address internal constant DSR_RECEIVER               = 0xcA61540eC2AC74E6954FA558B4aF836d95eCb91b;
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0x73750DbD85753074e452B2C27fB9e3B0E75Ff3B8;
+
+    /******************************************************************************************************************/
+    /*** Spark Vault V2 addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_VAULT_V2_IMPL   = 0x282dAfE8B97e2Db5053761a4601ab2E1CB976318;
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
 
     /*******************************************************************************************************************
 
