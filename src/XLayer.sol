@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 pragma solidity >=0.8.0;
 
-library Robinhood {
+library XLayer {
 
     /*******************************************************************************************************************
 
@@ -16,23 +16,24 @@ library Robinhood {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x826AEaeee9233fA8Ba199518dd8621A5962b1D02;
-    address internal constant SPARK_RECEIVER = 0xc12B1e59c5E337d5Acd2b4f0A9a27d9E5D7387E8;
+    address internal constant SPARK_EXECUTOR = 0xCF5af6F53ceC74B791cb4182aC778ca9CD323510;
+    address internal constant SPARK_RECEIVER = 0x4bd50B9c00Ae19e8B59723F27645C7A5cCe7a4A0;
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E;
-    address internal constant ALM_PROXY       = 0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24;
-    address internal constant ALM_RATE_LIMITS = 0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0;
+    address internal constant ALM_CONTROLLER      = 0xf9187C99Ee842beABE8e2e346d958315BFc9331f;
+    address internal constant ALM_PROXY           = 0x83A914C361bB729EB6BEBC8C7bA993667A0E6Df8;
+    address internal constant ALM_PROXY_FREEZABLE = 0x9449ed367C60ea757544fd990B57e1C2D0Ec3A94;
+    address internal constant ALM_RATE_LIMITS     = 0x7F7E2286983994c4403Cf2B86758cE0e7bA666a8;
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0x797c58C9779D46a437D8f57908D6d56371A55F02;
-    address internal constant SPARK_VAULT_V2_SPUSDG = 0xde770c84FE66E063336b31737cFE9790f18c4087;
+    address internal constant SPARK_VAULT_V2_IMPL   = 0xdCe929A335C75a1676EF5957A4D7a3b928C48820;
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0xc358c90D32375721Cb3924320Fdc2F8B694347Ca;
 
     /*******************************************************************************************************************
 
@@ -47,11 +48,9 @@ library Robinhood {
     /*** Multisig addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
-    address internal constant ALM_FREEZER_MULTISIG_1        = 0x59C85fe4385403e93877e48e5521f2F02B150359;
-    address internal constant ALM_FREEZER_MULTISIG_2        = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER_MULTISIG_1        = 0x59C85fe4385403e93877e48e5521f2F02B150359;
-    address internal constant ALM_RELAYER_MULTISIG_2        = 0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18;
+    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5;
+    address internal constant ALM_FREEZER_MULTISIG_1        = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant ALM_RELAYER_MULTISIG_1        = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
 
     /*******************************************************************************************************************
 
@@ -66,6 +65,6 @@ library Robinhood {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant USDG = 0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168;
+    address internal constant USDT0 = 0x779Ded0c9e1022225f8E0630b35a9b54bE713736;
 
 }
