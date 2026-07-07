@@ -293,6 +293,10 @@ library Ethereum {
     address internal constant MORPHO_TOKEN         = 0x58D97B57BB95320F9a05dC918Aef65434969c2B2;
     address internal constant MORPHO_USDE_ORACLE   = 0xaE4750d0813B5E37A51f7629beedd72AF1f9cA35;
 
+    address internal constant MORPHO_VAULT_V2_FACTORY             = 0xA1D94F746dEfa1928926b84fB2596c06926C0405;
+    address internal constant MORPHO_MARKET_V1_ADAPTER_V2_FACTORY = 0x32BB1c0D48D8b1B3363e86eeB9A0300BAd61ccc1;
+    address internal constant MORPHO_VAULT_V2_ADAPTER_REGISTRY    = 0x3696c5eAe4a7Ffd04Ea163564571E9CD8Ed9364e;
+
     /******************************************************************************************************************/
     /*** Superstate addresses                                                                                       ***/
     /******************************************************************************************************************/
