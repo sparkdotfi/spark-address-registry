@@ -48,10 +48,8 @@ library Robinhood {
     /******************************************************************************************************************/
 
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
-    address internal constant ALM_FREEZER_MULTISIG_1        = 0x59C85fe4385403e93877e48e5521f2F02B150359;
-    address internal constant ALM_FREEZER_MULTISIG_2        = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER_MULTISIG_1        = 0x59C85fe4385403e93877e48e5521f2F02B150359;
-    address internal constant ALM_RELAYER_MULTISIG_2        = 0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18;
+    address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant ALM_RELAYER_MULTISIG          = 0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18;
 
     /******************************************************************************************************************/
     /*** Token addresses                                                                                            ***/
