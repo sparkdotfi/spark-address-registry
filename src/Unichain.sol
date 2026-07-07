@@ -46,7 +46,8 @@ library Unichain {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC = 0x14d9143BEcC348920b68D123687045db49a016C6;
+    address internal constant SUSDC      = 0x14d9143BEcC348920b68D123687045db49a016C6;
+    address internal constant SUSDC_IMPL = 0x1fcc6BdFb541580D39E57d0531Ab0F68d0914C79;
 
     /*******************************************************************************************************************
 

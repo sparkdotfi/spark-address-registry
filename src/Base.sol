@@ -55,7 +55,8 @@ library Base {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
+    address internal constant SUSDC      = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
+    address internal constant SUSDC_IMPL = 0x6ACC02ddd82206a44ff4EC13977E63d1a29C7723;
 
     /*******************************************************************************************************************
 

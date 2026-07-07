@@ -54,7 +54,8 @@ library Optimism {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
+    address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
+    address internal constant SUSDC_IMPL = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;
 
     /*******************************************************************************************************************
 
