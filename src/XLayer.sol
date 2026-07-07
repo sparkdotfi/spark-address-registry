@@ -49,8 +49,8 @@ library XLayer {
     /******************************************************************************************************************/
 
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5;
-    address internal constant ALM_FREEZER_MULTISIG_1        = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER_MULTISIG_1        = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
 
     /*******************************************************************************************************************
 
