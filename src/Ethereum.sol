@@ -71,21 +71,23 @@ library Ethereum {
     address internal constant SPELL_REMOVE_FREEZER_MULTISIG = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
 
     /******************************************************************************************************************/
+    /*** Token addresses                                                                                            ***/
+    /******************************************************************************************************************/
+
+    address internal constant SUSDC = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
+
+    /******************************************************************************************************************/
     /*** Rewards addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant COOKIE3_REWARDS  = 0x9107F5f940226A9f21433F373A4f938228d20e1A;
-    address internal constant IGNITION_REWARDS = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;
-    address internal constant PFL3_REWARDS     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;
-    address internal constant POINTS_REWARDS   = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
-    address internal constant SPARK_REWARDS    = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant POINTS_REWARDS = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
+    address internal constant SPARK_REWARDS  = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
 
     /******************************************************************************************************************/
     /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
-    address internal constant DSS_VEST                  = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
-    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0x52d298Ff9e77E71C2EB1992260520E7b15257d99;
+    address internal constant DSS_VEST = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
 
     /*******************************************************************************************************************
 
@@ -155,7 +157,6 @@ library Ethereum {
     address internal constant RSETH  = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
     address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
     address internal constant SKY    = 0x56072C95FAA701256059aa122697B133aDEd9279;
-    address internal constant SUSDC  = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
     address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
     address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
     address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
