@@ -23,9 +23,10 @@ library Robinhood {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E;
-    address internal constant ALM_PROXY       = 0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24;
-    address internal constant ALM_RATE_LIMITS = 0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0;
+    address internal constant ALM_CONTROLLER      = 0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E;
+    address internal constant ALM_PROXY           = 0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24;
+    address internal constant ALM_PROXY_FREEZABLE = 0xAEa9f5dE56e6C20383a1fcC2C3629Dca0A92cE41;
+    address internal constant ALM_RATE_LIMITS     = 0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0;
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
