@@ -47,8 +47,8 @@ library Robinhood {
     /*** Multisig addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
-    address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x52CC27896e641Cbe88F0aD36480839961A47CdF8;
+    address internal constant ALM_FREEZER_MULTISIG          = 0x2d5Aa449FB8C5646C81BC3C1D2034c2d37F17099;
     address internal constant ALM_RELAYER_MULTISIG          = 0x0ca8f938Aba2214eA11eb451e795A8ef7B720C18;
 
     /*******************************************************************************************************************
