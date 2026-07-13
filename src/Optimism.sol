@@ -51,7 +51,7 @@ library Optimism {
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0x15ACEE5F73b36762Ab1a6b7C98787b8148447898;
 
     /******************************************************************************************************************/
-    /*** Token addresses                                                                                            ***/
+    /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
     address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;

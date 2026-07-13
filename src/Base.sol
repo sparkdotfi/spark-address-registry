@@ -52,7 +52,7 @@ library Base {
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0xeC0C14Ea7fF20F104496d960FDEBF5a0a0cC14D0;
 
     /******************************************************************************************************************/
-    /*** Token addresses                                                                                            ***/
+    /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
     address internal constant SUSDC      = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;

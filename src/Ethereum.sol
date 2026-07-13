@@ -71,7 +71,7 @@ library Ethereum {
     address internal constant SPELL_REMOVE_FREEZER_MULTISIG = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
 
     /******************************************************************************************************************/
-    /*** Token addresses                                                                                            ***/
+    /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
     address internal constant SUSDC      = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
