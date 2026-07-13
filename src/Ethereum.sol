@@ -88,7 +88,8 @@ library Ethereum {
     /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
-    address internal constant DSS_VEST = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
+    address internal constant DSS_VEST                  = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
+    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0xd0A61F2963622e992e6534bde4D52fd0a89F39E0;
 
     /*******************************************************************************************************************
 
