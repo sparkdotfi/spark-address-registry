@@ -16,23 +16,23 @@ library XLayer {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0xCF5af6F53ceC74B791cb4182aC778ca9CD323510;
-    address internal constant SPARK_RECEIVER = 0x4bd50B9c00Ae19e8B59723F27645C7A5cCe7a4A0;
+    address internal constant SPARK_EXECUTOR = 0xCF5af6F53ceC74B791cb4182aC778ca9CD323510;  // spark-gov-relay/Executor.sol@5c16676 (v1.0.1)
+    address internal constant SPARK_RECEIVER = 0x4bd50B9c00Ae19e8B59723F27645C7A5cCe7a4A0;  // xchain-helpers/OptimismReceiver.sol@1e362bf (v1.2.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0xf9187C99Ee842beABE8e2e346d958315BFc9331f;
-    address internal constant ALM_PROXY           = 0x83A914C361bB729EB6BEBC8C7bA993667A0E6Df8;
-    address internal constant ALM_PROXY_FREEZABLE = 0x9449ed367C60ea757544fd990B57e1C2D0Ec3A94;
-    address internal constant ALM_RATE_LIMITS     = 0x7F7E2286983994c4403Cf2B86758cE0e7bA666a8;
+    address internal constant ALM_CONTROLLER      = 0xf9187C99Ee842beABE8e2e346d958315BFc9331f;  // spark-alm-controller/ForeignController.sol@984ec54 (v1.10.0)
+    address internal constant ALM_PROXY           = 0x83A914C361bB729EB6BEBC8C7bA993667A0E6Df8;  // spark-alm-controller/ALMProxy.sol@984ec54 (v1.10.0)
+    address internal constant ALM_PROXY_FREEZABLE = 0x9449ed367C60ea757544fd990B57e1C2D0Ec3A94;  // diamond-pau/ALMProxyFreezable.sol@a84fe96 (v1.12.0)
+    address internal constant ALM_RATE_LIMITS     = 0x7F7E2286983994c4403Cf2B86758cE0e7bA666a8;  // spark-alm-controller/RateLimits.sol@984ec54 (v1.10.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0xdCe929A335C75a1676EF5957A4D7a3b928C48820;
+    address internal constant SPARK_VAULT_V2_IMPL   = 0xdCe929A335C75a1676EF5957A4D7a3b928C48820;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
     address internal constant SPARK_VAULT_V2_SPUSDT = 0xc358c90D32375721Cb3924320Fdc2F8B694347Ca;
 
     /*******************************************************************************************************************
