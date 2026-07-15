@@ -33,7 +33,7 @@ library Avalanche {
     /******************************************************************************************************************/
 
     address internal constant SPARK_VAULT_V2_IMPL   = 0xC2C0582D1cCe30449cF561C7b9C4D6d527547F12;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
-    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
+    address internal constant SPARK_VAULT_V2_SPUSDC = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
     /*** Rewards addresses                                                                                          ***/

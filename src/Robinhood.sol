@@ -33,7 +33,7 @@ library Robinhood {
     /******************************************************************************************************************/
 
     address internal constant SPARK_VAULT_V2_IMPL   = 0x797c58C9779D46a437D8f57908D6d56371A55F02;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
-    address internal constant SPARK_VAULT_V2_SPUSDG = 0xde770c84FE66E063336b31737cFE9790f18c4087;
+    address internal constant SPARK_VAULT_V2_SPUSDG = 0xde770c84FE66E063336b31737cFE9790f18c4087;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /*******************************************************************************************************************
 

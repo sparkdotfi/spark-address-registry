@@ -33,7 +33,7 @@ library XLayer {
     /******************************************************************************************************************/
 
     address internal constant SPARK_VAULT_V2_IMPL   = 0xdCe929A335C75a1676EF5957A4D7a3b928C48820;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
-    address internal constant SPARK_VAULT_V2_SPUSDT = 0xc358c90D32375721Cb3924320Fdc2F8B694347Ca;
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0xc358c90D32375721Cb3924320Fdc2F8B694347Ca;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /*******************************************************************************************************************
 

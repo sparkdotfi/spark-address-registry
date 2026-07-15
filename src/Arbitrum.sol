@@ -56,7 +56,7 @@ library Arbitrum {
     /******************************************************************************************************************/
 
     address internal constant SPARK_VAULT_V2_IMPL   = 0x282dAfE8B97e2Db5053761a4601ab2E1CB976318;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
-    address internal constant SPARK_VAULT_V2_SPUSDT = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /*******************************************************************************************************************
 
