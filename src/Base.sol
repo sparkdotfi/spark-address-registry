@@ -51,6 +51,13 @@ library Base {
     address internal constant DSR_RECEIVER               = 0xaDEAf02Ddb5Bed574045050B8096307bE66E0676;  // xchain-ssr-oracle/DSROracleReceiverOptimism.sol@463e012 (v1.0.0-beta.2)
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0xeC0C14Ea7fF20F104496d960FDEBF5a0a0cC14D0;  // xchain-ssr-oracle/DSRBalancerRateProviderAdapter.sol@463e012 (v1.0.0-beta.2)
 
+    /******************************************************************************************************************/
+    /*** Spark Vault V1 addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SUSDC      = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
+    address internal constant SUSDC_IMPL = 0x6ACC02ddd82206a44ff4EC13977E63d1a29C7723;
+
     /*******************************************************************************************************************
 
     ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗
@@ -94,7 +101,6 @@ library Base {
 
     address internal constant CBBTC = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
     address internal constant SKY   = 0x60e3c701e65DEE30c23c9Fb78c3866479cc0944a;
-    address internal constant SUSDC = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
     address internal constant SUSDS = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
     address internal constant USDC  = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
     address internal constant USDS  = 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc;

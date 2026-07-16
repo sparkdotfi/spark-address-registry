@@ -58,6 +58,13 @@ library Arbitrum {
     address internal constant SPARK_VAULT_V2_IMPL   = 0x282dAfE8B97e2Db5053761a4601ab2E1CB976318;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
     address internal constant SPARK_VAULT_V2_SPUSDT = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
+    /******************************************************************************************************************/
+    /*** Spark Vault V1 addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SUSDC      = 0x940098b108fB7D0a7E374f6eDED7760787464609;
+    address internal constant SUSDC_IMPL = 0xdC8DF20bE448E41FdE88E2478d6Bc4d3C9A092d6;
+
     /*******************************************************************************************************************
 
     ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗
@@ -90,7 +97,6 @@ library Arbitrum {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC = 0x940098b108fB7D0a7E374f6eDED7760787464609;
     address internal constant SUSDS = 0xdDb46999F8891663a8F2828d25298f70416d7610;
     address internal constant USDC  = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
     address internal constant USDS  = 0x6491c05A82219b8D1479057361ff1654749b876b;

@@ -121,12 +121,12 @@ library SparkLend {
     /*** Library addresses                                                                                          ***/
     /******************************************************************************************************************/
 
-    address internal constant BORROW_LOGIC      = 0x4662C88C542F0954F8CccCDE4542eEc32d7E7e9a;
-    address internal constant BRIDGE_LOGIC      = 0x2C54924711E479E639032704146b865E12f0C6D1;
-    address internal constant EMODE_LOGIC       = 0x2Ad00613A66D71Ff2B0607fB3C4632C47a50DADe;
-    address internal constant FLASH_LOAN_LOGIC  = 0x7f44e1c1dE70059D7cc483378BEFeE2a030CE247;
-    address internal constant LIQUIDATION_LOGIC = 0x6aEa92693C527bC2c7B3171C6f2598d67d619088;
-    address internal constant POOL_LOGIC        = 0x1761a0f74032963B6Ad0774C5EBF4586c0bD7604;
-    address internal constant SUPPLY_LOGIC      = 0x46256841e36b7557BB8e4c706beD38b17A9EB2c1;
+    address internal constant BORROW_LOGIC      = 0x68fB4530e156ED17cB849D19102892B7AF8cbeef;
+    address internal constant BRIDGE_LOGIC      = 0x813C6C11ac19e7E8aA4148d5C6EDF31a4a160867;
+    address internal constant EMODE_LOGIC       = 0xC814B56BAaeE8574C169Cc0226C97466dab68c95;
+    address internal constant FLASH_LOAN_LOGIC  = 0xCC3037F5aef5831730A9AcB1739D0562117314C0;
+    address internal constant LIQUIDATION_LOGIC = 0xC0816EFC31779C697B18B3B68f1DfBeDe313e1fA;
+    address internal constant POOL_LOGIC        = 0xD072fF8184E873a938cb15B20f2Ad5Cc1a02D8bf;
+    address internal constant SUPPLY_LOGIC      = 0x4c83d30CE4D0f92A867C2006B33d9b102D29F707;
 
 }

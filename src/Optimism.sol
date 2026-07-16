@@ -50,6 +50,13 @@ library Optimism {
     address internal constant DSR_RECEIVER               = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;  // xchain-ssr-oracle/DSROracleReceiverOptimism.sol@463e012 (v1.0.0-beta.2)
     address internal constant DSR_BALANCER_RATE_PROVIDER = 0x15ACEE5F73b36762Ab1a6b7C98787b8148447898;  // xchain-ssr-oracle/DSRBalancerRateProviderAdapter.sol@463e012 (v1.0.0-beta.2)
 
+    /******************************************************************************************************************/
+    /*** Spark Vault V1 addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
+    address internal constant SUSDC_IMPL = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;
+
     /*******************************************************************************************************************
 
     ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗
@@ -88,7 +95,6 @@ library Optimism {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
     address internal constant SUSDS = 0xb5B2dc7fd34C249F4be7fB1fCea07950784229e0;
     address internal constant USDC  = 0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85;
     address internal constant USDS  = 0x4F13a96EC5C4Cf34e442b46Bbd98a0791F20edC3;
