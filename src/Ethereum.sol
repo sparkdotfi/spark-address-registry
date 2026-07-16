@@ -21,6 +21,14 @@ library Ethereum {
     address internal constant STSPK       = 0xc6132FAF04627c8d05d6E759FAbB331Ef2D8F8fD;
 
     /******************************************************************************************************************/
+    /*** Spark SPK Crosschain addresses                                                                             ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPK_LZ_OFT_ADAPTER             = 0xAfF2e841851700D1Fc101995Ee6b81Ae21Bb87D7;
+    address internal constant SPK_HYP_COLLATERAL             = 0x197729F9D1a8EAdcd548b4E1A02f9ebdd2b46404;
+    address internal constant SPK_HYP_COLLATERAL_PROXY_ADMIN = 0x6Da4f21dF552e8Aa5996611Cb3ca0EFf7135DaFb;
+
+    /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
