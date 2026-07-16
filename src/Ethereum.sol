@@ -50,8 +50,8 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;  // xchain-ssr-oracle/DSROracleForwarderArbitrumOne.sol@a02e592 (v1.0.0)
-    address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;  // xchain-ssr-oracle/DSROracleForwarderBase.sol@463e012 (v1.0.0-beta.2)
-    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;  // xchain-ssr-oracle/DSROracleForwarderOptimism.sol@463e012 (v1.0.0-beta.2)
+    address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;  // xchain-ssr-oracle/DSROracleForwarderBase.sol@463e012 (v1.0.0-beta.2, audited: ChainSecurity/SparkDAO 2024-07-24)
+    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;  // xchain-ssr-oracle/DSROracleForwarderOptimism.sol@463e012 (v1.0.0-beta.2, audited: ChainSecurity/SparkDAO 2024-07-24)
     address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;  // xchain-ssr-oracle/DSROracleForwarderWorldChain.sol@ac0c70e (untagged)
 
     address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;  // xchain-ssr-oracle/SSROracleForwarderArbitrum.sol@466595d (v1.2.1)
