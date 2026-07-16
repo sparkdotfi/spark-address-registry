@@ -62,8 +62,8 @@ library Arbitrum {
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0x940098b108fB7D0a7E374f6eDED7760787464609;
-    address internal constant SUSDC_IMPL = 0xdC8DF20bE448E41FdE88E2478d6Bc4d3C9A092d6;
+    address internal constant SUSDC      = 0x940098b108fB7D0a7E374f6eDED7760787464609;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0xdC8DF20bE448E41FdE88E2478d6Bc4d3C9A092d6;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
     /*******************************************************************************************************************
 

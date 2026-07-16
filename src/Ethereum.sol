@@ -74,8 +74,8 @@ library Ethereum {
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
-    address internal constant SUSDC_IMPL = 0xf943Cb8D5f06f2bBF352878ebEF3Ec5C537A20bA;
+    address internal constant SUSDC      = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0xf943Cb8D5f06f2bBF352878ebEF3Ec5C537A20bA;  // spark-vaults/UsdcVault.sol@78d37c8
 
     /******************************************************************************************************************/
     /*** Rewards addresses                                                                                         ***/

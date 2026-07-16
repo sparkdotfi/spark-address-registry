@@ -54,8 +54,8 @@ library Optimism {
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
-    address internal constant SUSDC_IMPL = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;
+    address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
     /*******************************************************************************************************************
 

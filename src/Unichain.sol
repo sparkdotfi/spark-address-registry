@@ -46,8 +46,8 @@ library Unichain {
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0x14d9143BEcC348920b68D123687045db49a016C6;
-    address internal constant SUSDC_IMPL = 0x1fcc6BdFb541580D39E57d0531Ab0F68d0914C79;
+    address internal constant SUSDC      = 0x14d9143BEcC348920b68D123687045db49a016C6;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0x1fcc6BdFb541580D39E57d0531Ab0F68d0914C79;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
     /*******************************************************************************************************************
 

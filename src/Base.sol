@@ -55,8 +55,8 @@ library Base {
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;
-    address internal constant SUSDC_IMPL = 0x6ACC02ddd82206a44ff4EC13977E63d1a29C7723;
+    address internal constant SUSDC      = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0x6ACC02ddd82206a44ff4EC13977E63d1a29C7723;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
     /*******************************************************************************************************************
 
