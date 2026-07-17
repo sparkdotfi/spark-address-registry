@@ -199,6 +199,8 @@ library Ethereum {
     address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
     address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
 
+    address internal constant USDS_PSM_WRAPPER = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
+
     /******************************************************************************************************************/
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
