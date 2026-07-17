@@ -176,7 +176,7 @@ library Ethereum {
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
 
     /******************************************************************************************************************/
-    /*** Sky addresses                                                                                               ***/
+    /*** Sky addresses                                                                                              ***/
     /******************************************************************************************************************/
 
     address internal constant CHIEF       = 0x929d9A1435662357F54AdcF64DcEE4d6b867a6f9;
@@ -222,6 +222,15 @@ library Ethereum {
     address internal constant UNICHAIN_ESCROW        = 0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A;
     address internal constant UNICHAIN_SKY_GOV_RELAY = 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7;
     address internal constant UNICHAIN_TOKEN_BRIDGE  = 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2;
+
+    /******************************************************************************************************************/
+    /*** L1 Native Bridge addresses                                                                                 ***/
+    /******************************************************************************************************************/
+
+    address internal constant ARBITRUM_INBOX                     = 0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f;  // Delayed Inbox
+    address internal constant BASE_L1_CROSS_DOMAIN_MESSENGER     = 0x866E82a600A1414e583f7F13623F1aC5d58b0Afa;
+    address internal constant OPTIMISM_L1_CROSS_DOMAIN_MESSENGER = 0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1;
+    address internal constant UNICHAIN_L1_CROSS_DOMAIN_MESSENGER = 0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6;
 
     /******************************************************************************************************************/
     /*** Aave addresses                                                                                             ***/
