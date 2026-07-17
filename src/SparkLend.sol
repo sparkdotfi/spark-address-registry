@@ -88,6 +88,17 @@ library SparkLend {
     address internal constant SSR_RATE_SOURCE    = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973;
 
     /******************************************************************************************************************/
+    /*** Kill switch oracle addresses                                                                               ***/
+    /******************************************************************************************************************/
+
+    address internal constant CBBTC_BTC_RATIO_ORACLE    = 0x64B157212C21097002920D57322B671b88DFcCBC; // sparklend-advanced/CBBTCRatioOracle@e2ba58d (v1.6.0)
+    address internal constant LBTC_BTC_ORACLE           = 0x5c29868C58b6e15e2b962943278969Ab6a7D3212; // chainlink/EACAggregatorProxy@8133319 (v0.9.8)
+    address internal constant RETH_ETH_RATIO_ORACLE     = 0xd0B378dA552D06B6D3497e4b5ba2A83418f78d06; // sparklend-advanced/RETHRatioOracle@e2ba58d (v1.6.0)
+    address internal constant STETH_ETH_ORACLE          = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812; // chainlink/EACAggregatorProxy@8133319 (v0.9.8)
+    address internal constant WEETH_ETH_RATIO_ORACLE    = 0x4C805FD3c64B79840d36813Fc90c165bf77bb7E4; // sparklend-advanced/WEETHRatioOracle@e2ba58d (v1.6.0)
+    address internal constant WBTC_BTC_CHAINLINK_ORACLE = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23; // chainlink/EACAggregatorProxy@8133319 (v0.9.8)
+
+    /******************************************************************************************************************/
     /*** Implementation addresses                                                                                   ***/
     /******************************************************************************************************************/
 
