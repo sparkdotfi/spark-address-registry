@@ -16,46 +16,46 @@ library Optimism {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x205216D89a00FeB2a73273ceecD297BAf89d576d;
-    address internal constant SPARK_RECEIVER = 0x61Baf0Ce69D23C8318c786e161D1cAc285AA4EA3;
+    address internal constant SPARK_EXECUTOR = 0x205216D89a00FeB2a73273ceecD297BAf89d576d;  // spark-gov-relay/Executor.sol@5c16676 (v1.0.1)
+    address internal constant SPARK_RECEIVER = 0x61Baf0Ce69D23C8318c786e161D1cAc285AA4EA3;  // xchain-helpers/OptimismReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER  = 0x689502bc817E6374286af8f171Ed4715721406f7;
-    address internal constant ALM_PROXY       = 0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB;
-    address internal constant ALM_RATE_LIMITS = 0x6B34A6B84444dC3Fc692821D5d077a1e4927342d;
+    address internal constant ALM_CONTROLLER  = 0x689502bc817E6374286af8f171Ed4715721406f7;  // spark-alm-controller/ForeignController.sol@7be9593 (v1.8.0)
+    address internal constant ALM_PROXY       = 0x876664f0c9Ff24D1aa355Ce9f1680AE1A5bf36fB;  // spark-alm-controller/ALMProxy.sol@b618c3f (v1.4.0)
+    address internal constant ALM_RATE_LIMITS = 0x6B34A6B84444dC3Fc692821D5d077a1e4927342d;  // spark-alm-controller/RateLimits.sol@b618c3f (v1.4.0)
 
     /******************************************************************************************************************/
     /*** PSM addresses                                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant PSM3 = 0xe0F9978b907853F354d79188A3dEfbD41978af62;
+    address internal constant PSM3 = 0xe0F9978b907853F354d79188A3dEfbD41978af62;  // spark-psm/PSM3.sol@6a5a579 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** SSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant SSR_AUTH_ORACLE             = 0x6E53585449142A5E6D5fC918AE6BEa341dC81C68;
-    address internal constant SSR_BALANCER_RATE_PROVIDER  = 0xe1e4953C93Da52b95eDD0ffd910565D3369aCd6b;
-    address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x8e3b08e65cC59d293932F5e9aF3186970087a529;
-    address internal constant SSR_RECEIVER                = 0xE2868095814c2714039b3A9eBEE035B9E2c411E5;
+    address internal constant SSR_AUTH_ORACLE             = 0x6E53585449142A5E6D5fC918AE6BEa341dC81C68;  // xchain-ssr-oracle/SSRAuthOracle.sol@466595d (v1.2.1)
+    address internal constant SSR_BALANCER_RATE_PROVIDER  = 0xe1e4953C93Da52b95eDD0ffd910565D3369aCd6b;  // xchain-ssr-oracle/SSRBalancerRateProviderAdapter.sol@466595d (v1.2.1)
+    address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x8e3b08e65cC59d293932F5e9aF3186970087a529;  // xchain-ssr-oracle/SSRChainlinkRateProviderAdapter.sol@466595d (v1.2.1)
+    address internal constant SSR_RECEIVER                = 0xE2868095814c2714039b3A9eBEE035B9E2c411E5;  // xchain-helpers/OptimismReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** DSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant DSR_AUTH_ORACLE            = 0x33a3aB524A43E69f30bFd9Ae97d1Ec679FF00B64;
-    address internal constant DSR_RECEIVER               = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
-    address internal constant DSR_BALANCER_RATE_PROVIDER = 0x15ACEE5F73b36762Ab1a6b7C98787b8148447898;
+    address internal constant DSR_AUTH_ORACLE            = 0x33a3aB524A43E69f30bFd9Ae97d1Ec679FF00B64;  // xchain-ssr-oracle/DSRAuthOracle.sol@463e012 (v1.0.0-beta.2)
+    address internal constant DSR_RECEIVER               = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;  // xchain-ssr-oracle/DSROracleReceiverOptimism.sol@463e012 (v1.0.0-beta.2)
+    address internal constant DSR_BALANCER_RATE_PROVIDER = 0x15ACEE5F73b36762Ab1a6b7C98787b8148447898;  // xchain-ssr-oracle/DSRBalancerRateProviderAdapter.sol@463e012 (v1.0.0-beta.2)
 
     /******************************************************************************************************************/
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;
-    address internal constant SUSDC_IMPL = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;
+    address internal constant SUSDC      = 0xCF9326e24EBfFBEF22ce1050007A43A3c0B6DB55;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0x3a1d3A9B0eD182d7B17aa61393D46a4f4EE0CEA5;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
     /*******************************************************************************************************************
 
@@ -80,7 +80,7 @@ library Optimism {
     /*** Rewards addresses                                                                                          ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_REWARDS = 0xf94473Bf6EF648638A7b1eEef354fE440721ef41;
+    address internal constant SPARK_REWARDS = 0xf94473Bf6EF648638A7b1eEef354fE440721ef41;  // spark-rewards/SparkRewards.sol@d99f9fa (v1.0.0)
 
     /*******************************************************************************************************************
 

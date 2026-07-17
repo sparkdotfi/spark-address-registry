@@ -16,24 +16,24 @@ library Robinhood {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x826AEaeee9233fA8Ba199518dd8621A5962b1D02;
-    address internal constant SPARK_RECEIVER = 0xc12B1e59c5E337d5Acd2b4f0A9a27d9E5D7387E8;
+    address internal constant SPARK_EXECUTOR = 0x826AEaeee9233fA8Ba199518dd8621A5962b1D02;  // spark-gov-relay/Executor.sol@5c16676 (v1.0.1)
+    address internal constant SPARK_RECEIVER = 0xc12B1e59c5E337d5Acd2b4f0A9a27d9E5D7387E8;  // xchain-helpers/ArbitrumReceiver.sol@1e362bf (v1.2.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E;
-    address internal constant ALM_PROXY           = 0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24;
-    address internal constant ALM_PROXY_FREEZABLE = 0xAEa9f5dE56e6C20383a1fcC2C3629Dca0A92cE41;
-    address internal constant ALM_RATE_LIMITS     = 0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0;
+    address internal constant ALM_CONTROLLER      = 0xcf8d58A6eeF2a1cae2Ce69bC463b1178FB76bA1E;  // spark-alm-controller/ForeignController.sol@984ec54 (v1.10.0)
+    address internal constant ALM_PROXY           = 0xfD2fD4B046136B540A56C11c75ac679AE7d1dB24;  // spark-alm-controller/ALMProxy.sol@984ec54 (v1.10.0)
+    address internal constant ALM_PROXY_FREEZABLE = 0xAEa9f5dE56e6C20383a1fcC2C3629Dca0A92cE41;  // diamond-pau/ALMProxyFreezable.sol@a84fe96 (v1.12.0)
+    address internal constant ALM_RATE_LIMITS     = 0x5c1fDE9d4C7f1BF4bc5dEAA2a7752e56232c68a0;  // spark-alm-controller/RateLimits.sol@984ec54 (v1.10.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0x797c58C9779D46a437D8f57908D6d56371A55F02;
-    address internal constant SPARK_VAULT_V2_SPUSDG = 0xde770c84FE66E063336b31737cFE9790f18c4087;
+    address internal constant SPARK_VAULT_V2_IMPL   = 0x797c58C9779D46a437D8f57908D6d56371A55F02;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
+    address internal constant SPARK_VAULT_V2_SPUSDG = 0xde770c84FE66E063336b31737cFE9790f18c4087;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /*******************************************************************************************************************
 
