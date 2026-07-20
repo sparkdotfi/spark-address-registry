@@ -111,6 +111,7 @@ library Ethereum {
 
     address internal constant SPK_LZ_OFT_ADAPTER             = 0xAfF2e841851700D1Fc101995Ee6b81Ae21Bb87D7;
     address internal constant SPK_HYP_COLLATERAL             = 0x197729F9D1a8EAdcd548b4E1A02f9ebdd2b46404;
+    address internal constant SPK_HYP_COLLATERAL_IMPL        = 0xaF7D51424493B7401b25f338Fe6cfa5DAdFdD871;
     address internal constant SPK_HYP_COLLATERAL_PROXY_ADMIN = 0x6Da4f21dF552e8Aa5996611Cb3ca0EFf7135DaFb;
 
     /******************************************************************************************************************/
