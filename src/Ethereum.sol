@@ -88,7 +88,6 @@ library Ethereum {
     /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
-    address internal constant DSS_VEST                  = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;  // dss-vest/DssVest.sol@59b0a51 (untagged, fork of makerdao/dss-vest)
     address internal constant USER_ACTIONS_PSM_VARIANT1 = 0xd0A61F2963622e992e6534bde4D52fd0a89F39E0;  // spark-user-actions/PSMVariant1Actions.sol@5ecfc31 (v1.0.0)
 
     /*******************************************************************************************************************
@@ -120,6 +119,7 @@ library Ethereum {
     address internal constant SPARK_LONG_TERM_TREASURY_MULTISIG = 0x46dce51a3f4cbEa91F3A1BBD48Ca5079397d5847;
     address internal constant SPARK_MID_TERM_TREASURY_MULTISIG  = 0x089693eD9d9a5AC907Bd1a1565867646FFaabCd6;
     address internal constant SPK_COMPANY_MULTISIG              = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
+    address internal constant SPK_VEST_MULTISIG                 = 0xEFF097C5CC7F63e9537188FE381D1360158c1511;
 
     // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
@@ -134,6 +134,12 @@ library Ethereum {
     address internal constant MORPHO_VAULT_DAI_1   = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
     address internal constant MORPHO_VAULT_USDS    = 0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597;
     address internal constant MORPHO_VAULT_V2_USDT = 0xb0c424116172B55CbB6dD3136F5989F7959e5B91;
+
+    /******************************************************************************************************************/
+    /*** Miscellaneous addresses                                                                                      */
+    /******************************************************************************************************************/
+
+    address internal constant DSS_VEST = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
 
     /*******************************************************************************************************************
 
