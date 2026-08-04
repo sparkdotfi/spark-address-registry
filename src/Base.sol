@@ -71,9 +71,9 @@ library Base {
     /*** Spark SPK Crosschain addresses                                                                             ***/
     /******************************************************************************************************************/
 
-    address internal constant SPK             = 0x692A07f2306a3bba739e5281A26A5a97C6D7A6cA;
-    address internal constant SPK_IMPL        = 0xBe915C463cdC82D8cAFE74B2d896Ac03285C0a32;
-    address internal constant SPK_PROXY_ADMIN = 0xac5639320212578C87A20BF8E330360d7dEF67B4;
+    address internal constant SPK_HYP_ERC20             = 0x692A07f2306a3bba739e5281A26A5a97C6D7A6cA;
+    address internal constant SPK_HYP_ERC20_IMPL        = 0xBe915C463cdC82D8cAFE74B2d896Ac03285C0a32;
+    address internal constant SPK_HYP_ERC20_PROXY_ADMIN = 0xac5639320212578C87A20BF8E330360d7dEF67B4;
 
     /******************************************************************************************************************/
     /*** Multisig addresses                                                                                         ***/
