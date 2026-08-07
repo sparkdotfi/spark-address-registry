@@ -104,6 +104,7 @@ library Base {
     address internal constant SUSDS = 0x5875eEE11Cf8398102FdAd704C9E96607675467a;
     address internal constant USDC  = 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913;
     address internal constant USDS  = 0x820C137fa70C8691f0e44Dc420a5e53c168921Dc;
+    address internal constant WETH  = 0x4200000000000000000000000000000000000006;
 
     /******************************************************************************************************************/
     /*** Cross-chain addresses                                                                                      ***/
@@ -130,7 +131,10 @@ library Base {
     /*** Morpho addresses                                                                                           ***/
     /******************************************************************************************************************/
 
-    address internal constant MORPHO             = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
-    address internal constant MORPHO_DEFAULT_IRM = 0x46415998764C29aB2a25CbeA6254146D50D22687;
+    address internal constant MORPHO                   = 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb;
+    address internal constant MORPHO_DEFAULT_IRM       = 0x46415998764C29aB2a25CbeA6254146D50D22687;
+    address internal constant MORPHO_TOKEN             = 0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842;
+    address internal constant MORPHO_CBBTC_USDC_ORACLE = 0x663BECd10daE6C4A3Dcd89F1d76c1174199639B9;
+    address internal constant MORPHO_WETH_USDC_ORACLE  = 0xFEa2D58cEfCb9fcb597723c6bAE66fFE4193aFE4;
 
 }

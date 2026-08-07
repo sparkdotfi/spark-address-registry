@@ -85,6 +85,13 @@ library Ethereum {
     address internal constant SPARK_REWARDS  = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;  // spark-rewards/SparkRewards.sol@d99f9fa (v1.0.0)
 
     /******************************************************************************************************************/
+    /*** OTC addresses                                                                                              ***/
+    /******************************************************************************************************************/
+
+    address internal constant BINANCE_OTC_BUFFER      = 0x1851c64BBfad132CBE75481f1690C381288ea492; // openzeppelin-contracts/ERC1967Proxy.sol@dbb6104c (v5.0.2)
+    address internal constant BINANCE_OTC_BUFFER_IMPL = 0xcd2EA34d16d57d896EF6821f2E9C5aaE076FdFbe; // spark-alm-controller/OTCBuffer.sol@984ec54 (v1.10.0)
+
+    /******************************************************************************************************************/
     /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
@@ -154,32 +161,33 @@ library Ethereum {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant CBBTC  = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
-    address internal constant DAI    = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
-    address internal constant EZETH  = 0xbf5495Efe5DB9ce00f80364C8B423567e58d2110;
-    address internal constant GNO    = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
-    address internal constant LBTC   = 0x8236a87084f8B84306f72007F36F2618A5634494;
-    address internal constant MKR    = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
-    address internal constant PYUSD  = 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8;
-    address internal constant RETH   = 0xae78736Cd615f374D3085123A210448E74Fc6393;
-    address internal constant RSETH  = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
-    address internal constant SDAI   = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
-    address internal constant SKY    = 0x56072C95FAA701256059aa122697B133aDEd9279;
-    address internal constant SUSDE  = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
-    address internal constant SUSDS  = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
-    address internal constant TBTC   = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
-    address internal constant USAT   = 0x07041776f5007ACa2A54844F50503a18A72A8b68;
-    address internal constant USDC   = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
-    address internal constant USDE   = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
-    address internal constant USDG   = 0xe343167631d89B6Ffc58B88d6b7fB0228795491D;
-    address internal constant USDS   = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
-    address internal constant USCC   = 0x14d60E7FDC0D71d8611742720E4C50E7a974020c;
-    address internal constant USDT   = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
-    address internal constant USTB   = 0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e;
-    address internal constant WBTC   = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
-    address internal constant WEETH  = 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee;
-    address internal constant WETH   = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
-    address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
+    address internal constant CBBTC    = 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf;
+    address internal constant DAI      = 0x6B175474E89094C44Da98b954EedeAC495271d0F;
+    address internal constant EZETH    = 0xbf5495Efe5DB9ce00f80364C8B423567e58d2110;
+    address internal constant GNO      = 0x6810e776880C02933D47DB1b9fc05908e5386b96;
+    address internal constant LBTC     = 0x8236a87084f8B84306f72007F36F2618A5634494;
+    address internal constant MKR      = 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2;
+    address internal constant PYUSD    = 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8;
+    address internal constant RETH     = 0xae78736Cd615f374D3085123A210448E74Fc6393;
+    address internal constant RSETH    = 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7;
+    address internal constant SDAI     = 0x83F20F44975D03b1b09e64809B757c47f942BEeA;
+    address internal constant SKY      = 0x56072C95FAA701256059aa122697B133aDEd9279;
+    address internal constant SUSDE    = 0x9D39A5DE30e57443BfF2A8307A4256c8797A3497;
+    address internal constant SUSDS    = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
+    address internal constant TBTC     = 0x18084fbA666a33d37592fA2633fD49a74DD93a88;
+    address internal constant USAT     = 0x07041776f5007ACa2A54844F50503a18A72A8b68;
+    address internal constant USDC     = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address internal constant USDE     = 0x4c9EDD5852cd905f086C759E8383e09bff1E68B3;
+    address internal constant USDG     = 0xe343167631d89B6Ffc58B88d6b7fB0228795491D;
+    address internal constant USDS     = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
+    address internal constant USCC     = 0x14d60E7FDC0D71d8611742720E4C50E7a974020c;
+    address internal constant USDT     = 0xdAC17F958D2ee523a2206206994597C13D831ec7;
+    address internal constant USDT_OFT = 0x6C96dE32CEa08842dcc4058c14d3aaAD7Fa41dee;
+    address internal constant USTB     = 0x43415eB6ff9DB7E26A15b704e7A3eDCe97d31C4e;
+    address internal constant WBTC     = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
+    address internal constant WEETH    = 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee;
+    address internal constant WETH     = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address internal constant WSTETH   = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
 
     /******************************************************************************************************************/
     /*** Sky addresses                                                                                              ***/
@@ -242,6 +250,7 @@ library Ethereum {
     /*** Aave addresses                                                                                             ***/
     /******************************************************************************************************************/
 
+    address internal constant AAVE_COLLECTOR    = 0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c;
     address internal constant ATOKEN_CORE_USDC  = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
     address internal constant ATOKEN_CORE_USDE  = 0x4F5923Fc5FD4a93352581b38B7cD26943012DECF;
     address internal constant ATOKEN_CORE_USDS  = 0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259;
@@ -322,6 +331,7 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant SUPERSTATE_REDEMPTION = 0x4c21B7577C8FE8b0B0669165ee7C8f67fa1454Cf;
+    address internal constant USCC_DEPOSIT          = 0xDB48AC0802F9A79145821A5430349cAff6d676f7;
 
     /******************************************************************************************************************/
     /*** Arkis addresses                                                                                            ***/
@@ -346,5 +356,16 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant PAXOS_USDG_DEPOSIT = 0xf752cF318dfF2C01575c98741AA52e7a34d873Fd;
+
+    address internal constant PAXOS_PYUSD_USDC = 0x2f7BE67e11A4D621E36f1A8371b0a5Fe16dE6B20;
+    address internal constant PAXOS_PYUSD_USDG = 0x227B1912C2fFE1353EA3A603F1C05F030Cc262Ff;
+    address internal constant PAXOS_USDC_PYUSD = 0xFb1F749024b4544c425f5CAf6641959da31EdF37;
+    address internal constant PAXOS_USDG_PYUSD = 0x035b322D0e79de7c8733CdDA5a7EF8b51a6cfcfa;
+
+    /******************************************************************************************************************/
+    /*** Binance addresses                                                                                          ***/
+    /******************************************************************************************************************/
+
+    address internal constant BINANCE_EXCHANGE = 0xd010b876696F345d9E0a1B70F573244FcC2e0A0e;
 
 }
