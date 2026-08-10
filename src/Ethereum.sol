@@ -23,72 +23,71 @@ library Ethereum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3;
-    address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;
-    address internal constant ALM_PROXY_FREEZABLE = 0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699;
-    address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;
+    address internal constant ALM_CONTROLLER      = 0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3;  // spark-alm-controller/MainnetController.sol@984ec54 (v1.10.0)
+    address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;  // spark-alm-controller/ALMProxy.sol@6058f68 (v1.0.0)
+    address internal constant ALM_PROXY_FREEZABLE = 0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699;  // diamond-pau/ALMProxyFreezable.sol@a84fe96 (v1.12.0)
+    address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;  // spark-alm-controller/RateLimits.sol@6058f68 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL    = 0x1b992302652A92611DCd5090D1Cb388C6377f455;
-    address internal constant SPARK_VAULT_V2_SPETH   = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;
-    address internal constant SPARK_VAULT_V2_SPPYUSD = 0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354;
-    address internal constant SPARK_VAULT_V2_SPUSDC  = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;
-    address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;
+    address internal constant SPARK_VAULT_V2_IMPL    = 0x1b992302652A92611DCd5090D1Cb388C6377f455;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
+    address internal constant SPARK_VAULT_V2_SPETH   = 0xfE6eb3b609a7C8352A241f7F3A21CEA4e9209B8f;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
+    address internal constant SPARK_VAULT_V2_SPPYUSD = 0x80128DbB9f07b93DDE62A6daeadb69ED14a7D354;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
+    address internal constant SPARK_VAULT_V2_SPUSDC  = 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
+    address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
     /*** Spark Intents addresses                                                                                    ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_SAVINGS_INTENTS = 0x592B7DB9906E6f8924C4D74c2A0aB86CE44fDDDf;
+    address internal constant SPARK_SAVINGS_INTENTS = 0x592B7DB9906E6f8924C4D74c2A0aB86CE44fDDDf;  // spark-savings-intents/SavingsVaultIntents.sol@d9045fc (v1.0.0)
 
     /******************************************************************************************************************/
     /*** SSR/DSR crosschain forwarders                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;
-    address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;
-    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;
-    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;
+    address internal constant ARBITRUM_DSR_FORWARDER    = 0x7F36E7F562Ee3f320644F6031e03E12a02B85799;  // xchain-ssr-oracle/DSROracleForwarderArbitrumOne.sol@a02e592 (v1.0.0)
+    address internal constant BASE_DSR_FORWARDER        = 0x8Ed551D485701fe489c215E13E42F6fc59563e0e;  // xchain-ssr-oracle/DSROracleForwarderBase.sol@463e012 (v1.0.0-beta.2, audited: ChainSecurity/SparkDAO 2024-07-24)
+    address internal constant OPTIMISM_DSR_FORWARDER    = 0x4042127DecC0cF7cc0966791abebf7F76294DeF3;  // xchain-ssr-oracle/DSROracleForwarderOptimism.sol@463e012 (v1.0.0-beta.2, audited: ChainSecurity/SparkDAO 2024-07-24)
+    address internal constant WORLD_CHAIN_DSR_FORWARDER = 0xA34437dAAE56A7CC6DC757048933D7777b3e547B;  // xchain-ssr-oracle/DSROracleForwarderWorldChain.sol@ac0c70e (untagged)
 
-    address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;
-    address internal constant BASE_SSR_FORWARDER        = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;
-    address internal constant OPTIMISM_SSR_FORWARDER    = 0x6Ac25B8638767a3c27a65597A74792d599038724;
-    address internal constant UNICHAIN_SSR_FORWARDER    = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
+    address internal constant ARBITRUM_SSR_FORWARDER    = 0x1A229AdbAC83A948226783F2A3257B52006247D5;  // xchain-ssr-oracle/SSROracleForwarderArbitrum.sol@466595d (v1.2.1)
+    address internal constant BASE_SSR_FORWARDER        = 0xB2833392527f41262eB0E3C7b47AFbe030ef188E;  // xchain-ssr-oracle/SSROracleForwarderOptimism.sol@dc9fc30 (v1.2.0)
+    address internal constant OPTIMISM_SSR_FORWARDER    = 0x6Ac25B8638767a3c27a65597A74792d599038724;  // xchain-ssr-oracle/SSROracleForwarderOptimism.sol@466595d (v1.2.1)
+    address internal constant UNICHAIN_SSR_FORWARDER    = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;  // xchain-ssr-oracle/SSROracleForwarderOptimism.sol@466595d (v1.2.1)
 
     /******************************************************************************************************************/
     /*** SparkLend emergency spells                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPELL_FREEZE_ALL = 0x9e2890BF7f8D5568Cc9e5092E67Ba00C8dA3E97f;
-    address internal constant SPELL_FREEZE_DAI = 0xa2039bef2c5803d66E4e68F9E23a942E350b938c;
-    address internal constant SPELL_PAUSE_ALL  = 0x425b0de240b4c2DC45979DB782A355D090Dc4d37;
-    address internal constant SPELL_PAUSE_DAI  = 0xCacB88e39112B56278db25b423441248cfF94241;
+    address internal constant SPELL_FREEZE_ALL = 0x9e2890BF7f8D5568Cc9e5092E67Ba00C8dA3E97f;  // sparklend-freezer/EmergencySpell_SparkLend_FreezeAllAssets.sol@24fd954 (v1.1.0)
+    address internal constant SPELL_FREEZE_DAI = 0xa2039bef2c5803d66E4e68F9E23a942E350b938c;  // sparklend-freezer/EmergencySpell_SparkLend_FreezeSingleAsset.sol@24fd954 (v1.1.0)
+    address internal constant SPELL_PAUSE_ALL  = 0x425b0de240b4c2DC45979DB782A355D090Dc4d37;  // sparklend-freezer/EmergencySpell_SparkLend_PauseAllAssets.sol@24fd954 (v1.1.0)
+    address internal constant SPELL_PAUSE_DAI  = 0xCacB88e39112B56278db25b423441248cfF94241;  // sparklend-freezer/EmergencySpell_SparkLend_PauseSingleAsset.sol@24fd954 (v1.1.0)
 
-    address internal constant SPELL_REMOVE_FREEZER_MULTISIG = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;
+    address internal constant SPELL_REMOVE_FREEZER_MULTISIG = 0xE47AB4919F6F5459Dcbbfbe4264BD4630c0169A9;  // sparklend-freezer/EmergencySpell_SparkLend_RemoveMultisig.sol@24fd954 (v1.1.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;
-    address internal constant SUSDC_IMPL = 0xf943Cb8D5f06f2bBF352878ebEF3Ec5C537A20bA;
+    address internal constant SUSDC      = 0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0xf943Cb8D5f06f2bBF352878ebEF3Ec5C537A20bA;  // spark-vaults/UsdcVault.sol@78d37c8
 
     /******************************************************************************************************************/
     /*** Rewards addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant POINTS_REWARDS = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;
-    address internal constant SPARK_REWARDS  = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;
+    address internal constant POINTS_REWARDS = 0xe9eaE48Ed66C63fD4D12e315BC7d31Aacd89a909;  // spark-rewards/SparkRewards.sol@d99f9fa (v1.0.0)
+    address internal constant SPARK_REWARDS  = 0xbaf21A27622Db71041Bd336a573DDEdC8eB65122;  // spark-rewards/SparkRewards.sol@d99f9fa (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Miscellaneous addresses                                                                                      */
     /******************************************************************************************************************/
 
-    address internal constant DSS_VEST                  = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
-    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0xd0A61F2963622e992e6534bde4D52fd0a89F39E0;
+    address internal constant USER_ACTIONS_PSM_VARIANT1 = 0xd0A61F2963622e992e6534bde4D52fd0a89F39E0;  // spark-user-actions/PSMVariant1Actions.sol@5ecfc31 (v1.0.0)
 
     /*******************************************************************************************************************
 
@@ -134,6 +133,7 @@ library Ethereum {
     address internal constant SPARK_LONG_TERM_TREASURY_MULTISIG = 0x46dce51a3f4cbEa91F3A1BBD48Ca5079397d5847;
     address internal constant SPARK_MID_TERM_TREASURY_MULTISIG  = 0x089693eD9d9a5AC907Bd1a1565867646FFaabCd6;
     address internal constant SPK_COMPANY_MULTISIG              = 0x6FE588FDCC6A34207485cc6e47673F59cCEDF92B;
+    address internal constant SPK_VEST_MULTISIG                 = 0xEFF097C5CC7F63e9537188FE381D1360158c1511;
 
     // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
@@ -148,6 +148,12 @@ library Ethereum {
     address internal constant MORPHO_VAULT_DAI_1   = 0x73e65DBD630f90604062f6E02fAb9138e713edD9;
     address internal constant MORPHO_VAULT_USDS    = 0xe41a0583334f0dc4E023Acd0bFef3667F6FE0597;
     address internal constant MORPHO_VAULT_V2_USDT = 0xb0c424116172B55CbB6dD3136F5989F7959e5B91;
+
+    /******************************************************************************************************************/
+    /*** Miscellaneous addresses                                                                                      */
+    /******************************************************************************************************************/
+
+    address internal constant DSS_VEST = 0x6Bad07722818Ceff1deAcc33280DbbFdA4939A09;
 
     /*******************************************************************************************************************
 
@@ -190,7 +196,7 @@ library Ethereum {
     address internal constant WSTETH = 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0;
 
     /******************************************************************************************************************/
-    /*** Sky addresses                                                                                               ***/
+    /*** Sky addresses                                                                                              ***/
     /******************************************************************************************************************/
 
     address internal constant CHIEF       = 0x929d9A1435662357F54AdcF64DcEE4d6b867a6f9;
@@ -213,6 +219,8 @@ library Ethereum {
     address internal constant ALLOCATOR_ROLES	 = 0x9A865A710399cea85dbD9144b7a09C889e94E803;
     address internal constant ALLOCATOR_VAULT	 = 0x691a6c29e9e96dd897718305427Ad5D534db16BA;
 
+    address internal constant USDS_PSM_WRAPPER = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
+
     /******************************************************************************************************************/
     /*** Cross-chain addresses                                                                                      ***/
     /******************************************************************************************************************/
@@ -234,6 +242,15 @@ library Ethereum {
     address internal constant UNICHAIN_ESCROW        = 0x1196F688C585D3E5C895Ef8954FFB0dCDAfc566A;
     address internal constant UNICHAIN_SKY_GOV_RELAY = 0xb383070Cf9F4f01C3a2cfD0ef6da4BC057b429b7;
     address internal constant UNICHAIN_TOKEN_BRIDGE  = 0xDF0535a4C96c9Cd8921d8FeC92A7680b281681d2;
+
+    /******************************************************************************************************************/
+    /*** L1 Native Bridge addresses                                                                                 ***/
+    /******************************************************************************************************************/
+
+    address internal constant ARBITRUM_INBOX                     = 0x4Dbd4fc535Ac27206064B68FfCf827b0A60BAB3f;  // Delayed Inbox
+    address internal constant BASE_L1_CROSS_DOMAIN_MESSENGER     = 0x866E82a600A1414e583f7F13623F1aC5d58b0Afa;
+    address internal constant OPTIMISM_L1_CROSS_DOMAIN_MESSENGER = 0x25ace71c97B33Cc4729CF772ae268934F7ab5fA1;
+    address internal constant UNICHAIN_L1_CROSS_DOMAIN_MESSENGER = 0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6;
 
     /******************************************************************************************************************/
     /*** Aave addresses                                                                                             ***/

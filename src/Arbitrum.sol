@@ -16,54 +16,54 @@ library Arbitrum {
     /*** Governance Relay addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_EXECUTOR = 0x65d946e533748A998B1f0E430803e39A6388f7a1;
-    address internal constant SPARK_RECEIVER = 0x212871A1C235892F86cAB30E937e18c94AEd8474;
+    address internal constant SPARK_EXECUTOR = 0x65d946e533748A998B1f0E430803e39A6388f7a1;  // spark-gov-relay/Executor.sol@5c16676 (v1.0.1)
+    address internal constant SPARK_RECEIVER = 0x212871A1C235892F86cAB30E937e18c94AEd8474;  // xchain-helpers/ArbitrumReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba;
-    address internal constant ALM_PROXY           = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;
-    address internal constant ALM_PROXY_FREEZABLE = 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38;
-    address internal constant ALM_RATE_LIMITS     = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;
+    address internal constant ALM_CONTROLLER      = 0xC40611AC4Fff8572Dc5F02A238176edCF15Ea7ba;  // spark-alm-controller/ForeignController.sol@7be9593 (v1.8.0)
+    address internal constant ALM_PROXY           = 0x92afd6F2385a90e44da3a8B60fe36f6cBe1D8709;  // spark-alm-controller/ALMProxy.sol@2bb2680 (v1.1.0)
+    address internal constant ALM_PROXY_FREEZABLE = 0x4eE67c8Db1BAa6ddE99d936C7D313B5d31e8fa38;  // diamond-pau/ALMProxyFreezable.sol@a84fe96 (v1.12.0)
+    address internal constant ALM_RATE_LIMITS     = 0x19D08879851FB54C2dCc4bb32b5a1EA5E9Ad6838;  // spark-alm-controller/RateLimits.sol@2bb2680 (v1.1.0)
 
     /******************************************************************************************************************/
     /*** PSM addresses                                                                                              ***/
     /******************************************************************************************************************/
 
-    address internal constant PSM3 = 0x2B05F8e1cACC6974fD79A673a341Fe1f58d27266;
+    address internal constant PSM3 = 0x2B05F8e1cACC6974fD79A673a341Fe1f58d27266;  // spark-psm/PSM3.sol@6a5a579 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** SSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant SSR_AUTH_ORACLE             = 0xEE2816c1E1eed14d444552654Ed3027abC033A36;
-    address internal constant SSR_BALANCER_RATE_PROVIDER  = 0xc0737f29b964e6fC8025F16B30f2eA4C2e2d6f22;
-    address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x84AB0c8C158A1cD0d215BE2746cCa668B79cc287;
-    address internal constant SSR_RECEIVER                = 0x567214Dc57a2385Abc4a756f523ddF0275305Cbc;
+    address internal constant SSR_AUTH_ORACLE             = 0xEE2816c1E1eed14d444552654Ed3027abC033A36;  // xchain-ssr-oracle/SSRAuthOracle.sol@466595d (v1.2.1)
+    address internal constant SSR_BALANCER_RATE_PROVIDER  = 0xc0737f29b964e6fC8025F16B30f2eA4C2e2d6f22;  // xchain-ssr-oracle/SSRBalancerRateProviderAdapter.sol@466595d (v1.2.1)
+    address internal constant SSR_CHAINLINK_RATE_PROVIDER = 0x84AB0c8C158A1cD0d215BE2746cCa668B79cc287;  // xchain-ssr-oracle/SSRChainlinkRateProviderAdapter.sol@466595d (v1.2.1)
+    address internal constant SSR_RECEIVER                = 0x567214Dc57a2385Abc4a756f523ddF0275305Cbc;  // xchain-helpers/ArbitrumReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** DSR Oracle addresses                                                                                       ***/
     /******************************************************************************************************************/
 
-    address internal constant DSR_AUTH_ORACLE            = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;
-    address internal constant DSR_RECEIVER               = 0xcA61540eC2AC74E6954FA558B4aF836d95eCb91b;
-    address internal constant DSR_BALANCER_RATE_PROVIDER = 0x73750DbD85753074e452B2C27fB9e3B0E75Ff3B8;
+    address internal constant DSR_AUTH_ORACLE            = 0xE206AEbca7B28e3E8d6787df00B010D4a77c32F3;  // xchain-ssr-oracle/DSRAuthOracle.sol@a02e592 (v1.0.0)
+    address internal constant DSR_RECEIVER               = 0xcA61540eC2AC74E6954FA558B4aF836d95eCb91b;  // xchain-ssr-oracle/DSROracleReceiverArbitrum.sol@a02e592 (v1.0.0)
+    address internal constant DSR_BALANCER_RATE_PROVIDER = 0x73750DbD85753074e452B2C27fB9e3B0E75Ff3B8;  // xchain-ssr-oracle/DSRBalancerRateProviderAdapter.sol@a02e592 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_VAULT_V2_IMPL   = 0x282dAfE8B97e2Db5053761a4601ab2E1CB976318;
-    address internal constant SPARK_VAULT_V2_SPUSDT = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;
+    address internal constant SPARK_VAULT_V2_IMPL   = 0x282dAfE8B97e2Db5053761a4601ab2E1CB976318;  // spark-vaults-v2/SparkVault.sol@0a686ba (v1.0.1)
+    address internal constant SPARK_VAULT_V2_SPUSDT = 0x45d91340B3B7B96985A72b5c678F7D9e8D664b62;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V1 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDC      = 0x940098b108fB7D0a7E374f6eDED7760787464609;
-    address internal constant SUSDC_IMPL = 0xdC8DF20bE448E41FdE88E2478d6Bc4d3C9A092d6;
+    address internal constant SUSDC      = 0x940098b108fB7D0a7E374f6eDED7760787464609;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
+    address internal constant SUSDC_IMPL = 0xdC8DF20bE448E41FdE88E2478d6Bc4d3C9A092d6;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
     /*******************************************************************************************************************
 
