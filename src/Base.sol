@@ -68,14 +68,6 @@ library Base {
     ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═════╝
 
     /******************************************************************************************************************/
-    /*** Spark SPK Crosschain addresses                                                                             ***/
-    /******************************************************************************************************************/
-
-    address internal constant SPK_HYP_ERC20             = 0x692A07f2306a3bba739e5281A26A5a97C6D7A6cA;
-    address internal constant SPK_HYP_ERC20_IMPL        = 0xBe915C463cdC82D8cAFE74B2d896Ac03285C0a32;
-    address internal constant SPK_HYP_ERC20_PROXY_ADMIN = 0xac5639320212578C87A20BF8E330360d7dEF67B4;
-
-    /******************************************************************************************************************/
     /*** Multisig addresses                                                                                         ***/
     /******************************************************************************************************************/
 
@@ -83,8 +75,7 @@ library Base {
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
 
-    address internal constant SPARK_REWARDS_MULTISIG            = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
-    address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
     address internal constant MORPHO_CURATOR_MULTISIG  = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
     address internal constant MORPHO_GUARDIAN_MULTISIG = 0xf5748bBeFa17505b2F7222B23ae11584932C908B;
