@@ -98,6 +98,19 @@ library SparkLend {
     address internal constant WSTETH_IRM                 = 0xDD94eC5C14407e0bd6760c8eBDcD4Ec1327D3656; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
 
     /******************************************************************************************************************/
+    /*** Price feed addresses                                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant EZETH_PRICE_FEED     = 0x52E85eB49e07dF74c8A9466D2164b4C4cA60014A; // sparklend-advanced/EZETHExchangeRateOracle@e2ba58d (v1.6.0)
+    address internal constant FIXED_USD_PRICE_FEED = 0x42a03F81dd8A1cEcD746dc262e4d1CD9fD39F777; // sparklend-advanced/FixedPriceOracle@cb80380 (v1.0.0)
+    address internal constant RETH_PRICE_FEED      = 0xFDdf8D19D092839A26b31365c927cA236B5086cf; // sparklend-advanced/RETHExchangeRateOracle@58d7430 (v1.4.0)
+    address internal constant RSETH_PRICE_FEED     = 0x70942D6b580741CF50A7906f4100063EE037b8eb; // sparklend-advanced/RSETHExchangeRateOracle@e2ba58d (v1.6.0)
+    address internal constant SDAI_PRICE_FEED      = 0x0c0864837C7e65458aCD3C665222203217019436; // sparklend-deployments/SavingsDaiOracle@a4e2e20
+    address internal constant SUSDS_PRICE_FEED     = 0x27f3A665c75aFdf43CfbF6B3A859B698f46ef656; // sparklend-deployments/SavingsDaiOracle@a4e2e20
+    address internal constant WEETH_PRICE_FEED     = 0xBE21C54Dff3b2F1708970d185aa5b0eEB70556f1; // sparklend-advanced/WEETHExchangeRateOracle@58d7430 (v1.4.0)
+    address internal constant WSTETH_PRICE_FEED    = 0xE98d51fa014C7Ed68018DbfE6347DE9C3f39Ca39; // sparklend-advanced/WSTETHExchangeRateOracle@58d7430 (v1.4.0)
+
+    /******************************************************************************************************************/
     /*** Auxiliary protocol addresses                                                                               ***/
     /******************************************************************************************************************/
 
