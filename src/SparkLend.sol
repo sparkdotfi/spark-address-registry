@@ -114,11 +114,11 @@ library SparkLend {
     /*** Auxiliary protocol addresses                                                                               ***/
     /******************************************************************************************************************/
 
-    address internal constant CAP_AUTOMATOR               = 0x4C1341636721b8B687647920B2E9481f3AB1F2eE;
-    address internal constant FREEZER_MOM                 = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3;
-    address internal constant KILL_SWITCH_ORACLE          = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82;
-    address internal constant SSR_RATE_SOURCE             = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973;
-    address internal constant CAPPED_FALLBACK_RATE_SOURCE = 0xaBc99f366D2bE1f4e5b8DFC0F561a751dd836246;
+    address internal constant CAP_AUTOMATOR               = 0x4C1341636721b8B687647920B2E9481f3AB1F2eE; // sparklend-cap-automator/CapAutomator@f115d10 (v1.1.0)
+    address internal constant FREEZER_MOM                 = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3; // sparklend-freezer/SparkLendFreezerMom@24fd954 (v1.1.0)
+    address internal constant KILL_SWITCH_ORACLE          = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82; // sparklend-kill-switch/KillSwitchOracle@0fc7c0d (v1.0.0)
+    address internal constant SSR_RATE_SOURCE             = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973; // sparklend-advanced/SSRRateSource@58d7430 (v1.4.0)
+    address internal constant CAPPED_FALLBACK_RATE_SOURCE = 0xaBc99f366D2bE1f4e5b8DFC0F561a751dd836246; // sparklend-advanced/CappedFallbackRateSource@d54bd76 (v1.3.0)
 
     /******************************************************************************************************************/
     /*** Kill switch oracle addresses                                                                               ***/
