@@ -179,7 +179,7 @@ library SparkLend {
     address internal constant STETH_ETH_CHAINLINK_ORACLE = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812;
     address internal constant WBTC_BTC_CHAINLINK_ORACLE  = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23;
 
-    // Interest rate strategy addresses
+    // Price feed addresses
     address internal constant BTC_USD_CHRONICLE_AGGOR_ORACLE = 0x4219aA1A99f3fe90C2ACB97fCbc1204f6485B537;
     address internal constant ETH_USD_CHRONICLE_AGGOR_ORACLE = 0x2750e4CB635aF1FCCFB10C0eA54B5b5bfC2759b6;
     address internal constant GNO_PRICE_SKY_ORACLE           = 0x4A7Ad931cb40b564A1C453545059131B126BC828;
