@@ -97,9 +97,10 @@ library Arbitrum {
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant SUSDS = 0xdDb46999F8891663a8F2828d25298f70416d7610;
-    address internal constant USDC  = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
-    address internal constant USDS  = 0x6491c05A82219b8D1479057361ff1654749b876b;
+    address internal constant SUSDS    = 0xdDb46999F8891663a8F2828d25298f70416d7610;
+    address internal constant USDC     = 0xaf88d065e77c8cC2239327C5EDb3A432268e5831;
+    address internal constant USDS     = 0x6491c05A82219b8D1479057361ff1654749b876b;
+    address internal constant USDT_OFT = 0x14E4A1B13bf7F943c8ff7C51fb60FA964A298D92;
 
     /******************************************************************************************************************/
     /*** Cross-chain addresses                                                                                      ***/

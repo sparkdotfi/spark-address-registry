@@ -82,10 +82,19 @@ library SparkLend {
     /*** Auxiliary protocol addresses                                                                               ***/
     /******************************************************************************************************************/
 
-    address internal constant CAP_AUTOMATOR      = 0x4C1341636721b8B687647920B2E9481f3AB1F2eE;
-    address internal constant FREEZER_MOM        = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3;
-    address internal constant KILL_SWITCH_ORACLE = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82;
-    address internal constant SSR_RATE_SOURCE    = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973;
+    address internal constant CAP_AUTOMATOR        = 0x4C1341636721b8B687647920B2E9481f3AB1F2eE;
+    address internal constant FIXED_USD_PRICE_FEED = 0x42a03F81dd8A1cEcD746dc262e4d1CD9fD39F777;
+    address internal constant FREEZER_MOM          = 0x237e3985dD7E373F2ec878EC1Ac48A228Cf2e7a3;
+    address internal constant KILL_SWITCH_ORACLE   = 0x909A86f78e1cdEd68F9c2Fe2c9CD922c401abe82;
+    address internal constant SSR_RATE_SOURCE      = 0x57027B6262083E3aC3c8B2EB99f7e8005f669973;
+
+    /******************************************************************************************************************/
+    /*** Kill switch oracle addresses                                                                               ***/
+    /******************************************************************************************************************/
+
+    address internal constant CBBTC_BTC_RATIO_ORACLE = 0x64B157212C21097002920D57322B671b88DFcCBC; // sparklend-advanced/CBBTCRatioOracle@e2ba58d (v1.6.0)
+    address internal constant RETH_ETH_RATIO_ORACLE  = 0xd0B378dA552D06B6D3497e4b5ba2A83418f78d06; // sparklend-advanced/RETHRatioOracle@e2ba58d (v1.6.0)
+    address internal constant WEETH_ETH_RATIO_ORACLE = 0x4C805FD3c64B79840d36813Fc90c165bf77bb7E4; // sparklend-advanced/WEETHRatioOracle@e2ba58d (v1.6.0)
 
     /******************************************************************************************************************/
     /*** Implementation addresses                                                                                   ***/
@@ -128,5 +137,13 @@ library SparkLend {
     address internal constant LIQUIDATION_LOGIC = 0xC0816EFC31779C697B18B3B68f1DfBeDe313e1fA;
     address internal constant POOL_LOGIC        = 0xD072fF8184E873a938cb15B20f2Ad5Cc1a02D8bf;
     address internal constant SUPPLY_LOGIC      = 0x4c83d30CE4D0f92A867C2006B33d9b102D29F707;
+
+    /******************************************************************************************************************/
+    /*** External addresses                                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant LBTC_BTC_ORACLE           = 0x5c29868C58b6e15e2b962943278969Ab6a7D3212;
+    address internal constant STETH_ETH_ORACLE          = 0x86392dC19c0b719886221c78AB11eb8Cf5c52812;
+    address internal constant WBTC_BTC_CHAINLINK_ORACLE = 0xfdFD9C85aD200c506Cf9e21F1FD8dd01932FBB23;
 
 }
