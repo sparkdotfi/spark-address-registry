@@ -38,6 +38,8 @@ library BSC {
     /*** Spark SPK LayerZero bridge addresses                                                                       ***/
     /******************************************************************************************************************/
 
+    address internal constant LZ_ENDPOINT = 0x1a44076050125825900e736c501f859c50fE728c;
+
     address internal constant LZ_SEND_ULN    = 0x9F8C645f2D0b2159767Bd6E0839DE4BE49e823DE;
     address internal constant LZ_RECEIVE_ULN = 0xB217266c3A98C8B2709Ee26836C98cf12f6cCEC1;
 

@@ -261,6 +261,8 @@ library Ethereum {
     /*** Spark SPK LayerZero bridge addresses                                                                       ***/
     /******************************************************************************************************************/
 
+    address internal constant LZ_ENDPOINT = 0x1a44076050125825900e736c501f859c50fE728c;
+
     address internal constant LZ_SEND_ULN    = 0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1;
     address internal constant LZ_RECEIVE_ULN = 0xc02Ab410f0734EFa3F14628780e6e695156024C2;
 
