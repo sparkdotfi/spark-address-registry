@@ -259,6 +259,20 @@ library Ethereum {
     address internal constant UNICHAIN_L1_CROSS_DOMAIN_MESSENGER = 0x9A3D64E386C18Cb1d6d5179a9596A4B5736e98A6;
 
     /******************************************************************************************************************/
+    /*** Spark SPK LayerZero bridge addresses                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant LZ_ENDPOINT = 0x1a44076050125825900e736c501f859c50fE728c;
+
+    address internal constant LZ_SEND_ULN    = 0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1;
+    address internal constant LZ_RECEIVE_ULN = 0xc02Ab410f0734EFa3F14628780e6e695156024C2;
+
+    address internal constant LZ_DVN_CANARY         = 0xa4fE5A5B9A846458a70Cd0748228aED3bF65c2cd;
+    address internal constant LZ_DVN_HORIZEN        = 0x380275805876Ff19055EA900CDb2B46a94ecF20D;
+    address internal constant LZ_DVN_LAYERZERO_LABS = 0x589dEDbD617e0CBcB916A9223F4d1300c294236b;
+    address internal constant LZ_DVN_NETHERMIND     = 0xa59BA433ac34D2927232918Ef5B2eaAfcF130BA5;
+
+    /******************************************************************************************************************/
     /*** Aave addresses                                                                                             ***/
     /******************************************************************************************************************/
 
