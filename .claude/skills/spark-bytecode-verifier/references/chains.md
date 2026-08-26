@@ -8,11 +8,13 @@ transactions can hit the EIP-7623 gas-floor artifact). All **other** rows remain
 inferred hypotheses pending V2-4 — do not cite them as fresh results.
 
 The variable names below are the team's actual `.env` names (owner-confirmed 2026-07-20) — they
-are still **not hardcoded** into the skill. Read whatever the environment Claude was launched
-with, check presence only, never print values, and confirm chain identity by RPC
-(`cast chain-id`), not by the variable name. Never source a project- or PR-controlled `.env`;
-the user exports these into the shell before launching Claude Code. If a name is absent, ask
-the user to provide/export the variable and relaunch the session if necessary.
+are still **not hardcoded** into the skill. Read whatever environment the supported credential
+setup in `SKILL.md` provides, check presence only, never print values, and confirm chain identity
+by RPC (`cast chain-id`), not by the variable name. Never source a project- or PR-controlled
+`.env`. Credentials may come from `.claude/settings.local.json` or shell exports in `~/.zshenv`
+(or a personal file sourced there) before Claude Code starts; `~/.zshrc` alone is not supported
+because tool shells are non-interactive. If a name is absent, explain both setup choices and ask
+the user to restart Claude Code after adding it.
 
 ## Explorer keys
 
@@ -35,7 +37,7 @@ remaining Etherscan-family chains is documentation-based pending V2-4.
 | Arbitrum One | 42161 | `ARBITRUM_ONE_RPC_URL` | Arbiscan | `etherscan` | same key | yes | full (factory targets need a trace-capable RPC) |
 | Optimism | 10 | `OPTIMISM_RPC_URL` | OP Etherscan | `etherscan` | same key | yes | full |
 | Unichain | 130 | `UNICHAIN_RPC_URL` | Uniscan | `etherscan` | same key | yes | full |
-| Avalanche | 43114 | `AVALANCHE_RPC_URL` | Snowscan/Snowtrace | `etherscan` (or custom→Routescan) | same key (paid tier) | yes | full (key tier is the risk) |
+| Avalanche | 43114 | `AVAX_RPC_URL` | Snowscan/Snowtrace | `etherscan` (or custom→Routescan) | same key (paid tier) | yes | full (key tier is the risk) |
 | World Chain | 480 | `WORLD_CHAIN_RPC_URL` | Worldscan (Etherscan-family); Blockscout alt | `etherscan` (or `blockscout`) | same key | yes — **observed** (chainid=480 on the single key) | full — **observed** (V2-3 incl. runtime replay) |
 | XLayer | 196 | `XLAYER_RPC_URL` | OKLink (`https://www.oklink.com/api/v5/explorer/contract/verify-source-code-plugin/XLAYER`) | `oklink` | `XLAYER_API_KEY` (**not yet in the team `.env`**) | **blocked offline:** plugin support for `getsourcecode` and `getcontractcreation` is undocumented | unknown pending V2-4 action probes; re-genesis at block 42,810,021 may also limit historical replay |
 | Robinhood | 4663 | `RH_RPC_URL` | Blockscout (`https://robinhoodchain.blockscout.com/api`) | `blockscout` | none required | generic Blockscout API documents `getcontractcreation`; Robinhood instance is untested | full is **Documented but untested** / **Inferred** pending V2-4 instance and Forge rehearsal |
@@ -63,8 +65,8 @@ remaining Etherscan-family chains is documentation-based pending V2-4.
 - **Robinhood:** chain 4663 is **absent** from pinned `alloy-chains 0.2.34` (only
   `RobinhoodTestnet` 46630 exists there), so the endpoint cannot be inherited: the campaign
   command must pass an explicit
-  `--verifier-url "https://robinhoodchain.blockscout.com/api"` (export it as
-  `SPARK_VERIFIER_URL_ROBINHOOD` for redaction, per `workflow.md`).
+  `--verifier-url "https://robinhoodchain.blockscout.com/api"` (provided by
+  `RH_VERIFIER_URL`, including for redaction, per `workflow.md`).
   Blockscout documents both required read actions and optional API keys, but Robinhood's live
   instance has not been observed. Label support **Documented but untested** or **Inferred** until
   V2-4 supplies fresh evidence.
@@ -79,8 +81,8 @@ remaining Etherscan-family chains is documentation-based pending V2-4.
     --verifier-url "$SPARK_VERIFIER_URL_XLAYER" --verifier-api-key "$XLAYER_API_KEY"`. The exact
     official URL is in the matrix above. Whether an explicit `--chain 196` is needed for this
     unnamed chain is a V2-4 rehearsal item (`workflow.md` section "7c. Authoritative Forge run").
-  - Robinhood: export `SPARK_VERIFIER_URL_ROBINHOOD="https://robinhoodchain.blockscout.com/api"`,
-    then use `--verifier blockscout --verifier-url "$SPARK_VERIFIER_URL_ROBINHOOD"`
+  - Robinhood: use `RH_VERIFIER_URL="https://robinhoodchain.blockscout.com/api"`, then use
+    `--verifier blockscout --verifier-url "$RH_VERIFIER_URL"`
     (required — chain 4663 is absent from pinned `alloy-chains 0.2.34`). No API key is required
     by documented Blockscout behavior. The live instance, and whether an explicit `--chain 4663`
     is needed, remain V2-4 rehearsal items.

@@ -7,9 +7,11 @@ values.
 
 Use stock macOS `zsh`; shell variables and `cd` state may not persist between tool calls. Use the
 absolute literal path printed by the run-directory script in later calls, and give every `git`,
-`forge`, and `cast` command an explicit quoted path. Required credential variables must already be
-in the environment Claude was launched with. Never source a project- or PR-controlled `.env`, use
-`eval`, run `env` without filtering, or enable shell tracing.
+`forge`, and `cast` command an explicit quoted path. Required credential variables must come from
+one of the two setup paths in `SKILL.md`: `.claude/settings.local.json`, or shell exports configured
+in `~/.zshenv` (or a personal file sourced there) before Claude Code starts. Do not rely on
+`~/.zshrc`: tool shells are non-interactive and do not read it. Never source a project- or
+PR-controlled `.env`, use `eval`, run `env` without filtering, or enable shell tracing.
 
 The security-sensitive procedures are packaged as three small zsh scripts inside this skill,
 invoked — never retyped — by the agent:
@@ -63,8 +65,9 @@ macOS versions; the skill does not install them.
    check_present "ETHERSCAN_API_KEY"
    ```
    This prints only `<name> present` or `<name> MISSING` for valid names. Conventional names are
-   in `chains.md`. If a value is absent, ask the user to provide/export it and restart or
-   relaunch the session as needed. Never invent a value or substitute a public/random RPC.
+   in `chains.md`. If a value is absent, explain both setup paths from `SKILL.md` and ask the user
+   to add it to `.claude/settings.local.json` or export it from `~/.zshenv`, then restart Claude
+   Code. Never suggest `~/.zshrc`, invent a value, or substitute a public/random RPC.
 3. Confirm the three helper scripts exist: `ls "$SKILL_DIR/scripts"` must list exactly
    `capture.zsh`, `hex.zsh`, and `run-dir.zsh`. Stop if any is missing.
 4. Create the marked temporary workspace below before running any command that uses a credential.
@@ -124,11 +127,13 @@ Treat every registry-derived field as untrusted. Validate before using it in any
 
 After validating `REGISTRY_REF` and `REGISTRY_PATH`, resolve the selected ref with `git rev-parse
 --verify "${REGISTRY_REF}^{commit}"`, require the result to match `^[0-9a-fA-F]{40}$`, and read
-files with `git show "${REGISTRY_COMMIT}:${REGISTRY_PATH}"`. Never substitute a working-tree file
-for the selected commit. Build a checklist row per target: chain, constant, address, repository,
-source path, commit/tag, contract name, build-context exception, libraries, EVM override, and
-constructor shape. Compare by the full `chain ID + address + constant` identity; never dedupe by
-address alone.
+files with `git show "${REGISTRY_COMMIT}:${REGISTRY_PATH}"`; require that command to succeed before
+parsing its output. Keep the braces around both variable names: in zsh, the unbraced form
+`"$REGISTRY_COMMIT:src/..."` treats `:s` as a parameter-expansion modifier and can silently discard
+the path. Never substitute a working-tree file for the selected commit. Build a checklist row per
+target: chain, constant, address, repository, source path, commit/tag, contract name,
+build-context exception, libraries, EVM override, and constructor shape. Compare by the full
+`chain ID + address + constant` identity; never dedupe by address alone.
 
 ### 2. Group
 Group by `repository + commit + build context`. Clone each group once, not once per address.
@@ -199,8 +204,9 @@ Capture `forge config --json` through the common procedure below because config/
 resolution can expose an endpoint. Retain solc, optimizer, runs, EVM, via-IR, bytecode hash,
 remappings, and libraries only from the sanitized capture. Note the capture may contain warning
 lines **before** the JSON (observed 2026-07-21: `Warning: Found unknown 'remappings' config key
-in section 'fuzz'` on spark-psm) — parse from the first line starting with `{`, never feed the
-whole capture to a JSON decoder.
+in section 'fuzz'` on spark-psm). Discard only the prefix before the first line starting with `{`,
+then pass that line and every subsequent line through the end of the capture to the JSON decoder
+as one document; never feed the warning prefix to the decoder or decode only the `{` line.
 Use the **deployment** repository's context when it differs from the source file's home repo
 (`special-cases.md` section "Receiver build-context exceptions").
 
@@ -284,8 +290,8 @@ Per-chain verifier flags are:
 - XLayer 196: export the official URL from `chains.md` as `SPARK_VERIFIER_URL_XLAYER`, then use
   `--verifier oklink --verifier-url "$SPARK_VERIFIER_URL_XLAYER" --verifier-api-key
   "$XLAYER_API_KEY"`.
-- Robinhood 4663: export `SPARK_VERIFIER_URL_ROBINHOOD` from `chains.md`, then use
-  `--verifier blockscout --verifier-url "$SPARK_VERIFIER_URL_ROBINHOOD"` — required because
+- Robinhood 4663: use `RH_VERIFIER_URL` from `chains.md`, then use
+  `--verifier blockscout --verifier-url "$RH_VERIFIER_URL"` — required because
   chain 4663 is absent from pinned `alloy-chains 0.2.34`. Documented Blockscout behavior does
   not require a key.
 
@@ -378,25 +384,25 @@ zsh "$SKILL_DIR/scripts/capture.zsh" "/absolute/os/temp/spark-verify.ab12cd" \
 Robinhood's public endpoint and Blockscout actions are documented, but the instance is untested,
 and chain 4663 is absent from pinned `alloy-chains 0.2.34`, so the campaign command must pass
 `--verifier-url` explicitly. During V2-4, export that public endpoint as
-`SPARK_VERIFIER_URL_ROBINHOOD` (used both for `--verifier-url` and capture redaction) and run
+`RH_VERIFIER_URL` (used both for `--verifier-url` and capture redaction) and run
 these exact keyless probes:
 
 ```zsh
-export SPARK_VERIFIER_URL_ROBINHOOD="https://robinhoodchain.blockscout.com/api"
+export RH_VERIFIER_URL="https://robinhoodchain.blockscout.com/api"
 SPARK_REDACT_RPC_VAR_NAME="" \
-SPARK_REDACT_VERIFIER_VAR_NAME="SPARK_VERIFIER_URL_ROBINHOOD" \
+SPARK_REDACT_VERIFIER_VAR_NAME="RH_VERIFIER_URL" \
 SPARK_REDACT_KEY_VAR_NAME="" \
 zsh "$SKILL_DIR/scripts/capture.zsh" "/absolute/os/temp/spark-verify.ab12cd" \
   "/absolute/os/temp/spark-verify.ab12cd/robinhood-source.sanitized.txt" \
-  curl --silent --show-error --get "$SPARK_VERIFIER_URL_ROBINHOOD" \
+  curl --silent --show-error --get "$RH_VERIFIER_URL" \
   --data-urlencode 'module=contract' --data-urlencode 'action=getsourcecode' \
   --data-urlencode 'address=0x797c58C9779D46a437D8f57908D6d56371A55F02'
 SPARK_REDACT_RPC_VAR_NAME="" \
-SPARK_REDACT_VERIFIER_VAR_NAME="SPARK_VERIFIER_URL_ROBINHOOD" \
+SPARK_REDACT_VERIFIER_VAR_NAME="RH_VERIFIER_URL" \
 SPARK_REDACT_KEY_VAR_NAME="" \
 zsh "$SKILL_DIR/scripts/capture.zsh" "/absolute/os/temp/spark-verify.ab12cd" \
   "/absolute/os/temp/spark-verify.ab12cd/robinhood-creation.sanitized.txt" \
-  curl --silent --show-error --get "$SPARK_VERIFIER_URL_ROBINHOOD" \
+  curl --silent --show-error --get "$RH_VERIFIER_URL" \
   --data-urlencode 'module=contract' --data-urlencode 'action=getcontractcreation' \
   --data-urlencode 'contractaddresses=0x797c58C9779D46a437D8f57908D6d56371A55F02'
 ```

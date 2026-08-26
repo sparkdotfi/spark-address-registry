@@ -39,38 +39,42 @@ The user must have, and nothing more:
 - Git
 - Forge and Cast (Foundry), **pinned to stable v1.7.1, commit
   `4072e48705af9d93e3c0f6e29e93b5e9a40caed8`** (`foundryup -i 1.7.1`)
-- Chain RPC URLs and explorer API keys provided via `.claude/settings.local.json` (one-time
-  step below — **the skill cannot run without it**)
+- Chain RPC URLs and explorer API keys provided either via `.claude/settings.local.json` or as
+  shell exports available before Claude Code starts (one-time setup below)
 
 **Foundry pin (hard stop).** Preflight must confirm that both `forge --version` and
 `cast --version` report `Commit SHA: 4072e48705af9d93e3c0f6e29e93b5e9a40caed8`. If either
 differs, stop — matching semantics are version-sensitive and this campaign is pinned to that
 commit.
 
-**One-time credential setup (required before first use).** Every team member must create
-`.claude/settings.local.json` in the repo root (personal, gitignored — never commit it) with
-their RPC URLs and explorer key:
+**One-time credential setup (required before first use).** Choose either of these supported
+sources for RPC URLs and explorer keys:
+
+1. Create `.claude/settings.local.json` in the repo root (personal, gitignored — never commit
+   it):
 
 ```json
-// .claude/settings.local.json  (personal, gitignored — never committed)
 { "env": { "MAINNET_RPC_URL": "https://…", "ETHERSCAN_API_KEY": "…", "BASE_RPC_URL": "…" } }
 ```
 
+2. Export the same variables from `~/.zshenv`, or from a personal file sourced by `~/.zshenv`,
+   before launching Claude Code. Claude Code's Bash tool uses non-interactive zsh, which reads
+   `~/.zshenv` but not `~/.zshrc`; exports configured only in `~/.zshrc` are not a supported
+   credential source for this skill.
+
 Include every chain you intend to verify (`references/chains.md` lists the variable names).
-Every Claude Code session in this repo then has the variables automatically — no per-session
-step. If the file is created or changed while a session is running, the session must be
-restarted to pick it up. (Exporting the variables in the launching shell also works, but the
-settings file is the team standard.)
+Restart Claude Code after creating or changing either credential source so the session and its
+tool shells pick up the values.
 
 Never source a project- or PR-controlled `.env` file **from inside a session**. The skill does
 not hardcode variable names as unchangeable literals and does not implement its own
 credentials-file parser; it reads whatever the environment provides, checks **presence only**,
 confirms chain identity by RPC (never by variable name), and never prints a value.
 `references/chains.md` lists the team's variable names. If a needed variable is absent, stop
-and tell the user to add it to `.claude/settings.local.json` (setup step above) and restart the
-session — mid-session changes do not reach a running session; never invent a value and never
-substitute a public/random RPC. There is no Python dependency, and this skill adds no CI to the
-repository.
+and explain both supported setup choices above: add it to `.claude/settings.local.json`, or
+export it from `~/.zshenv` (or a personal file sourced there), then restart the session. Never
+suggest `~/.zshrc`, invent a value, or substitute a public/random RPC. There is no Python
+dependency, and this skill adds no CI to the repository.
 
 The skill packages three small helper scripts under `scripts/` (`run-dir.zsh`, `capture.zsh`,
 `hex.zsh`) that implement the security-sensitive procedures — marked temporary workspace,

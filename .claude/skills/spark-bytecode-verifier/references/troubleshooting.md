@@ -11,8 +11,9 @@ to set it). Never invent a value, never substitute a public/random RPC, never bu
 credentials-file parser, and never source a project- or PR-controlled `.env` from inside the
 session. Use the validated macOS-zsh `check_present` procedure in `workflow.md`; it prints only
 `<name> present` or `<name> MISSING`. Point the user at the one-time credential setup in
-`SKILL.md` ("Required team setup") — add the variable to `.claude/settings.local.json` — and
-note a session relaunch is required; mid-session changes do not reach a running session.
+`SKILL.md` ("Required team setup"): add the variable to `.claude/settings.local.json`, or export
+it from `~/.zshenv` (or a personal file sourced there), then restart Claude Code. Do not suggest
+`~/.zshrc`; the Bash tool's non-interactive zsh does not read it.
 
 ## Wrong chain ID
 
