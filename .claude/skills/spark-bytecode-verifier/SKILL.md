@@ -47,6 +47,23 @@ The user must have, and nothing more:
 differs, stop — matching semantics are version-sensitive and this campaign is pinned to that
 commit.
 
+**Quickstart: no `.claude/settings.local.json` yet.** If that file doesn't exist when this
+skill is invoked, don't explain the whole credential model — just do this, fast:
+
+1. Create `.claude/settings.local.json` with an `env` object containing every variable name
+   this run needs (empty strings), per `references/chains.md`.
+2. Confirm it's gitignored (it already is in this repo).
+3. Ask the user, in one short message, to paste in the RPC URLs / API keys for the chains
+   they want to test — nothing more.
+4. Stop and wait for them to paste values.
+5. Tell the user to **restart Claude Code** (exit and relaunch) — tool shells only read
+   `.claude/settings.local.json` env values at launch, so edits made mid-session are invisible
+   to `forge`/`cast`/`cast chain-id` until then. Then stop and wait again; do not attempt to
+   verify the variables loaded until they confirm the restart.
+
+Never fill in a value yourself, never print one back, never proceed on empty/placeholder
+strings.
+
 **One-time credential setup (required before first use).** Choose either of these supported
 sources for RPC URLs and explorer keys:
 
