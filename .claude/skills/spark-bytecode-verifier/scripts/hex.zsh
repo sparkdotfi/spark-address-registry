@@ -33,8 +33,14 @@
 #   hex.zsh to-bin <hex-file>
 #       Print the binary decoding of a validated hex file to stdout
 #       (redirect to the target binary file). Rejects odd-length hex.
-#   hex.zsh assert-no-immutables <sanitized-artifact.json>
-#       Require deployedBytecode.immutableReferences to be an empty object.
+#   hex.zsh assert-no-immutables <artifact.json>
+#       Require the artifact's runtime to have no immutable references.
+#       Foundry emits deployedBytecode.immutableReferences only when it is
+#       non-empty, so an absent key on a well-formed artifact means "no
+#       immutables"; the artifact shape is anchored by requiring
+#       deployedBytecode.object to be hex. Proves only the immutables
+#       condition — the caller still owns the not-a-deployed-library /
+#       self-address checks (workflow.md section 8a).
 
 set +x
 
@@ -131,10 +137,18 @@ case "$op" in
     ;;
   assert-no-immutables)
     perl -MJSON::PP -0777 -ne '
-      $j = decode_json($_); $refs = $j->{deployedBytecode}{immutableReferences};
-      die "missing immutableReferences\n" unless ref($refs) eq "HASH";
-      die "runtime has immutable references\n" if keys %$refs;
-      print "immutableReferences empty\n";
+      $j = decode_json($_); $d = $j->{deployedBytecode};
+      die "missing deployedBytecode object\n" unless ref($d) eq "HASH";
+      $obj = $d->{object};
+      die "deployedBytecode.object missing or not hex\n"
+        unless defined($obj) && !ref($obj) && $obj =~ /^0x(?:[0-9A-Fa-f]{2})*$/;
+      $refs = $d->{immutableReferences};
+      if (!defined($refs)) { print "no immutables (immutableReferences absent)\n"; }
+      elsif (ref($refs) eq "HASH") {
+        die "runtime has immutable references\n" if keys %$refs;
+        print "no immutables (immutableReferences empty)\n";
+      }
+      else { die "invalid immutableReferences\n"; }
     ' "$1"
     ;;
   *)

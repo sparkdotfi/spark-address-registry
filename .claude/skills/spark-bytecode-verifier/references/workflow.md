@@ -527,9 +527,6 @@ zsh "$SKILL_DIR/scripts/capture.zsh" "/absolute/os/temp/spark-verify.ab12cd" \
 zsh "$SKILL_DIR/scripts/capture.zsh" "/absolute/os/temp/spark-verify.ab12cd" \
   "/absolute/os/temp/spark-verify.ab12cd/local-runtime.sanitized.txt" \
   forge inspect --root "/absolute/os/temp/spark-verify.ab12cd/$group" "$contract_name" deployedBytecode
-zsh "$SKILL_DIR/scripts/capture.zsh" "/absolute/os/temp/spark-verify.ab12cd" \
-  "/absolute/os/temp/spark-verify.ab12cd/artifact.sanitized.json" \
-  forge inspect --root "/absolute/os/temp/spark-verify.ab12cd/$group" "$contract_name" artifact --json
 ```
 
 The sanitized `forge inspect` captures combine stdout and stderr, so on checkouts with compiler
@@ -654,24 +651,19 @@ print -r -- "cmp_exit=$?"
 
 Record lengths, SHA-256 hashes, and `cmp` status for creation and runtime independently. Artifact
 `deployedBytecode` is **not** instantiated runtime when immutables or library self-address guards
-exist. Raw artifact/runtime comparison is allowed only when
-`deployedBytecode.immutableReferences` in the sanitized `artifact --json` capture is an empty
-object and the target is not a deployed library or another self-address-dependent case —
-`hex.zsh assert-no-immutables` enforces this. Otherwise this stock-macOS workflow cannot produce
-instantiated local runtime bytes: record the independent runtime comparison as unavailable and
-use `Investigation required` for any class that depends on it. Do not label artifact bytes as
-"local replay."
+exist. Raw artifact/runtime comparison is allowed only when the artifact's runtime has no
+immutable references — `hex.zsh assert-no-immutables` enforces exactly this condition (Foundry
+omits `deployedBytecode.immutableReferences` when it is empty, so the script accepts an absent
+key on a shape-anchored artifact) — **and** the target is not a deployed library or another
+self-address-dependent case, which the script cannot see and the agent must check separately.
+Otherwise this stock-macOS workflow cannot produce instantiated local runtime bytes: record the
+independent runtime comparison as unavailable and use `Investigation required` for any class
+that depends on it. Do not label artifact bytes as "local replay."
 
-```zsh
-zsh "$SKILL_DIR/scripts/hex.zsh" assert-no-immutables \
-  "/absolute/os/temp/spark-verify.ab12cd/artifact.sanitized.json"
-```
-
-`forge inspect <Name> artifact --json` can error at this pin (observed 2026-07-21,
-`error: invalid value` on one checkout). Fallback: run `assert-no-immutables` directly on the
-compiled artifact file inside the checkout — `out/<SourceFile>.sol/<Name>.json` — which contains
-the same `deployedBytecode.immutableReferences` object. It is a local build product with no
-credentials, so it may be read without the capture procedure; record which path was used.
+Run it on the compiled artifact inside the checkout — `out/<SourceFile>.sol/<Name>.json`. (At
+this pin `forge inspect <Name> artifact --json` does not exist — `artifact` is not an accepted
+field — so the build product is the only source.) It is a local build product with no
+credentials, so it may be read without the capture procedure:
 
 ```zsh
 zsh "$SKILL_DIR/scripts/hex.zsh" assert-no-immutables \
