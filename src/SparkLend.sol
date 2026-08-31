@@ -45,6 +45,9 @@ library SparkLend {
     address internal constant RETH_DEBT_TOKEN = 0xBa2C8F2eA5B56690bFb8b709438F049e5Dd76B96;
     address internal constant RETH_SPTOKEN    = 0x9985dF20D7e9103ECBCeb16a84956434B6f06ae8;
 
+    address internal constant RLUSD_DEBT_TOKEN = 0x5cf1eaf763e8CE5F949bEa9a0Cd051e8db252D5B;
+    address internal constant RLUSD_SPTOKEN    = 0x59275Fb72c8004F44BA44432e25082932Fd677f1;
+
     address internal constant RSETH_DEBT_TOKEN = 0xc528F0C91CFAE4fd86A68F6Dfd4d7284707Bec68;
     address internal constant RSETH_SPTOKEN    = 0x856f1Ea78361140834FDCd0dB0b08079e4A45062;
 
@@ -59,6 +62,9 @@ library SparkLend {
 
     address internal constant USDC_DEBT_TOKEN = 0x7B70D04099CB9cfb1Db7B6820baDAfB4C5C70A67;
     address internal constant USDC_SPTOKEN    = 0x377C3bd93f2a2984E1E7bE6A5C22c525eD4A4815;
+
+    address internal constant USDG_DEBT_TOKEN = 0x4Eb8Bf7d764D6B243a41c167dcF0E2A08C88ff3F;
+    address internal constant USDG_SPTOKEN    = 0x6f335538257ef440F3c51e925a5C820f722a1F9F;
 
     address internal constant USDS_DEBT_TOKEN = 0x8c147debea24Fb98ade8dDa4bf142992928b449e;
     address internal constant USDS_SPTOKEN    = 0xC02aB1A5eaA8d1B114EF786D9bde108cD4364359;
