@@ -25,4 +25,27 @@ library BSC {
     // Operational Multisigs
     address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
 
+    /*******************************************************************************************************************
+
+    ███████╗██╗  ██╗████████╗███████╗██████╗ ███╗   ██╗ █████╗ ██╗
+    ██╔════╝╚██╗██╔╝╚══██╔══╝██╔════╝██╔══██╗████╗  ██║██╔══██╗██║
+    █████╗   ╚███╔╝    ██║   █████╗  ██████╔╝██╔██╗ ██║███████║██║
+    ██╔══╝   ██╔██╗    ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║
+    ███████╗██╔╝ ██╗   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗
+    ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+
+    /******************************************************************************************************************/
+    /*** Spark SPK LayerZero bridge addresses                                                                       ***/
+    /******************************************************************************************************************/
+
+    address internal constant LZ_ENDPOINT = 0x1a44076050125825900e736c501f859c50fE728c;
+
+    address internal constant LZ_SEND_ULN    = 0x9F8C645f2D0b2159767Bd6E0839DE4BE49e823DE;
+    address internal constant LZ_RECEIVE_ULN = 0xB217266c3A98C8B2709Ee26836C98cf12f6cCEC1;
+
+    address internal constant LZ_DVN_CANARY         = 0xfA9bA83C102283958B997Adc8B44ED3A3CdB5dDa;
+    address internal constant LZ_DVN_HORIZEN        = 0x247624e2143504730aeC22912ed41F092498bEf2;
+    address internal constant LZ_DVN_LAYERZERO_LABS = 0xfD6865c841c2d64565562fCc7e05e619A30615f0;
+    address internal constant LZ_DVN_NETHERMIND     = 0x31F748a368a893Bdb5aBB67ec95F232507601A73;
+
 }
