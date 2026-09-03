@@ -92,7 +92,7 @@ library SparkLend {
     address internal constant SUSDS_IRM                  = 0xa8632b2f0A3C5327a77ee51a47A168B6490A7178; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
     address internal constant USDC_IRM                   = 0xDE99e49E9e42B1d8490C38926e6C9A79010e6eF2; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
     address internal constant USDG_RLUSD_IRM             = 0x473fDf9713C9a02A9a9c17173a57d120493F3C6B; // sparklend-advanced/RateTargetBaseInterestRateStrategy@e2ba58d (v1.6.0)
-    address internal constant USDT_IRM                   = 0x4E494988E68e6Fc52309BE4937869e27F0C304AC; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
+    address internal constant USDT_IRM                   = 0x4FA65B096681bD6FeecF78e5D83096bf4A5762A0; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
     address internal constant WBTC_IRM                   = 0xD2139d6d63Acb1e7Cc91cE32bbD86eFb17eBEe46; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
     address internal constant WETH_IRM                   = 0xDFB6206FfC5BA5B48D2852370ee6A1bf6887476a; // sparklend-advanced/RateTargetKinkInterestRateStrategy@e2ba58d (v1.6.0)
     address internal constant WSTETH_IRM                 = 0xDD94eC5C14407e0bd6760c8eBDcD4Ec1327D3656; // sparklend-v1-core/DefaultReserveInterestRateStrategy@8120e495 (v1.0.0)
