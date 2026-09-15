@@ -24,9 +24,9 @@ library Ethereum {
     /******************************************************************************************************************/
 
     address internal constant SPARK_BEACON                     = 0xd47230358AB6c52A0a988150Ac4Ab888FE8B7786;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x60eB26db57bD058B6D742a1f6350A7FFeAb0681E;  // diamond-pau/PauFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x60eB26db57bD058B6D742a1f6350A7FFeAb0681E;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
     address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x74C35B0990ea530926d2656003Cb3E3Bf286cA69;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
-    address internal constant SPARK_DEFAULT_PAU_ASSEMBLER      = 0xb2468FCc87E3BE45Bfa521e567731375887BF8e2;  // pau-assemblers/DefaultPauAssembler.sol@d7d6f08 (v1.0.0)
+    address internal constant SPARK_DEFAULT_PAU_ASSEMBLER      = 0xb2468FCc87E3BE45Bfa521e567731375887BF8e2;  // pau-assemblers/DefaultPAUAssembler.sol@d7d6f08 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/

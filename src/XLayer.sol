@@ -24,15 +24,15 @@ library XLayer {
     /******************************************************************************************************************/
 
     address internal constant SPARK_BEACON                     = 0x5612697F3F8c393A860ac0C9cf5b315c248cB0a0;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x0B33b8974eDe2985ac9E41931314337C01543fFE;  // diamond-pau/PauFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x0B33b8974eDe2985ac9E41931314337C01543fFE;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
     address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x039bC8CAe7A5b2B981E5ED98B840C76c7FBacDAc;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
-    address internal constant SPARK_DEFAULT_PAU_ASSEMBLER      = 0xaCae58f96C959A792FaeaEc72CA870c2E36B3C80;  // pau-assemblers/DefaultPauAssembler.sol@d7d6f08 (v1.0.0)
+    address internal constant SPARK_DEFAULT_PAU_ASSEMBLER      = 0xaCae58f96C959A792FaeaEc72CA870c2E36B3C80;  // pau-assemblers/DefaultPAUAssembler.sol@d7d6f08 (v1.0.0)
 
     /******************************************************************************************************************/
     /*** Spark PAU Facets addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant AAVE_FACET           = 0xc8C8930F28622D240fF380bC8b2224119b477249;  // diamond-pau/AAVEFacet.sol@cbf71b2 (v1.14.0)
+    address internal constant AAVE_FACET           = 0xc8C8930F28622D240fF380bC8b2224119b477249;  // diamond-pau/AaveFacet.sol@cbf71b2 (v1.14.0)
     address internal constant CCTP_FACET           = 0x4a966353B421dF6ddd08E432A1E55B884Cb92D4E;  // diamond-pau/CCTPFacet.sol@cbf71b2 (v1.14.0)
     address internal constant ERC4626_FACET        = 0x3fC45da74c30644172620520F6bAf6783aec11F2;  // diamond-pau/ERC4626Facet.sol@cbf71b2 (v1.14.0)
     address internal constant LAYER_ZERO_FACET     = 0x936D542661734F2D9a96A75fF27B1BC1D2B5dfB5;  // diamond-pau/LayerZeroFacet.sol@cbf71b2 (v1.14.0)
