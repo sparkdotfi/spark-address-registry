@@ -20,6 +20,20 @@ library Arbitrum {
     address internal constant SPARK_RECEIVER = 0x212871A1C235892F86cAB30E937e18c94AEd8474;  // xchain-helpers/ArbitrumReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
+    /*** Spark PAU Core addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_BEACON                     = 0x86036CE5d2f792367C0AA43164e688d13c5A60A8;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x3968a022D955Bbb7927cc011A48601B65a33F346;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0xCBA0C0a2a0B6Bb11233ec4EA85C5bFfea33e724d;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
+
+    /******************************************************************************************************************/
+    /*** Spark PAU Facets addresses                                                                                 ***/
+    /******************************************************************************************************************/
+
+    address internal constant CCTP_FACET = 0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E;  // diamond-pau/CCTPFacet.sol@cbf71b2 (v1.14.0)
+
+    /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
@@ -65,6 +79,15 @@ library Arbitrum {
     address internal constant SUSDC      = 0x940098b108fB7D0a7E374f6eDED7760787464609;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
     address internal constant SUSDC_IMPL = 0xdC8DF20bE448E41FdE88E2478d6Bc4d3C9A092d6;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
+    /******************************************************************************************************************/
+    /*** Spark Parallel Controller PAU addresses                                                                    ***/
+    /******************************************************************************************************************/
+
+    address internal constant PAU_ACCESS_CONTROLS    = 0x8386f819860D54B1180539Ff4852E4CAECef8A1D;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
+    address internal constant PAU_ADMINISTERED_AGENT = 0x0745aae633E8318a063D383791bCc0d8C82F46C6;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
+    address internal constant PAU_CONTROLLER         = 0x04ACB9e9bbd64A425677edC535D6B30cfD74E42f;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
+    address internal constant PAU_RATELIMITS         = 0x4824C4336a1a11979068A544958dCe5D49B42752;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+
     /*******************************************************************************************************************
 
     ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗
@@ -81,6 +104,7 @@ library Arbitrum {
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant PAU_GRANTOR_MULTISIG          = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
 
     address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 

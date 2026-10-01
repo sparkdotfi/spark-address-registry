@@ -20,6 +20,20 @@ library Base {
     address internal constant SPARK_RECEIVER = 0xfda082e00EF89185d9DB7E5DcD8c5505070F5A3B;  // xchain-helpers/OptimismReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
+    /*** Spark PAU Core addresses                                                                                   ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPARK_BEACON                     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x011A115b5498B85b3d12245A3a7296F77325B5C3;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0xD711DbfD937a45e2C89CA0D4781cfa5BAb32e752;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
+
+    /******************************************************************************************************************/
+    /*** Spark PAU Facets addresses                                                                                 ***/
+    /******************************************************************************************************************/
+
+    address internal constant CCTP_FACET = 0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32;  // diamond-pau/CCTPFacet.sol@cbf71b2 (v1.14.0)
+
+    /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
@@ -58,6 +72,15 @@ library Base {
     address internal constant SUSDC      = 0x3128a0F7f0ea68E7B7c9B00AFa7E41045828e858;  // openzeppelin-contracts-upgradeable/ERC1967Proxy.sol@723f8cab (v5.0.2)
     address internal constant SUSDC_IMPL = 0x6ACC02ddd82206a44ff4EC13977E63d1a29C7723;  // spark-vaults/UsdcVaultL2.sol@78d37c8
 
+    /******************************************************************************************************************/
+    /*** Spark Parallel Controller PAU addresses                                                                    ***/
+    /******************************************************************************************************************/
+
+    address internal constant PAU_ACCESS_CONTROLS    = 0xE593c8c6a31d88cab100244Afd352efb127f9a16;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
+    address internal constant PAU_ADMINISTERED_AGENT = 0x70E46bAf2E3F27a119757D7b796c641C8bc087cE;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
+    address internal constant PAU_CONTROLLER         = 0xd864bF1Ea2f78Dc2013E3FC7e4C474383BE9d456;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
+    address internal constant PAU_RATELIMITS         = 0x5E311e8BCe95F4e8d4920E70985ED4aC122a838A;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+
     /*******************************************************************************************************************
 
     ███████╗██████╗  █████╗ ██████╗ ██╗  ██╗    ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗
@@ -74,6 +97,7 @@ library Base {
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
     address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant PAU_GRANTOR_MULTISIG          = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
 
     address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
