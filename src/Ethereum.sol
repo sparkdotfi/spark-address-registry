@@ -330,6 +330,7 @@ library Ethereum {
 
     address internal constant CURVE_SUSDSUSDT   = 0x00836Fe54625BE242BcFA286207795405ca4fD10;
     address internal constant CURVE_USDCUSDT    = 0x4f493B7dE8aAC7d55F71853688b1F7C8F0243C85;
+    address internal constant CURVE_USDCRLUSD   = 0xD001aE433f254283FeCE51d4ACcE8c53263aa186;
     address internal constant CURVE_PYUSDUSDC   = 0x383E6b4437b59fff47B619CBA855CA29342A8559;
     address internal constant CURVE_PYUSDUSDS   = 0xA632D59b9B804a956BfaA9b48Af3A1b74808FC1f;
     address internal constant CURVE_WEETHWETHNG = 0xDB74dfDD3BB46bE8Ce6C33dC9D82777BCFc3dEd5;
