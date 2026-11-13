@@ -145,7 +145,6 @@ library Ethereum {
     address internal constant ALM_OPS_MULTISIG_2                = 0x797B010E0BABb493b8DEDD6F6ce5cc72778C2BF3;
     address internal constant ALM_RELAYER_MULTISIG              = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
     address internal constant MORPHO_CURATOR_MULTISIG           = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
-    address internal constant MORPHO_GUARDIAN_MULTISIG          = 0xf5748bBeFa17505b2F7222B23ae11584932C908B;
     address internal constant PAU_GRANTOR_MULTISIG              = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
     address internal constant SPARK_REWARDS_MULTISIG            = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPARKLEND_REWARDS_MULTISIG        = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
