@@ -32,7 +32,7 @@ library Ethereum {
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_CONTROLLER      = 0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3;  // spark-alm-controller/MainnetController.sol@984ec54 (v1.10.0)
+    address internal constant ALM_CONTROLLER      = 0xc953972Cd006d1f12686fd7185c6D443b15900Cd;  // spark-alm-controller/MainnetController.sol@9c7dffe (v1.11.0)
     address internal constant ALM_PROXY           = 0x1601843c5E9bC251A3272907010AFa41Fa18347E;  // spark-alm-controller/ALMProxy.sol@6058f68 (v1.0.0)
     address internal constant ALM_PROXY_FREEZABLE = 0xe5c6318456a7Cb6f74f93B4eee4616dB5fcef699;  // diamond-pau/ALMProxyFreezable.sol@a84fe96 (v1.12.0)
     address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;  // spark-alm-controller/RateLimits.sol@6058f68 (v1.0.0)
