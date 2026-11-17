@@ -10,3 +10,11 @@
 This repository contains addresses of all smart contracts used in the Spark ecosystem.
 
 Use this repository as the primary source of truth when looking for the canonical addresses of Spark infrastructure.
+
+## Audits
+
+Audit reports are hosted on the auditors' public portfolio pages:
+
+| Auditor | Report | Date |
+| --- | --- | --- |
+| Cantina | [Sky: Arbitrum One and Base Parallel PAU Controller Deployment Verification and Architecture Review](https://cantina.xyz/portfolio/119a9875-0fcb-4ceb-a6cb-a42e8d696d22) | 2026-09-25 |
