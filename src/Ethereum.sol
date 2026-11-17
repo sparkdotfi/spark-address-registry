@@ -31,8 +31,10 @@ library Ethereum {
     /*** Spark PAU Facets addresses                                                                                 ***/
     /******************************************************************************************************************/
 
+    address internal constant AAVE_FACET           = 0x55cD34bE6Bf0de37E908B076dfEA2CaeF6f5ef5B;  // diamond-pau/AaveFacet.sol@b0b7efd (v1.16.0)
     address internal constant CCTP_FACET           = 0xADf62692340e46EF90336f2e75ce3b37f1148873;  // diamond-pau/CCTPFacet.sol@5c5ad6a (v1.13.0)
     address internal constant ERC4626_FACET        = 0x1dCA18608c89174181153E786778705b4A0E1a06;  // diamond-pau/ERC4626Facet.sol@5c5ad6a (v1.13.0)
+    address internal constant LAYERZERO_FACET      = 0x8AEb6C95D842F8bc12CA4341dD014047D964a5c0;  // diamond-pau/LayerZeroFacet.sol@b0b7efd (v1.16.0)
     address internal constant SPARK_VAULT_FACET    = 0xff0d19920E207e3A17eb5A2E5bA3AFA44836362b;  // diamond-pau/SparkVaultFacet.sol@5c5ad6a (v1.13.0)
     address internal constant SWAP_ASSET_FACET     = 0xdEF461199cAd81c65AbA3Ab406743fC40c68C5B6;  // diamond-pau/SwapAssetFacet.sol@b0b7efd (v1.16.0)
     address internal constant TRANSFER_ASSET_FACET = 0x4DA7608C331b8f135df5b985018933780eCd089D;  // diamond-pau/TransferAssetFacet.sol@5c5ad6a (v1.13.0)
