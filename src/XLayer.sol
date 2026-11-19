@@ -90,6 +90,10 @@ library XLayer {
     address internal constant ALM_RELAYER_MULTISIG = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
     address internal constant PAU_GRANTOR_MULTISIG = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
 
+    // Administered Agents Multisigs
+    address internal constant SPARK_LOW_THRESHOLD_MULTISIG    = 0xeC7edCD85460018BA71823076343Cd8D1721972b;
+    address internal constant SPARK_MEDIUM_THRESHOLD_MULTISIG = 0x71c738C6838A5491d9b9226eCBc2E74794855153;
+
     // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
