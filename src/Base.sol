@@ -20,20 +20,6 @@ library Base {
     address internal constant SPARK_RECEIVER = 0xfda082e00EF89185d9DB7E5DcD8c5505070F5A3B;  // xchain-helpers/OptimismReceiver.sol@07e27b6 (v1.0.0)
 
     /******************************************************************************************************************/
-    /*** Spark PAU Core addresses                                                                                   ***/
-    /******************************************************************************************************************/
-
-    address internal constant SPARK_BEACON                     = 0x7ac96180C4d6b2A328D3a19ac059D0E7Fc3C6d41;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x011A115b5498B85b3d12245A3a7296F77325B5C3;  // diamond-pau/PAUFactory.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0xD711DbfD937a45e2C89CA0D4781cfa5BAb32e752;  // pau-administered-agent/AdministeredAgentFactory.sol@bfaaf70 (v1.0.0)
-
-    /******************************************************************************************************************/
-    /*** Spark PAU Facets addresses                                                                                 ***/
-    /******************************************************************************************************************/
-
-    address internal constant CCTP_FACET = 0xb22d50c393c6E1D13E3e05B172448dD8BF8DdC32;  // diamond-pau/CCTPFacet.sol@cbf71b2 (v1.14.0)
-
-    /******************************************************************************************************************/
     /*** Spark Liquidity Layer addresses                                                                            ***/
     /******************************************************************************************************************/
 
