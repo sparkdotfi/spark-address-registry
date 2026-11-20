@@ -58,7 +58,7 @@ library XLayer {
     address internal constant SPARK_VAULT_V2_SPUSDT = 0xc358c90D32375721Cb3924320Fdc2F8B694347Ca;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
-    /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
+    /*** Spark SPUSDC Segregated PAU addresses                                                                      ***/
     /******************************************************************************************************************/
 
     address internal constant SPUSDC_PAU_ACCESS_CONTROLS    = 0x30271Ae5d90B34f0f8BAA840AaE63a7DBF347e84;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)

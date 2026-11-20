@@ -59,7 +59,7 @@ library Ethereum {
     address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
-    /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
+    /*** Spark SPUSDC Segregated PAU addresses                                                                      ***/
     /******************************************************************************************************************/
 
     address internal constant SPUSDC_PAU_ACCESS_CONTROLS    = 0x36F61446638BE126a189689552f38159d30f95ef;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
