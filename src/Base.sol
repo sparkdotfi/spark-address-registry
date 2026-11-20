@@ -86,15 +86,19 @@ library Base {
     /*** Multisig addresses                                                                                         ***/
     /******************************************************************************************************************/
 
-    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
-    address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
-    address internal constant PAU_GRANTOR_MULTISIG          = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
-
-    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
-
+    // Operational Multisigs
+    address internal constant ALM_RELAYER_MULTISIG     = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
     address internal constant MORPHO_CURATOR_MULTISIG  = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
     address internal constant MORPHO_GUARDIAN_MULTISIG = 0xf5748bBeFa17505b2F7222B23ae11584932C908B;
+    address internal constant SPARK_REWARDS_MULTISIG   = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
+
+    // Administered Agents Multisigs
+    address internal constant SPARK_LOW_THRESHOLD_MULTISIG    = 0xeC7edCD85460018BA71823076343Cd8D1721972b;
+    address internal constant SPARK_MEDIUM_THRESHOLD_MULTISIG = 0x71c738C6838A5491d9b9226eCBc2E74794855153;
+
+    // Emergency Multisigs
+    address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
+    address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
 
     /******************************************************************************************************************/
     /*** Morpho Vault addresses                                                                                     ***/
@@ -110,6 +114,14 @@ library Base {
     ██╔══╝   ██╔██╗    ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║
     ███████╗██╔╝ ██╗   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗
     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    // Administered Agents Multisigs
+    address internal constant SOTER_GRANTOR_MULTISIG = 0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7;
+    address internal constant SOTER_REVOKER_MULTISIG = 0x747BF29B189e2a070a921Af7Cf65681E3d5F5967;
 
     /******************************************************************************************************************/
     /*** Token addresses                                                                                            ***/

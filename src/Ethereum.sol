@@ -59,7 +59,7 @@ library Ethereum {
     address internal constant SPARK_VAULT_V2_SPUSDT  = 0xe2e7a17dFf93280dec073C995595155283e3C372;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
-    /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
+    /*** Spark SPUSDC Segregated PAU addresses                                                                      ***/
     /******************************************************************************************************************/
 
     address internal constant SPUSDC_PAU_ACCESS_CONTROLS    = 0x36F61446638BE126a189689552f38159d30f95ef;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
@@ -136,6 +136,12 @@ library Ethereum {
     ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═════╝
 
     /******************************************************************************************************************/
+    /*** Wallet addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant PLANNER_WALLET = 0x062cE42caE04c51D04E77e3D64cc8953a2296FfE;
+
+    /******************************************************************************************************************/
     /*** Spark stSPK address                                                                                        ***/
     /******************************************************************************************************************/
 
@@ -161,6 +167,10 @@ library Ethereum {
     address internal constant SPARK_REWARDS_MULTISIG            = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
     address internal constant SPARKLEND_REWARDS_MULTISIG        = 0x8076807464DaC94Ac8Aa1f7aF31b58F73bD88A27;
     address internal constant SPK_BRIDGING_AND_STAKING_MULTISIG = 0x7a27a9f2A823190140cfb4027f4fBbfA438bac79;
+
+    // Administered Agents Multisigs
+    address internal constant SPARK_LOW_THRESHOLD_MULTISIG    = 0xeC7edCD85460018BA71823076343Cd8D1721972b;
+    address internal constant SPARK_MEDIUM_THRESHOLD_MULTISIG = 0x71c738C6838A5491d9b9226eCBc2E74794855153;
 
     // Custodial Multisigs
     address internal constant SPARK_ASSET_FOUNDATION_MULTISIG   = 0xEabCb8C0346Ac072437362f1692706BA5768A911;
@@ -198,6 +208,14 @@ library Ethereum {
     ██╔══╝   ██╔██╗    ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║
     ███████╗██╔╝ ██╗   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗
     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    // Administered Agents Multisigs
+    address internal constant SOTER_GRANTOR_MULTISIG = 0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7;
+    address internal constant SOTER_REVOKER_MULTISIG = 0x747BF29B189e2a070a921Af7Cf65681E3d5F5967;
 
     /******************************************************************************************************************/
     /*** Token addresses                                                                                            ***/

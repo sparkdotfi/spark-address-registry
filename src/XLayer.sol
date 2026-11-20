@@ -58,7 +58,7 @@ library XLayer {
     address internal constant SPARK_VAULT_V2_SPUSDT = 0xc358c90D32375721Cb3924320Fdc2F8B694347Ca;  // openzeppelin-contracts/ERC1967Proxy.sol@c64a1edb (v5.4.0)
 
     /******************************************************************************************************************/
-    /*** Spark SPUSDC Seggregated PAU addresses                                                                     ***/
+    /*** Spark SPUSDC Segregated PAU addresses                                                                      ***/
     /******************************************************************************************************************/
 
     address internal constant SPUSDC_PAU_ACCESS_CONTROLS    = 0x30271Ae5d90B34f0f8BAA840AaE63a7DBF347e84;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
@@ -90,6 +90,10 @@ library XLayer {
     address internal constant ALM_RELAYER_MULTISIG = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
     address internal constant PAU_GRANTOR_MULTISIG = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
 
+    // Administered Agents Multisigs
+    address internal constant SPARK_LOW_THRESHOLD_MULTISIG    = 0xeC7edCD85460018BA71823076343Cd8D1721972b;
+    address internal constant SPARK_MEDIUM_THRESHOLD_MULTISIG = 0x71c738C6838A5491d9b9226eCBc2E74794855153;
+
     // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
@@ -104,10 +108,19 @@ library XLayer {
     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
 
     /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    // Administered Agents Multisigs
+    address internal constant SOTER_GRANTOR_MULTISIG = 0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7;
+    address internal constant SOTER_REVOKER_MULTISIG = 0x747BF29B189e2a070a921Af7Cf65681E3d5F5967;
+
+    /******************************************************************************************************************/
     /*** Token addresses                                                                                            ***/
     /******************************************************************************************************************/
 
-    address internal constant USDC  = 0xB6CEceAB302E2E4948951eE7843FC24E92933061;
-    address internal constant USDT0 = 0x779Ded0c9e1022225f8E0630b35a9b54bE713736;
+    address internal constant USDC      = 0xB6CEceAB302E2E4948951eE7843FC24E92933061;
+    address internal constant USDT0     = 0x779Ded0c9e1022225f8E0630b35a9b54bE713736;
+    address internal constant USDT0_OFT = 0x94BCCa6bdfd6A61817Ab0E960bFedE4984505554;
 
 }
