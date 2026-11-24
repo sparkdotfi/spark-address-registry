@@ -25,18 +25,18 @@ library Arbitrum {
 
     address internal constant SPARK_BEACON                     = 0x53ecE26171B716e5F4D03eAF70844F0a34E368f7;  // diamond-pau/Beacon.sol@b0b7efd (v1.16.0)
     address internal constant SPARK_PAU_FACTORY                = 0x182924C99843c16d5525fD160d39fa209978f221;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
-    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x9A56C59453a2fBAe01Ba46045441490e5C7a664d;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
+    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0xB6425948aD24da14eDEA099c9941Ce79467a0893;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
 
     /******************************************************************************************************************/
     /*** Spark PAU Facets addresses                                                                                 ***/
     /******************************************************************************************************************/
 
-    address internal constant AAVE_FACET           = 0x9f622D74FD49fe7204805B14824eF01B1Cf04333;  // diamond-pau/AaveFacet.sol@b0b7efd (v1.16.0)
+    address internal constant AAVE_FACET           = 0x87283A01Ea95c419823e25dF9873d75B69a26cD6;  // diamond-pau/AaveFacet.sol@b0b7efd (v1.16.0)
     address internal constant CCTP_FACET           = 0xeCCA0D296Cb133081d41E9772B60D57F5fd2798E;  // diamond-pau/CCTPFacet.sol@cbf71b2 (v1.14.0)
     address internal constant ERC4626_FACET        = 0x56220DA4409CA775d574EF3E28Ab584E9c089e9a;  // diamond-pau/ERC4626Facet.sol@b0b7efd (v1.16.0)
-    address internal constant LAYER_ZERO_FACET     = 0x21783460499b5a4b2fEA8c9c9B7833420aE5a560;  // diamond-pau/LayerZeroFacet.sol@b0b7efd (v1.16.0)
+    address internal constant LAYER_ZERO_FACET     = 0x07E815d85C633513046F414fA615cfc9c52369EF;  // diamond-pau/LayerZeroFacet.sol@b0b7efd (v1.16.0)
     address internal constant SPARK_VAULT_FACET    = 0xa293a5CAdC903B005af0cc531BFEEc05213d233C;  // diamond-pau/SparkVaultFacet.sol@b0b7efd (v1.16.0)
-    address internal constant TRANSFER_ASSET_FACET = 0xe94A71345C2774f48fE1D6FEa23FdCf906668897;  // diamond-pau/TransferAssetFacet.sol@b0b7efd (v1.16.0)
+    address internal constant TRANSFER_ASSET_FACET = 0xE86548955Ced4d942C794AC506736769Efc18178;  // diamond-pau/TransferAssetFacet.sol@b0b7efd (v1.16.0)
     address internal constant UNISWAP_V4_FACET     = 0x0260Cd3aC811928696f36c1ff085823c21B4D671;  // diamond-pau/UniswapV4Facet.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
