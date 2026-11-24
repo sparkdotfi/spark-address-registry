@@ -23,8 +23,8 @@ library Arbitrum {
     /*** Spark PAU Core addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_BEACON                     = 0x53ecE26171B716e5F4D03eAF70844F0a34E368f7;  // diamond-pau/Beacon.sol@b0b7efd (v1.16.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x182924C99843c16d5525fD160d39fa209978f221;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
+    address internal constant SPARK_BEACON                     = 0xd4E518B9874a3DFa5EcE965342b51e6CCc3c216F;  // diamond-pau/Beacon.sol@b0b7efd (v1.16.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x06EC2e7548CD07cEEEe5217c75F832bcbAd23ddE;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
     address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0xB6425948aD24da14eDEA099c9941Ce79467a0893;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
 
     /******************************************************************************************************************/
