@@ -23,8 +23,8 @@ library Arbitrum {
     /*** Spark PAU Core addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_BEACON                     = 0x53ecE26171B716e5F4D03eAF70844F0a34E368f7;  // diamond-pau/Beacon.sol@b0b7efd (v1.16.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x182924C99843c16d5525fD160d39fa209978f221;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
+    address internal constant SPARK_BEACON                     = 0xd4E518B9874a3DFa5EcE965342b51e6CCc3c216F;  // diamond-pau/Beacon.sol@b0b7efd (v1.16.0)
+    address internal constant SPARK_PAU_FACTORY                = 0x06EC2e7548CD07cEEEe5217c75F832bcbAd23ddE;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
     address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0xB6425948aD24da14eDEA099c9941Ce79467a0893;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
 
     /******************************************************************************************************************/
@@ -113,12 +113,17 @@ library Arbitrum {
     /*** Multisig addresses                                                                                         ***/
     /******************************************************************************************************************/
 
+    // Operational Multisigs
+    address internal constant ALM_RELAYER_MULTISIG   = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
+
+    // Administered Agents Multisigs
+    address internal constant SPARK_LOW_THRESHOLD_MULTISIG    = 0xeC7edCD85460018BA71823076343Cd8D1721972b;
+    address internal constant SPARK_MEDIUM_THRESHOLD_MULTISIG = 0x71c738C6838A5491d9b9226eCBc2E74794855153;
+
+    // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x8Cc0Cb0cfB6B7e548cfd395B833c05C346534795;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
-    address internal constant ALM_RELAYER_MULTISIG          = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
-    address internal constant PAU_GRANTOR_MULTISIG          = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
-
-    address internal constant SPARK_REWARDS_MULTISIG = 0xF649956f43825d4d7295a50EDdBe1EDC814A3a83;
 
     /*******************************************************************************************************************
 
@@ -128,6 +133,14 @@ library Arbitrum {
     ██╔══╝   ██╔██╗    ██║   ██╔══╝  ██╔══██╗██║╚██╗██║██╔══██║██║
     ███████╗██╔╝ ██╗   ██║   ███████╗██║  ██║██║ ╚████║██║  ██║███████╗
     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+
+    /******************************************************************************************************************/
+    /*** Multisigs                                                                                                  ***/
+    /******************************************************************************************************************/
+
+    // Administered Agents Multisigs
+    address internal constant SOTER_GRANTOR_MULTISIG = 0x97EC6398e5dD047BA3223cFC017bFC6436Ac3Fe7;
+    address internal constant SOTER_REVOKER_MULTISIG = 0x747BF29B189e2a070a921Af7Cf65681E3d5F5967;
 
     /******************************************************************************************************************/
     /*** Token addresses                                                                                            ***/
