@@ -23,9 +23,8 @@ library Ethereum {
     /*** Spark PAU Core addresses                                                                                   ***/
     /******************************************************************************************************************/
 
-    address internal constant SPARK_BEACON                     = 0xd47230358AB6c52A0a988150Ac4Ab888FE8B7786;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
-    address internal constant SPARK_PAU_FACTORY                = 0x099a9044c1e9e621A607Ab3a58dd302966788bB5;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
-    address internal constant SPARK_ADMINISTERED_AGENT_FACTORY = 0x73EE3d0398BaF9ef5731Eb35ea7BFa7B741067b4;  // pau-administered-agent/AdministeredAgentFactory.sol@6d09622 (v1.1.0)
+    address internal constant SPARK_BEACON      = 0xd47230358AB6c52A0a988150Ac4Ab888FE8B7786;  // diamond-pau/Beacon.sol@cbf71b2 (v1.14.0)
+    address internal constant SPARK_PAU_FACTORY = 0x099a9044c1e9e621A607Ab3a58dd302966788bB5;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
     /*** Spark PAU Facets addresses                                                                                 ***/
