@@ -87,12 +87,20 @@ library XLayer {
     /******************************************************************************************************************/
 
     // Operational Multisigs
-    address internal constant ALM_RELAYER_MULTISIG = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
-    address internal constant PAU_GRANTOR_MULTISIG = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
+    address internal constant ALM_RELAYER_MULTISIG     = 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB;
+    address internal constant MORPHO_CURATOR_MULTISIG  = 0x0f963A8A8c01042B69054e787E5763ABbB0646A3;
+    address internal constant MORPHO_SENTINEL_MULTISIG = 0x50c770E6dC6CfdEE33509273FA9a215bfAffF9B2;
+    address internal constant PAU_GRANTOR_MULTISIG     = 0x4B61A0E48dd1e300f64090C60F414c1aC6CbC514;
 
     // Emergency Multisigs
     address internal constant ALM_BACKSTOP_RELAYER_MULTISIG = 0x9330edE0Fc6E3E0D47Ebf3C145efd569796aC7F5;
     address internal constant ALM_FREEZER_MULTISIG          = 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431;
+
+    /******************************************************************************************************************/
+    /*** Morpho Vault addresses                                                                                     ***/
+    /******************************************************************************************************************/
+
+    address internal constant MORPHO_VAULT_V2_USDC = 0xDb6C283f8026a2D1D69b90464011baFB0A1090F4;
 
     /*******************************************************************************************************************
 
@@ -109,5 +117,19 @@ library XLayer {
 
     address internal constant USDC  = 0xB6CEceAB302E2E4948951eE7843FC24E92933061;
     address internal constant USDT0 = 0x779Ded0c9e1022225f8E0630b35a9b54bE713736;
+    address internal constant XBTC  = 0xb7C00000bcDEeF966b20B3D884B98E64d2b06b4f;
+
+    /******************************************************************************************************************/
+    /*** Morpho addresses                                                                                           ***/
+    /******************************************************************************************************************/
+
+    address internal constant MORPHO                    = 0xeb00C490E888286357dC5B0a35D37D9260D11Ab5;
+    address internal constant MORPHO_DEFAULT_IRM        = 0x5688FF1aBC4089cB69dC0F56727E696A49D77E24;
+    address internal constant MORPHO_SPUSDC_USDC_ORACLE = 0xDe060edE08aDf62E923ef5861dBA115520980a5D;
+    address internal constant MORPHO_XBTC_USDC_ORACLE   = 0x0ADB0ed5404025f4542ffB1c1Ef2693a27b727F6;
+
+    address internal constant MORPHO_VAULT_V2_FACTORY             = 0x63D6eAc0d16D57dd131D9023ADb060277d3237d7;
+    address internal constant MORPHO_MARKET_V1_ADAPTER_V2_FACTORY = 0xDD0FC0c74bd89A9C6623202473E75CbF472b33A4;
+    address internal constant MORPHO_VAULT_V2_ADAPTER_REGISTRY    = 0xe9F2A824Eb33B97D0F7b3266A569d71342104829;
 
 }
