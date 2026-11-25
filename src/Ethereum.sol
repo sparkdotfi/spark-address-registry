@@ -61,7 +61,7 @@ library Ethereum {
 
     address internal constant SLL_PAU_ACCESS_CONTROLS = 0x113CcAE7b41752A86247da68Aa385d3C9e4b9bfc;  // diamond-pau/AccessControls.sol@b0b7efd (v1.16.0)
     address internal constant SLL_PAU_CONTROLLER      = 0x27d6e586b81ec506B620D80Dfd59eB810dC1e988;  // diamond-pau/Controller.sol@b0b7efd (v1.16.0)
-    address internal constant SLL_PAU_RATELIMITS      = 0x03ab480f320fdb14a2e17eD7aaE230acf7bA7661;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
+    address internal constant SLL_PAU_RATE_LIMITS     = 0x03ab480f320fdb14a2e17eD7aaE230acf7bA7661;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
@@ -90,7 +90,7 @@ library Ethereum {
     address internal constant SPUSDT_PAU_ACCESS_CONTROLS = 0x77cE4402F2e010790EdAfE523BdCB21576164FA4;  // diamond-pau/AccessControls.sol@b0b7efd (v1.16.0)
     address internal constant SPUSDT_PAU_ALM_PROXY       = 0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b;  // diamond-pau/ALMProxy.sol@b0b7efd (v1.16.0)
     address internal constant SPUSDT_PAU_CONTROLLER      = 0x7AF1b9f9c505AA96a80455C79b90076cD6fC6b1B;  // diamond-pau/Controller.sol@b0b7efd (v1.16.0)
-    address internal constant SPUSDT_PAU_RATELIMITS      = 0xf5D3Fa896A15e824cab4CdB1bCA5fc4C35F6fe53;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_RATE_LIMITS     = 0xf5D3Fa896A15e824cab4CdB1bCA5fc4C35F6fe53;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
     /*** Spark Intents addresses                                                                                    ***/
