@@ -27,6 +27,14 @@ library Ethereum {
     address internal constant SPARK_PAU_FACTORY = 0x099a9044c1e9e621A607Ab3a58dd302966788bB5;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
+    /*** Spark Administered Agent addresses                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant PLANNER_ADMINISTERED_AGENT = 0x9439560FA9a4751CF011d398fDFb6d70ec25ba6c;  // pau-administered-agent/AdministeredAgent.sol@6d09622 (v1.1.0)
+    address internal constant SPARK_ADMINISTERED_AGENT   = 0x7c9879C80B3B00D3965545e751784f44a3376098;  // pau-administered-agent/AdministeredAgent.sol@6d09622 (v1.1.0)
+    address internal constant SLL_ADMINISTERED_AGENT     = 0x6C8d1618e051160445dA2590Bb8E5156d8743eAE;  // pau-administered-agent/AdministeredAgent.sol@6d09622 (v1.1.0)
+
+    /******************************************************************************************************************/
     /*** Spark PAU Facets addresses                                                                                 ***/
     /******************************************************************************************************************/
 
@@ -48,6 +56,14 @@ library Ethereum {
     address internal constant ALM_RATE_LIMITS     = 0x7A5FD5cf045e010e62147F065cEAe59e5344b188;  // spark-alm-controller/RateLimits.sol@6058f68 (v1.0.0)
 
     /******************************************************************************************************************/
+    /*** SLL PAU addresses                                                                                          ***/
+    /******************************************************************************************************************/
+
+    address internal constant SLL_PAU_ACCESS_CONTROLS = 0x113CcAE7b41752A86247da68Aa385d3C9e4b9bfc;  // diamond-pau/AccessControls.sol@b0b7efd (v1.16.0)
+    address internal constant SLL_PAU_CONTROLLER      = 0x27d6e586b81ec506B620D80Dfd59eB810dC1e988;  // diamond-pau/Controller.sol@b0b7efd (v1.16.0)
+    address internal constant SLL_PAU_RATE_LIMITS     = 0x03ab480f320fdb14a2e17eD7aaE230acf7bA7661;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
+
+    /******************************************************************************************************************/
     /*** Spark Vault V2 addresses                                                                                   ***/
     /******************************************************************************************************************/
 
@@ -66,6 +82,15 @@ library Ethereum {
     address internal constant SPUSDC_PAU_ALM_PROXY          = 0x8D719A830b00e5571db00D173505CD56c0Ec224a;  // diamond-pau/ALMProxy.sol@cbf71b2 (v1.14.0)
     address internal constant SPUSDC_PAU_CONTROLLER         = 0x4623cdEf0FB92499fd20f710318Cf17B8a7EB6bC;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
     address internal constant SPUSDC_PAU_RATELIMITS         = 0x222712581c3631DDF938f98Dab29a6D098ec6829;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+
+    /******************************************************************************************************************/
+    /*** Spark SPUSDT Segregated PAU addresses                                                                      ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPUSDT_PAU_ACCESS_CONTROLS = 0x77cE4402F2e010790EdAfE523BdCB21576164FA4;  // diamond-pau/AccessControls.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_ALM_PROXY       = 0x982e90885e21cfDE0557A96bac1a65Fdafc0D29b;  // diamond-pau/ALMProxy.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_CONTROLLER      = 0x7AF1b9f9c505AA96a80455C79b90076cD6fC6b1B;  // diamond-pau/Controller.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_RATE_LIMITS     = 0xf5D3Fa896A15e824cab4CdB1bCA5fc4C35F6fe53;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
     /*** Spark Intents addresses                                                                                    ***/
