@@ -65,7 +65,7 @@ library Ethereum {
     address internal constant SPUSDC_PAU_ADMINISTERED_AGENT = 0xD30faA074D023af8525750561beC2Aa181562866;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
     address internal constant SPUSDC_PAU_ALM_PROXY          = 0x8D719A830b00e5571db00D173505CD56c0Ec224a;  // diamond-pau/ALMProxy.sol@cbf71b2 (v1.14.0)
     address internal constant SPUSDC_PAU_CONTROLLER         = 0x4623cdEf0FB92499fd20f710318Cf17B8a7EB6bC;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
-    address internal constant SPUSDC_PAU_RATELIMITS         = 0x222712581c3631DDF938f98Dab29a6D098ec6829;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+    address internal constant SPUSDC_PAU_RATE_LIMITS        = 0x222712581c3631DDF938f98Dab29a6D098ec6829;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
 
     /******************************************************************************************************************/
     /*** Spark Intents addresses                                                                                    ***/

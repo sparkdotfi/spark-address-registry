@@ -27,6 +27,13 @@ library Arbitrum {
     address internal constant SPARK_PAU_FACTORY = 0x06EC2e7548CD07cEEEe5217c75F832bcbAd23ddE;  // diamond-pau/PAUFactory.sol@b0b7efd (v1.16.0)
 
     /******************************************************************************************************************/
+    /*** Spark Administered Agent addresses                                                                         ***/
+    /******************************************************************************************************************/
+
+    address internal constant PLANNER_ADMINISTERED_AGENT = 0xB56d9D463661DF1325A16a56cF273881eCD6AA22;  // pau-administered-agent/AdministeredAgent.sol@6d09622 (v1.1.0)
+    address internal constant SPARK_ADMINISTERED_AGENT   = 0x01F45C14E8A56560b84a8CcB422ca75379224951;  // pau-administered-agent/AdministeredAgent.sol@6d09622 (v1.1.0)
+
+    /******************************************************************************************************************/
     /*** Spark PAU Facets addresses                                                                                 ***/
     /******************************************************************************************************************/
 
@@ -92,6 +99,15 @@ library Arbitrum {
     address internal constant PAU_ADMINISTERED_AGENT = 0x0745aae633E8318a063D383791bCc0d8C82F46C6;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
     address internal constant PAU_CONTROLLER         = 0x04ACB9e9bbd64A425677edC535D6B30cfD74E42f;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
     address internal constant PAU_RATELIMITS         = 0x4824C4336a1a11979068A544958dCe5D49B42752;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+
+    /******************************************************************************************************************/
+    /*** Spark SPUSDT Segregated PAU addresses                                                                      ***/
+    /******************************************************************************************************************/
+
+    address internal constant SPUSDT_PAU_ACCESS_CONTROLS = 0xCC727Ca10D614A28Af2B3b6CaCBdDCE489448a9C;  // diamond-pau/AccessControls.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_ALM_PROXY       = 0x6172A812bd36a7C21733bFc99991250E81768aaf;  // diamond-pau/ALMProxy.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_CONTROLLER      = 0x4004B6c44c92B7293C409B6DC4FA47D9029151E5;  // diamond-pau/Controller.sol@b0b7efd (v1.16.0)
+    address internal constant SPUSDT_PAU_RATE_LIMITS     = 0x2a29f549191d705C82EC490FF7063ADA41df93Ce;  // diamond-pau/RateLimits.sol@b0b7efd (v1.16.0)
 
     /*******************************************************************************************************************
 
