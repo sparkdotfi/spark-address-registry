@@ -65,7 +65,7 @@ library Base {
     address internal constant PAU_ACCESS_CONTROLS    = 0xE593c8c6a31d88cab100244Afd352efb127f9a16;  // diamond-pau/AccessControls.sol@cbf71b2 (v1.14.0)
     address internal constant PAU_ADMINISTERED_AGENT = 0x70E46bAf2E3F27a119757D7b796c641C8bc087cE;  // pau-administered-agent/AdministeredAgent.sol@bfaaf70 (v1.0.0)
     address internal constant PAU_CONTROLLER         = 0xd864bF1Ea2f78Dc2013E3FC7e4C474383BE9d456;  // diamond-pau/Controller.sol@cbf71b2 (v1.14.0)
-    address internal constant PAU_RATELIMITS         = 0x5E311e8BCe95F4e8d4920E70985ED4aC122a838A;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
+    address internal constant PAU_RATE_LIMITS        = 0x5E311e8BCe95F4e8d4920E70985ED4aC122a838A;  // diamond-pau/RateLimits.sol@cbf71b2 (v1.14.0)
 
     /*******************************************************************************************************************
 
